@@ -1,4 +1,4 @@
-# Linux Course Description - 2025
+# Course Description - 2025
 
 Linux/Unix is the primary platform for computational science. The goal of this course is to train scientists in its use with particular emphasis on the needs of bioinformatics users. The course covers basic Linux commands and utilities, running and managing computational jobs, and handling and manipulating large biological datasets.
 
