@@ -21,6 +21,10 @@ The zoom link for this class is: https://zoom.us/j/95945572799
 
 Meeting ID: 959 4557 2799
 
+# Schedule
+
+...
+
 # Attendance
 
 Class attendance is not mandatory, but please let me know if you will be attending multiple classes remotely or making them up at a later time. I just want to make sure I know who is still engaged.
