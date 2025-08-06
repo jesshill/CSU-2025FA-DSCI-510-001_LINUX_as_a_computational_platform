@@ -11,15 +11,15 @@ By the end of the course, students will:
 
 # Time and Place
 
-**Come to class:** The lectures will be very interactive with individualized help only available in the classroom, so in-person attendance is encouraged. Lectures are Tuesdays and Thursdays, 10:00 - 11:50 am in AZ E210. Our first meeting is Tuesday, August 20th.
+**Come to class:** The lectures will be very interactive with individualized help only available in the classroom, so in-person attendance is encouraged. <ins>Class starts on August 25th and ends on September 21st. 
 
-**Lectures:** Tuesdays and Thursdays, 10:00 - 11:50 am in AZ E210
+**Lectures:** Tuesdays and Thursdays, 10:00 - 11:50 am in AZ building, room E210
 
-**Simulcast & Recordings:** I will try my best to simulcast the lectures on Zoom/Echo360. Students can choose to attend class sessions over zoom instead of in person. I will post the recordings after the class on Canvas through Echo360. Due to a lengthy zoom-to-canvas conversion, videos will not be available until late afternoon or the following day. Please note - coming to class is the best way to learn.
+**Class Recordings:** Lectures will be recorded on Zoom, and then posted to canvas. Students can choose to attend class sessions over zoom instead of in person as needed. Due to a lengthy zoom-to-canvas conversion, videos will not be available until late afternoon or the following day. Please note - coming to class is the best way to learn!
 
-The zoom link for this class is: https://zoom.us/j/91964696998
+The zoom link for this class is: https://zoom.us/j/95945572799
 
-Meeting ID: 919 6469 6998
+Meeting ID: 959 4557 2799
 
 # Attendance
 
