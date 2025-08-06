@@ -136,9 +136,9 @@ Don't feel pressured to come to class if you are ill. Staying home when you are 
 
 # Resources, Accommodations, Policies, and Messaging
 
-[resources_and_policies_nishimura_240818.pdf]()
+[resources_and_policies_nishimura_240818](https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/resources_and_policies_nishimura_240818.pdf)
 
-This document includes:
+This is Dr. Erin Nishimura's origional document and includes:
 
 - Mental health and wellness
 - Accommodation of needs
