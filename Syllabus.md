@@ -143,27 +143,28 @@ resources_and_policies_nishimura_240818.pdf
 
 This document includes:
 
-Mental health and wellness
-Accommodation of needs
-Undocumented student support
-Food insecurity
-Interpersonal violence
-Religious observances
-Diversity & inclusion
-Parents/guardians/caregivers
-Student case management
-Bias Reporting
-Finding Community
-Grad Student Council
-Student Resolution Center
-Off-Campus Support
-Pocket Pantries
-Edit
-Erin's Teaching & Diversity Statements
+- Mental health and wellness
+- Accommodation of needs
+- Undocumented student support
+- Food insecurity
+- Interpersonal violence
+- Religious observances
+- Diversity & inclusion
+- Parents/guardians/caregivers
+- Student case management
+- Bias Reporting
+- Finding Community
+- Grad Student Council
+- Student Resolution Center
+- Off-Campus Support
+- Pocket Pantries
+
+# Erin's Teaching & Diversity Statements
+
 nishimura_diversityteachingstatement_240818.pdf covering…
 
-Diversity statement
-Teaching statement
-Creating an inclusive classroom
-Names & pronouns
-Acknowledging the histories of our field and their representations
+- Diversity statement
+- Teaching statement
+- Creating an inclusive classroom
+- Names & pronouns
+- Acknowledging the histories of our field and their representations
