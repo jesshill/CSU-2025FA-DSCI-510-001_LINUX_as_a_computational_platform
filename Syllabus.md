@@ -136,7 +136,7 @@ Don't feel pressured to come to class if you are ill. Staying home when you are 
 
 # Resources, Accommodations, Policies, and Messaging
 
-resources_and_policies_nishimura_240818.pdf
+[resources_and_policies_nishimura_240818.pdf]()
 
 This document includes:
 
@@ -156,12 +156,16 @@ This document includes:
 - Off-Campus Support
 - Pocket Pantries
 
-# Erin's Teaching & Diversity Statements
+# Jessica's Teaching & Diversity Statement
 
-nishimura_diversityteachingstatement_240818.pdf covering…
+Diversity Statement: I am committed to supporting the success of all students and I recognize that different students, depending on their individual attributes, have different needs. I celebrate the many ways scientists bring their complex sensibilities and their unique identities to our fields. I work to encourage STEM communities to welcome scientists from traditionally under-represented demographics by identifying and then resolving barriers to inclusion.
 
-- Diversity statement
-- Teaching statement
-- Creating an inclusive classroom
-- Names & pronouns
-- Acknowledging the histories of our field and their representations
+Teaching Statement: Though I am not a well seasoned teacher, I have worked and will continue to work on developing course materials that prepare students for real world scenarios through project-based learning, intentional training situations, and using hardware and software employed in the field. Short term teaching goals include facilitating students understanding of the learning objectives. Long term, I would like to ignite curiosity and foster skillsets that empower students to be lifelong learners. 
+
+Cultivating an inclusive classroom: I strive to ensure our classroom, our virtual spaces, and our interactions are respectful and kind. Mutual respect, civility, and good communication are crucial to universal learning. I ask that you all join me in taking on the personal responsibility to treat one another with empathy, kindness, and respect.
+
+Names & Pronouns: I prefer to be called “Jess” in this class but "Dr. Hill" can be tolerated. I am not picky between "Jess" and "Jessica". I use she/her pronouns. I want to get your names and pronouns right. Please feel welcome to share your preferred names, pronouns, and pronunciations with me on your name tags, via e-mail, or by using NameCoach on Canvas.
+
+Computational Biology: The fields of computation and biology have histories that are fraught with stereotypes, biases, and even serious power abuses. In the US, these fields were historically dominated by scientists from traditionally majority identities, and that is also what has been depicted in fiction and film. The history and media representations can feed into our implicit biases and can impact how we assess our own sense of belonging or competency. An acknowledgement of this reality is the first step to deconstructing it and empowering a more inclusive future.
+
+I’m excited to work with you and get to know all of you.
