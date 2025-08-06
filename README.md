@@ -7,3 +7,6 @@ Linux/Unix is the primary platform for computational science. The goal of this c
 <p align="center">
 <img width="410" alt="linux_logo" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/linux_logo.png">
 </p>
+
+Please see the [Syllabus](Syllabus) for content to be covered in class. 
+Please see [Modules](Modules) for specific content being covered
