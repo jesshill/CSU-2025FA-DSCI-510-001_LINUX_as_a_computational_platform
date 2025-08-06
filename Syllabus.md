@@ -2,7 +2,7 @@
 
 Linux/Unix is the primary platform for computational science. The goal of this course is to train scientists in its use with particular emphasis on the needs of bioinformatics users. The course covers basic Linux commands and utilities, running and managing computational jobs, and handling and manipulating large biological datasets.
 
-By the end of the course, students will:
+<ins>By the end of the course, students will:
 
 - Be comfortable with the Linux command line and command-line programs, including the ability to move, create, or edit files and directories
 - Know how to search, manipulate, and process large datasets
@@ -27,7 +27,7 @@ Class attendance is not mandatory, but please let me know if you will be attendi
 
 # Office Hours
 
-Because this course is so flexible, it puts a lot of responsibility on you to ensure you are keeping up with the class content. My office hours for this class will be <TBD>. Please come, and don't feel like you need to have dedicated questions. You can show up to do your homework, or chip away at your final projects, or solicit any advice. This is a casual affair.
+Because this course is so flexible, it puts a lot of responsibility on you to ensure you are keeping up with the class content. My office hours for this class will be (TBD). Please come, and don't feel like you need to have dedicated questions. You can show up to do your homework, or chip away at your final projects, or solicit any advice. This is a casual affair.
 
 # Prerequisites
 
@@ -39,13 +39,15 @@ Graduate standing is encouraged but not required. An interest in using LINUX/UNI
 
 # Textbook
 
-[The Linux Command Line, 5th ed](https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/The-Linux-Command-Line-Book-5th-Edition.pdf) by William Shotts. The book is available as a **free, downloadable pdf** from the book website (also attached here) or as a paperback widely sold by booksellers.
+[The Linux Command Line, 5th ed](https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/The-Linux-Command-Line-Book-5th-Edition.pdf) by William Shotts. 
+
+The book is available as a **free, downloadable pdf** from the book website (also attached above) or as a paperback widely sold by booksellers.
 
 # Communications
 
 We will be using **Canvas Discussions** for class-wide communications.
 
-# Instructors
+# Instructor
 
 Jessica Hill, PhD	
 
@@ -74,7 +76,7 @@ The calculation of the final letter grade will be made as follows:
 # Assignments
 
 - Assignments make up 70% of your course grade.
-- There will be 6 assignments.
+- There will be **4 or 6 assignments**.
 - If you need to turn in an assignment LATE, please talk to me and request additional time before the due date. You may turn in an assignment up to **48 hours late** but only with **PRIOR** approval!
 
 # Student Disability Accommodations
