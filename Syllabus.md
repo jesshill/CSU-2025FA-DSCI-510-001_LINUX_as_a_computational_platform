@@ -23,12 +23,16 @@ Meeting ID: 959 4557 2799
 
 # Schedule
 
-| Teusday               | Thursday            | Module | Description                     | Week |
-|----------------------|----------------------|--------|---------------------------------|--------------------|
-| August 26     | August 28     | 1      | Syllabus/Setup                  |1    |
-| September 2     | September 4     | 2      | chatGPT                         | 2    |
-| September 9     | September 11     | 3      | Rstudio                         | 3    |
-| September 16     | September 18     | 4      | Files and Folders               | 4    |
+| Date  | Week | Description | Reading | Assignments |
+|-------|------|-------------|---------|-------------|
+| August 26 | 1 | Course introduction, The terminal, Navigating the file system | Chapters 1, 2 | Assignment 1 (due ...)|
+| August 28 | 1 | ...        | Syllabus/Setup                  |1    |
+| September 2 | 2 | ...      | chatGPT                         | 2    |
+| September 4 | 2 | ...      | Syllabus/Setup                  |1    |
+| September 9 | 3 | ...      | Rstudio                         | 3    |
+| September 11 | 3 | ...      | Rstudio                         | 3    |
+| September 16 | 4 | ...      | Files and Folders               | 4    |
+| September 18 | 4 | ...      | Files and Folders               | 4    |
 
 # Attendance
 
@@ -85,7 +89,7 @@ The calculation of the final letter grade will be made as follows:
 # Assignments
 
 - Assignments make up 70% of your course grade.
-- There will be **4 or 6 assignments**.
+- There will be **6 assignments**.
 - If you need to turn in an assignment LATE, please talk to me and request additional time before the due date. You may turn in an assignment up to **48 hours late** but only with **PRIOR** approval!
 
 # Student Disability Accommodations
