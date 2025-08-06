@@ -7,7 +7,7 @@ By the end of the course, students will:
 - Be comfortable with the Linux command line and command-line programs, including the ability to move, create, or edit files and directories
 - Know how to search, manipulate, and process large datasets
 - Write and execute small bash script programs
-- Know how to connect to a remote server like the SUMMIT system and run jobs on it
+- Know how to connect to a remote server like the (Alpine)[https://www.colorado.edu/rc/alpine] system and run jobs on it. You can find more information and documentation about Alpine [here](https://curc.readthedocs.io/en/latest/clusters/alpine/index.html).
 
 # Time and Place
 
@@ -23,20 +23,17 @@ Meeting ID: 959 4557 2799
 
 # Attendance
 
-Class attendance is not mandatory, but please let me (Erin) know if you will be attending multiple classes remotely or making them up at a later time. I just want to make sure I know who is still engaged.
+Class attendance is not mandatory, but please let me know if you will be attending multiple classes remotely or making them up at a later time. I just want to make sure I know who is still engaged.
 
-# Study Sessions
+# Office Hours
 
-Because this course is so flexible, it puts a lot of responsibility on you to ensure you are keeping up with the class content. We will be offering Study Sessions every Friday time <TBD> in person and over ZOOM. Same zoom link as class. Please come. Don't feel like you need to have dedicated questions. You can show up to do your homework, or chip away at your final projects, or solicit any advice. This is a casual affair.
-
-- Study Session for this class: Fridays - 2 pm - 4pm. MRB (Molecular Radiological Building) or on Zoom: https://zoom.us/j/91964696998
-- MRB is located at the corner of Lake St. and Centre St. The room is on the 2nd floor
+Because this course is so flexible, it puts a lot of responsibility on you to ensure you are keeping up with the class content. My office hours for this class will be <TBD>. Please come, and don't feel like you need to have dedicated questions. You can show up to do your homework, or chip away at your final projects, or solicit any advice. This is a casual affair.
 
 # Prerequisites
 
 Students do not need to have any prior experience in computing, programming, or coding.
 
-Graduate standing is encouraged but not required. An interest in using Linux/UNIX in your research work is encouraged. We will focus on using Linux/UNIX to support research primarily in the life sciences. However, the content is broadly applicable to many fields.
+Graduate standing is encouraged but not required. An interest in using LINUX/UNIX in your research work is encouraged. We will focus on using LINUX/UNIX to support research primarily in the life sciences. However, the content is broadly applicable to many fields.
 
 **BEFORE** the first day of class, ensure you have purchased, uploaded, or installed all the required hardware and software. See [COMPUTER REQUIREMENTS](COMPUTER REQUIREMENTS).
 
