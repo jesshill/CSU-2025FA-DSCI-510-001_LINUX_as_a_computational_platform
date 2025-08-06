@@ -15,7 +15,7 @@ Linux/Unix is the primary platform for computational science. The goal of this c
 
 **Lectures:** Tuesdays and Thursdays, 10:00 - 11:50 am in AZ building, room E210
 
-**Class Recordings:** Lectures will be recorded on Zoom, and then posted to canvas. Students can choose to attend class sessions over zoom instead of in person as needed. Due to a lengthy zoom-to-canvas conversion, videos will not be available until late afternoon or the following day. Please note - coming to class is the best way to learn!
+**Class Recordings:** Lectures will be simulcast and recorded on Zoom, and then posted to canvas. Students can choose to attend class sessions over zoom instead of in person as needed. Due to a lengthy zoom-to-canvas conversion, videos will not be available until late afternoon or the following day. Please note - coming to class is the best way to learn!
 
 The zoom link for this class is: https://zoom.us/j/95945572799
 
@@ -89,11 +89,11 @@ The instructor **does not** permit the distribution of course material. This mea
 
 # Expectations
 
-You are expected to be familiar with the [Student Code of Conduct](). This course will adhere to the [CSU Academic Integrity Policy](). At a minimum, violations will result in a grading penalty in this course, a report to the Office of Conflict Resolution and Student Conduct Services, and communication with your professor and/or graduate program director.
+You are expected to be familiar with the [Student Code of Conduct](https://resolutioncenter.colostate.edu/conduct/code/). This course will adhere to the [CSU Academic Integrity Policy](https://resolutioncenter.colostate.edu/conduct/academic-integrity/). At a minimum, violations will result in a grading penalty in this course, a report to the Office of Conflict Resolution and Student Conduct Services, and communication with your professor and/or graduate program director.
 
-Colorado State University has clear [Principles of Community](). We each have the responsibility to uphold these values as we interact with one another and learn.
+Colorado State University has clear [Principles of Community](https://inclusiveexcellence.colostate.edu/about/principles-of-community). We each have the responsibility to uphold these values as we interact with one another and learn.
 
-Please know that use of Chegg, Course Hero, or other web services that market themselves as tutoring or study guides are not permitted in this course. Many instances of their use are a violation of the Student Integrity Policy. To learn more [Chegg and Course Hero Misconduct]()
+Please know that use of Chegg, Course Hero, or other web services that market themselves as tutoring or study guides are not permitted in this course. Many instances of their use are a violation of the Student Integrity Policy.
 
 # ChatGPT Statement
 
@@ -110,15 +110,13 @@ ChatGPT has advantages and disadvantages in this learning process.
 **Beneficial usage and suggestions:**
 
 - Conversational: A prompt like “Teach me how to use a for loop in bash scripting” can organize information succinctly without ads.
-  - Tip: I suggest using Gemini where you can run a “double check responses” (G button) on the bottom and follow the references
   - Warning: information is not always accurate
 - Grammar & Light editing: Using ChatGPT to decode tricky English turns-of-phase or assist with grammar
   - Tip: I suggest Grammarly. Even its free version is more honed at this task and integrated into other programs. Paid version is impressive.
 
 **I strongly discourage the following usage:**
 
-- Generative - Using ChatGPT on the homework negatively impacts learning.
-- Generative - Using ChatGPT to write your code is risky (can be wrong) and negatively impacts learning.
+- Generative - Using ChatGPT to write your code for assignments, the final project, or in general is risky (can be wrong) and negatively impacts learning.
 
 Unsure about what is ok and not ok?
 
@@ -134,7 +132,7 @@ Also - please contact me if you are feeling overwhelmed or getting behind in the
 
 # Health and Safety
 
-Don't feel pressured to come to class if you are ill. Staying home when you are sick prevents the spread of disease. If this happens, you can use the simulcast and recorded options. You can e-mail the TA, professor, or join in for study sessions if you have questions
+Don't feel pressured to come to class if you are ill. Staying home when you are sick prevents the spread of disease. If this happens, you can use the simulcast and recorded options. 
 
 # Resources, Accommodations, Policies, and Messaging
 
