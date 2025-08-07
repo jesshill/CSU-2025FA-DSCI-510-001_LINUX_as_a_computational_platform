@@ -7,6 +7,8 @@ By using Linux on your own computer you can more quickly incorporate what you le
 3. Download a text editor
 4. Request an Alpine user account
 
+---
+
 ## 1. Select a computer to use in the class
 
 You will need to have either a MAC laptop, a laptop running Windows 11, or a Linux laptop. CSU will no longer be supporting PC laptops running Windows versions less than 11 on their internet. If you don't have a MAC, Windows11, or Linux laptop, please obtain one! There are laptops available for rental through the [Morgan Library](https://lib.colostate.edu/services/borrow-renew/borrowing-laptops/). Check that same link for laptop rentals available through each college. Your graduate program, department, or lab may have laptops to borrow.
@@ -22,7 +24,7 @@ What is a terminal? It should look something like this:
 
 Here are the options for accessing a terminal on different systems. Again, please verify you can access your terminal before class:
 
-### MacOS users 
+### Mac OS users 
 
 Lucky you! Your Mac runs on a Linux-like operating system. All you need to get running is to familiarize yourself with the **Terminal** application.
 
