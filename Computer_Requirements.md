@@ -21,6 +21,9 @@ The computer should be a laptop. A tablet or iPad is not going to cut it!
 
 What is a terminal? It should look something like this:
 
+<p align="center">
+<img width="410" alt="terminal" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/linux_logo.png">
+</p>
 
 Here are the options for accessing a terminal on different systems. Again, please verify you can access your terminal before class:
 
