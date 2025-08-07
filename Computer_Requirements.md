@@ -9,4 +9,8 @@ By using Linux on your own computer you can more quickly incorporate what you le
 
 ## 1. Select a computer to use in the class
 
-....
+You will need to have either a MAC laptop or a laptop running Windows 11 or a Linux laptop. We will no longer be supporting PC laptops running Windows versions less than 11. If you don't have a MAC, Windows10, or Linux laptop, please obtain one. There are laptops available for rental through the Morgan Library. Check that same link for laptop rentals available through each college. Your graduate program, department, or lab may have laptops to borrow.
+
+If your laptop is very slow or near dying, please consider borrowing a laptop for the class.
+
+The computer should be a laptop. A tablet or iPad is not going to cut it.
