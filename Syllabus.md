@@ -26,10 +26,10 @@ Meeting ID: 959 4557 2799
 | Date  | Week | Description | Reading | Assignments |
 |-------|------|-------------|---------|-------------|
 | August 26 | 1 | Course introduction, The terminal, Navigating the file system | Chapters 1, 2 | Assignment 1 (due ...)|
-| August 28 | 1 | ...        | Syllabus/Setup                  |1    |
-| September 2 | 2 | ...      | chatGPT                         | 2    |
-| September 4 | 2 | ...      | Syllabus/Setup                  |1    |
-| September 9 | 3 | ...      | Rstudio                         | 3    |
+| August 28 | 1 | Paths, Options, Working with files 1 (more, less, head, tail, wc), wildcards, getting help | Chapter 2 (navigation), Chapter 3 (ls, less), Chapter 4 (wildcards) | Assignment 2 (due ...) |
+| September 2 | 2 | Making & removing, Copying & moving, File transfer, File formats | Chapters 4-5 (mkdir, cp, mv), Chapter 6 (redirection), Chapter 16, Chapter 18 (gzip) | Assignment 3 (due ...) |
+| September 4 | 2 | Redirection, Working with files 2 (cat, grep, cut), Practice grep & cut, Pipes, More Pipes | Chapter 19 (grep), Chapter 20 (sort, uniq, cut), Chapter 5 (alias), Chapter 9 | Assignment 4 (due ...) |
+| September 9 | 3 | Connecting to remote computers, Working with files 3 (sed, tr), Intro to scripting, More scripting (review, echo, commenting out), Variables (capturing output & math) | Chapter 20 (sed), Chapter 24, Chapter 25, Chapter 32, Chapter 34, [Ryan's Tutorials - bash intro](https://ryanstutorials.net/bash-scripting-tutorial/bash-script.php) | Assignment 5 (due ...) |
 | September 11 | 3 | ...      | Rstudio                         | 3    |
 | September 16 | 4 | ...      | Files and Folders               | 4    |
 | September 18 | 4 | ...      | Files and Folders               | 4    |
