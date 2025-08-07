@@ -47,7 +47,7 @@ To bump your Mac into power user mode, you'll need **Xcode**. To obtain Xcode â€
 
 ### Windows OS users
 
-Your PC needs to be running 64-bit Windows 10 with the Windows 10 Fall Creator Update (October 2017). To check your version check updates here. If your computer is up to date, you can install Linux on top of the Windows operating system. Please read Install the Linux Subsystem on Windows 10 to install the system. Opt for UBUNTU distribution (not LTS) if/when you have a choice.
+Your PC needs to be running 64-bit Windows 11 (becuase of CSU internet security policy). You can install Linux on top of the Windows operating system. Please read [Install the Linux Subsystem on Windows 11](https://learn.microsoft.com/en-us/windows/wsl/install) to install the system. Opt for UBUNTU distribution (not LTS) if/when you have a choice.
 
 When complete, you'll be asked for a username and password specific to your Ubuntu installation. These don't need to be the same as your Windows 10 credentials. With this step complete, you'll find yourself at the Ubuntu bash command line.
 
