@@ -5,7 +5,7 @@
 Linux/Unix is the primary platform for computational science. The goal of this course is to train scientists in its use, with particular emphasis on the needs of bioinformatics users. The course covers basic Linux commands and utilities, running and managing computational jobs, and handling and manipulating large biological datasets.
 
 <p align="center">
-<img width="410" alt="linux_logo" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/linux_logo.png">
+<img width="410" alt="linux_logo" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/linux_logo.png">
 </p>
 
 
