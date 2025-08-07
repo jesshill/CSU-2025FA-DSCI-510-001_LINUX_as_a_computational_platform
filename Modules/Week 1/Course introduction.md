@@ -10,6 +10,7 @@ By the end of this week:
 
 <details>
   <summary>Click to expand/collapse</summary>
+
 - **Vocabulary**
   - LINUX
   - Operating system
