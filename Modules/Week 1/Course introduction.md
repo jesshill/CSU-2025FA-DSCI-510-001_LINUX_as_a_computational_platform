@@ -49,3 +49,12 @@ By the end of this week:
   - touch
   - cd
 
+# Welcome to class - Linux as a computational platform 
+
+## Introduction: 
+- Jessica Hill, PhD - Instructor
+
+## Introduction to the class: 
+- Please read through the [Syllabus](Syllabus.md) to learn more about the class. 
+
+
