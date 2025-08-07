@@ -8,6 +8,8 @@ By the end of this week:
 
 ## Todays objectives: 
 
+<details>
+  <summary>Click to expand/collapse</summary>
 - **Vocabulary**
   - LINUX
   - Operating system
@@ -48,6 +50,7 @@ By the end of this week:
   - cal
   - touch
   - cd
+</details>
 
 # Welcome to class - Linux as a computational platform 
 
