@@ -57,7 +57,7 @@ Graduate standing is encouraged but not required. An interest in using LINUX/UNI
 
 # Textbook
 
-[The Linux Command Line, 5th ed](https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/The-Linux-Command-Line-Book-5th-Edition.pdf) by William Shotts. 
+[The Linux Command Line, 5th ed](https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Resources/The-Linux-Command-Line-Book-5th-Edition.pdf) by William Shotts. 
 
 The book is available as a **free, downloadable pdf** from the book website (also attached above) or as a paperback widely sold by booksellers.
 
