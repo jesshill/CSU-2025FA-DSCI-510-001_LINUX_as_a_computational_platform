@@ -33,7 +33,7 @@ Meeting ID: 959 4557 2799
 | September 11 | 3 | Array variables, Special variables & IO, String operations, Environmental variables | Chapter 34, Chapter 11, [Ryan's Tutorials - variables](https://ryanstutorials.net/bash-scripting-tutorial/bash-variables.php) | Assignment 6 (due September 16) |
 | September 16 | 4 | Scripting 3 (control flow), Conditionals (if, else), Loops (while, for) | [Ryan's Tutorials - loops](https://ryanstutorials.net/bash-scripting-tutorial/bash-loops.php), [Ryan's Tutorials - if](https://ryanstutorials.net/bash-scripting-tutorial/bash-if-statements.php), Chapter 9, Chapter 24 |     |
 | September 18 | 4 | Control flow practice, Intro to Alpine, Custom commands, Running jobs on Alpine, Next steps on Alpine | [Alpine Quick Start Guide](https://curc.readthedocs.io/en/latest/clusters/alpine/index.html) |     |
-| Final Exam | 5 | Examples of past projects, FAQ on Exam project, Tips & Tricks 1 |  | Exam Project (due September 23) |
+| **Final Exam** | **5** | **Examples of past projects, FAQ on Exam project, Tips & Tricks 1** |  | **Exam Project (due September 23)** |
 
 # Attendance
 
