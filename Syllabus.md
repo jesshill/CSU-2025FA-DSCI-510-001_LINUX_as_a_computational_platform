@@ -53,7 +53,7 @@ Students do not need to have any prior experience in computing, programming, or 
 
 Graduate standing is encouraged but not required. An interest in using LINUX/UNIX in your research work is encouraged. We will focus on using LINUX/UNIX to support research primarily in the life sciences. However, the content is broadly applicable to many fields.
 
-**BEFORE** the first day of class, ensure you have purchased, uploaded, or installed all the required hardware and software. See [Computer Requirements](Computer_Requirements).
+**BEFORE** the first day of class, ensure you have purchased, uploaded, or installed all the required hardware and software. See [Computer Requirements](Computer_Requirements.md).
 
 # Textbook
 
