@@ -19,7 +19,9 @@ The computer should be a laptop. A tablet or iPad is not going to cut it!
 
 ## 2. Learn how to open the terminal on your computer
 
-What is a terminal? It should look something like this:
+What is a terminal? 
+
+It should look something like this:
 
 <p align="center">
 <img width="410" alt="terminal" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/terminal.png">
