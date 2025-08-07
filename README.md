@@ -13,4 +13,4 @@ Please read the [Syllabus](Syllabus.md) for classroom information and content th
 
 Please see the [Modules](Modules) directory for specific content being covered.
 
-Please see the [Computer Requirements](Computer Requirements.md) for important information prior to class. 
+Please see the [Computer Requirements](Computer_Requirements.md) for important information prior to class. 
