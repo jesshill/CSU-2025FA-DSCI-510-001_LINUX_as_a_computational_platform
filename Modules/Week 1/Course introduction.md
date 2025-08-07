@@ -1,12 +1,12 @@
 # Course Introduction
 
-## Weeks objectives: 
+### Weeks objectives: 
 
 By the end of this week: 
 - You should be comfertable navigating around your file structure using Linux commands
 - You should understand how to move and copy files within your file strutcure 
 
-## Todays objectives: 
+### Todays objectives: 
 
 <details>
   <summary>Click to expand/collapse</summary>
@@ -55,10 +55,12 @@ By the end of this week:
 
 # Welcome to class - Linux as a computational platform 
 
-## Introduction: 
+### Introduction: 
 - Jessica Hill, PhD - Instructor
 
-## Introduction to the class: 
-- Please read through the [Syllabus](Syllabus.md) to learn more about the class. 
+### Introduction to the class: 
+- Please read through the [Syllabus](Syllabus.md) to learn more about the class.
+- This class is the first in a 3-part series. The other 2 classess are Python (Dr. Tai Montgomery) & RNA-seq data analysis (me again). The RNA-seq class focuses on building pipelines using Linux and R.
+- Requirements: [Computer Requirements]()
 
 
