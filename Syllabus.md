@@ -27,12 +27,16 @@ Meeting ID: 959 4557 2799
 |-------|------|-------------|---------|-------------|
 | August 26 | 1 | Course introduction, The terminal, Navigating the file system | Chapters 1, 2 | Assignment 1 (due September 2)|
 | August 28 | 1 | Paths, Options, Working with files 1 (more, less, head, tail, wc), wildcards, getting help | Chapter 2 (navigation), Chapter 3 (ls, less), Chapter 4 (wildcards) | Assignment 2 (due September 2) |
+| Bonus Content | 1 | Tarballs & Gzipping, Nano: command line text editor | ... | |
 | September 2 | 2 | Making & removing, Copying & moving, File transfer, File formats | Chapters 4-5 (mkdir, cp, mv), Chapter 6 (redirection), Chapter 16, Chapter 18 (gzip) | Assignment 3 (due September 9) |
 | September 4 | 2 | Redirection, Working with files 2 (cat, grep, cut), Practice grep & cut, Pipes, More Pipes | Chapter 19 (grep), Chapter 20 (sort, uniq, cut), Chapter 5 (alias), Chapter 9 | Assignment 4 (due September 9) |
+| Bonus Content | 2 | ... | ... | |
 | September 9 | 3 | Connecting to remote computers, Working with files 3 (sed, tr), Scripting 1, Scripting 2 (review, echo, commenting out), Variables (capturing output & math) | Chapter 20 (sed), Chapter 24, Chapter 25, Chapter 32, Chapter 34, [Ryan's Tutorials - bash intro](https://ryanstutorials.net/bash-scripting-tutorial/bash-script.php) | Assignment 5 (due September 16) |
 | September 11 | 3 | Array variables, Special variables & IO, String operations, Environmental variables | Chapter 34, Chapter 11, [Ryan's Tutorials - variables](https://ryanstutorials.net/bash-scripting-tutorial/bash-variables.php) | Assignment 6 (due September 16) |
+| Bonus Content | 3 | ... | ... | |
 | September 16 | 4 | Scripting 3 (control flow), Conditionals (if, else), Loops (while, for) | [Ryan's Tutorials - loops](https://ryanstutorials.net/bash-scripting-tutorial/bash-loops.php), [Ryan's Tutorials - if](https://ryanstutorials.net/bash-scripting-tutorial/bash-if-statements.php), Chapter 9, Chapter 24 |     |
 | September 18 | 4 | Control flow practice, Intro to Alpine, Custom commands, Running jobs on Alpine, Next steps on Alpine | [Alpine Quick Start Guide](https://curc.readthedocs.io/en/latest/clusters/alpine/index.html) |     |
+| Bonus Content | 4 | ... | ... | |
 | **Final Exam** | **5** | **FAQ on Exam project, Tips & Tricks 1** | **Examples of past projects**  | **Exam Project (due September 23)** |
 
 # Attendance
