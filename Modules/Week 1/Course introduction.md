@@ -59,7 +59,7 @@ By the end of this week:
 - Jessica Hill, PhD - Instructor
 
 ### Introduction to the class: 
-- Please read through the [Syllabus](~/Syllabus.md) to learn more about the class.
+- Please read through the [Syllabus](CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/Syllabus.md) to learn more about the class.
 - This class is the first in a 3-part series. The other 2 classess are Python (Dr. Tai Montgomery) & RNA-seq data analysis (me again). The RNA-seq class focuses on building pipelines using Linux and R.
 - Requirements: [Computer Requirements]()
 
