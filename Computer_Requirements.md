@@ -92,6 +92,9 @@ ilovealpine,123456
 ```
 - Check the box next to “I would like to run high-performance compute jobs on the RMACC Alpine Cluster” (see example below). Otherwise, you will not be added to csu-general.
 
+<p align="center">
+<img width="410" alt="req-research-computing-acct" src="...">
+</p>
 
 - When prompted for a description of your research, write a brief description of your own research or simply state that you are in the DSCI512 RNA-seq course.
 - Check the box stating that you are enrolled in a course that requires access to Research Computing resources.
