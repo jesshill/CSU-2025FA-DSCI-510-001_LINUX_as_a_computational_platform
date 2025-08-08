@@ -47,11 +47,10 @@ To bump your Mac into power user mode, you'll need **Xcode**. To obtain Xcode �
 
 ### Windows OS users
 
-Your PC needs to be running 64-bit Windows 11 (becuase of CSU internet security policy). You can install Linux on top of the Windows operating system. Please read [Install the Linux Subsystem on Windows 11](https://learn.microsoft.com/en-us/windows/wsl/install) to install the system. Opt for UBUNTU distribution (not LTS) if/when you have a choice.
+Your PC needs to be running Windows 11 (becuase of CSU internet security policy). You can install Linux on top of the Windows operating system. Please read [Install the Linux Subsystem on Windows 11](https://learn.microsoft.com/en-us/windows/wsl/install) to install the system. Opt for UBUNTU distribution (not LTS) if/when you have a choice.
 
-When complete, you'll be asked for a username and password specific to your Ubuntu installation. These don't need to be the same as your Windows 10 credentials. With this step complete, you'll find yourself at the Ubuntu bash command line.
+When complete, you'll be asked for a username and password specific to your Ubuntu installation. These don't need to be the same as your Windows 11 credentials. With this step complete, you'll find yourself at the Ubuntu bash command line.
 
-:!: Tips for installation
-
-Don't forget your username and password for ubuntu! Write it down. You'll need it for the class!!!
+- Tips for installation
+  - Don't forget your username and password for ubuntu! Write it down. You'll need it for the class!!!
 Having trouble getting the `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux` line to execute? Make sure you are in a PowerShell with Administrator privileges (aka, an elevated powershell). To open one, search PowerShell in the windowsStart search bar, then RIGHT click on powershell, then select “Run as Administrator”
