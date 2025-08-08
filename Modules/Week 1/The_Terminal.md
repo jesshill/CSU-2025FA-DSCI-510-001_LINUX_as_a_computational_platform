@@ -41,4 +41,4 @@ $ date
 $ cal
 ```
 
-Continue to [Navigating_the_file_system](Navigating_the_file_system.md).
+Continue to [Navigating_the_file_system](Navigating_the_file_system.md)
