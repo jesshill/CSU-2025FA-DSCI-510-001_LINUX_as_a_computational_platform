@@ -22,3 +22,21 @@ For more details, see [Computer_Requirements](Computer_Requirements.md).
 
 When you first open your terminal, you should get some introductory information about the computer you are on, sometimes some information about when you last logged in, and the prompt. looks like this
 
+```
+$
+```
+
+If you see this, great! The prompt is telling us that the shell is ready for input. We can type things in and see how the shell responds.
+
+**!!! Exercise**: Type in some gibberish into the prompt.
+
+**!!! Exercise**: Type in these commands into the prompt and see what happens:
+
+```
+$ whoami
+$ hostname
+$ pwd
+$ ls
+$ date
+$ cal
+```
