@@ -52,11 +52,12 @@ When I look in this directory (on a MAC), I see …
 
 ```
 $ ls
-Applications            Dropbox                 master_backup_171220.sh
-Backup_logs             Library                 master_backup_bkps
-Backup_profiles         Movies                  seqmonk_cache
-Creative Cloud Files    Music                   seqmonk_genomes
-Desktop                 Pictures                seqmonk_prefs.txt
-Documents               Public
-Downloads               igv
+Colostate		Library			Pictures
+Desktop			Movies			Public
+Documents		Music
+Downloads		OneDrive - Colostate
 ```
+
+These are the items I have inside the working directory. This directory corresponds to the same directory I can locate in my MAC Finder.
+
+PC people, you will probably see nothing …
