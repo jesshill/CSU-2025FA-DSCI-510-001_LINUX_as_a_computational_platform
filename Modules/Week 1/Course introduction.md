@@ -61,6 +61,6 @@ By the end of this week:
 ### Introduction to the class: 
 - Please read through the [Syllabus](../../Syllabus.md) to learn more about the class.
 - This class is the first in a 3-part series. The other 2 classess are Python (Dr. Tai Montgomery) & RNA-seq data analysis (me again). The RNA-seq class focuses on building pipelines using Linux and R.
-- Requirements: [Computer Requirements]()
+- Requirements: [Computer Requirements](Computer_Requirements.md)
 
 
