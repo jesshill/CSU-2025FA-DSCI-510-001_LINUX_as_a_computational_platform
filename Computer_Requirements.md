@@ -19,7 +19,7 @@ The computer should be a laptop. A tablet or iPad is not going to cut it!
 
 ## 2. Learn how to open the terminal on your computer
 
-What is a terminal? 
+What is a terminal or command line interface? 
 
 It should look something like this:
 
