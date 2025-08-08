@@ -109,7 +109,7 @@ Linux Family Tree:
 - Automation
 - Reproducibility
 - Fun
-- Free*
+- **Free**
 
 ### Partner Exercise #1
 
