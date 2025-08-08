@@ -96,7 +96,7 @@ ilovealpine,123456
 <img width="410" alt="req-research-computing-acct" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/req-research-computing-acct.png">
 </p>
 
-- When prompted for a description of your research, write a brief description of your own research or simply state that you are in the DSCI512 RNA-seq course.
+- When prompted for a description of your research, write a brief description of your own research or simply state that you are in the DSCI 510 LINUX course.
 - Check the box stating that you are enrolled in a course that requires access to Research Computing resources.
 - After submitting the form, you will receive an account confirmation email from CU-Boulder.
 - You're all set!
