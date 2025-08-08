@@ -80,3 +80,44 @@ By the end of this week:
 - UNIX became the basis for other operating systems (OS) in use today like MAC OS, Linux, Android.
 - Linux, based on UNIX was first released in 1991 by Linus Torvalds at the University of Helsinki. It is a fusion of the original UNIX operating system and many added-on features, most from a project called GNU. Is sometimes referred to as GNU/Linux.
 - Currently, linux is not one operating system, but a family of systems that come in many flavors, also called distributions or distros (Ubuntu, Fedora, RedHat, CentOS, etc).
+
+Ken Thompson (sitting) and Dennis Ritchie (standing) at the PDP-11 computer on which they wrote the UNIX operating system. Photo: Creative Commons license from the [Unix Wikipedia Page](https://en.wikipedia.org/wiki/Unix)
+
+<p align="center">
+<img width="410" alt="ken_thompson_and_dennis_ritchie_at_pdp-11" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/ken_thompson_and_dennis_ritchie_at_pdp-11.jpg">
+</p>
+
+Linus Torvalds at home. Photo: Softpedia [Torvalds Shows Off Desk](https://news.softpedia.com/news/Linux-Torvalds-Shows-Off-His-Home-Working-Desk-451264.shtml)
+
+<p align="center">
+<img width="410" alt="linux-torvalds-shows-off-his-home-working-desk" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/linux-torvalds-shows-off-his-home-working-desk.jpg">
+</p>
+
+Linux Family Tree:
+
+<p align="center">
+<img width="410" alt="tree" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/tree.png">
+</p>
+
+- The Linux Distros in this picture are those off the Fedora, Gentoo, Debian, and Arch Linux Branches.
+- MacOS, Android, and those off the BSD, XNU, or Mach kernels are considered separate operating systems due to their considerable evolution away from the Unix design.
+
+### Why should we use Linux?
+
+- Power
+- Efficiency
+- Automation
+- Reproducibility
+- Fun
+- Free*
+
+### Partner Exercise #1
+
+- Turn to a partner
+- Introduce yourself to your partner
+- Discuss: What do you hope to gain from this class and by learning Linux?
+- Discuss: Are there data types or analyses you want to use Linux to address?
+- Share: Please write down some notes about what you and your partner discussed here (names are optional)
+- **Asynchronous & Remote Students** - Please join in, too! Add your ideas to the document!
+
+Continue to [The_Terminal](The_Terminal.md)
