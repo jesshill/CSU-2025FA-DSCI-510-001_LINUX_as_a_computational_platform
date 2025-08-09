@@ -28,7 +28,7 @@ $ cal # WHEN? cute little calendar of this month
 
 **!!! Quick tip**: A **directory** is just the Linux-y term for “folder”. Just as there are slight terminology differences between MAC and Windows, so too are there differences in Linux.
 
-### Intro to Independent Exercise - Dissecting the path
+### Independent Exercise - Dissecting the path
 
 Let's take a closer look at what spits out when you type the command `$pwd`
 
@@ -87,15 +87,33 @@ The directory you find yourself in when you first open up your terminal is calle
 $ touch 240820_test.txt
 ```
 
-- Switch over to your File Explorer and search for the file 240820_test.txt on “this PC”.
-- ...
-Once your File Explorer has located your test file, navigate to that place.
-Open a NEW File Explorer.
-Go to “View”
-Click on “File Name Extensions” to ensure that file name extensions are shown.
-Click on “Hidden Items” to ensure that hidden items are shown.
-Then click on “This PC” or “C:” and follow the train of folders down and down until you locate the directory where your test file was stored. This is your home directory.
-Create a shortcut to this home directory on your desktop so you always know where to find it.
+- Switch over to your **File Explorer** and **search** for the file 240820_test.txt on “this PC”.
+- Once your File Explorer has located your test file, navigate to that place.
+  - Open a NEW File Explorer.
+  - Go to “View”
+  - Click on “File Name Extensions” to ensure that file name extensions are shown.
+  - Click on “Hidden Items” to ensure that hidden items are shown.
+  - Then click on “This PC” or “C:” and follow the train of folders down and down until you locate the directory where your test file was stored. This is your home directory.
+- Create a shortcut to this home directory on your desktop so you always know where to find it.
 
+### As a group - Moving around - Up to the root
 
+We will learn how to move into different directories and at the same time learn more about paths. To move to a new directory we use the command `cd` for Change Directory.
 
+**!!! Exercise**: Try the `cd` command like so:
+
+```
+$ cd
+$ pwd
+$ ls
+```
+
+What happened? Well, if you started in your home directory, nothing. This is because typing cd without anything after it defaults to **********changing you into your home directory.**************** To give more instruction as to where we want to change into, we need to add an argument. **Arguments** are additional user-specific information we supply to a command.
+
+```
+$ cd <directoryname>
+```
+
+A cool quirk of Linux is that a period, “.”, is shorthand for the **current working directory**. And two periods, “..”, is shorthand for the directory a level up from my current directory. The directory one-level-up is called the **parent directory**.
+
+**!!! Independent Exercise**: Try
