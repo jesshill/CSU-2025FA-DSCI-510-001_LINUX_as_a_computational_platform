@@ -61,3 +61,41 @@ Downloads		OneDrive - Colostate
 These are the items I have inside the working directory. This directory corresponds to the same directory I can locate in my MAC Finder.
 
 PC people, you will probably see nothing …
+
+```
+$ ls
+$
+```
+
+The home folder on UBUNTU for Windows is in a really weird, hidden place.
+
+### Independent exercises for Mac users
+
+**!!! Exercise**: Open your Finder or Explorer and navigate to the same directory you're in on the terminal. Double check that the contents are the same. Check that the path is similar.
+
+**!!! Mac tip**: If you don't see your path in the Finder window, pull down the **View** menu and select **Show Path Bar**.
+
+The directory you find yourself in when you first open up your terminal is called you **home** directory. This is a special place where the shell starts up by default.
+
+### Independent exercises for Windows users
+
+**!!! Exercise**: Try to find where your home directory is located on your computer. This is pretty challenging, but here we go …
+
+- In your home directory, create a file called 240820_test.txt like so …
+
+```
+$ touch 240820_test.txt
+```
+
+- Switch over to your File Explorer and search for the file 240820_test.txt on “this PC”.
+- ...
+Once your File Explorer has located your test file, navigate to that place.
+Open a NEW File Explorer.
+Go to “View”
+Click on “File Name Extensions” to ensure that file name extensions are shown.
+Click on “Hidden Items” to ensure that hidden items are shown.
+Then click on “This PC” or “C:” and follow the train of folders down and down until you locate the directory where your test file was stored. This is your home directory.
+Create a shortcut to this home directory on your desktop so you always know where to find it.
+
+
+
