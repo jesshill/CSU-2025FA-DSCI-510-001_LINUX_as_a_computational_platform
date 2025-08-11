@@ -54,7 +54,34 @@
 
 ### Short in class quiz
 
-...
+<details>
+  <summary>Quiz</summary>
+1. If you are located in the directory called "David", how would you navigate to the directory called "Users"?
+
+<p align="center">
+<img width="410" alt="quiz1" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/quiz1.png">
+</p>
+
+  - cd David
+  - cd ..
+  - cd Users
+  - cd /Users
+  - cd /Users/Romario
+
+2. Which key on your keyboard will allow you to autocomplete the name of an unambiguous path?
+- Return
+- Shift
+- Option
+- ?
+- Tab
+- Caps
+     
+3. Which command lets you "see" what is in your current directory?
+- ... 
+   
+5. ...
+  
+</details>
 
 ### Moving around: absolute paths v. relative paths
 
