@@ -148,20 +148,20 @@ eight_polonaises.pdf hungarian_dance_no5.pdf six_variations.pdf
 
 ### Shortcuts
 
-**TAB** autocomplete
+**TAB** - autocomplete
 
-**CTRL+u** erase the current line
+**CTRL+u** - erase the current line
 
-**CTRL+l** (that's a lower case “L”), clear the terminal screen
+**CTRL+l** - (that's a lower case “L”), clear the terminal screen
 
-**CTRL+a** go to the beginning of the line
+**CTRL+a** - go to the beginning of the line
 
-**CTRL+e** to go the end of the line
+**CTRL+e** - to go the end of the line
 
-**CTRL+c** cancel out of a program or command that is being executed
+**CTRL+c** - cancel out of a program or command that is being executed
 
-**CTRL+d** log out of the terminal
+**CTRL+d** - log out of the terminal
 
-**UP arrow** print out the last command executed (even if it failed).
+**UP arrow** - print out the last command executed (even if it failed).
 
 Continue to [Options](Options.md)
