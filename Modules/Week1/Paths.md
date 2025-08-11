@@ -52,7 +52,7 @@
   - [Boulder Computing Training Series](https://www.colorado.edu/crdds/events#research_computing-89)
   - [Coding & Cookies](https://libguides.colostate.edu/coding-cookies/home) in the Morgan Library at CSU
 
-### Short in class quiz
+### Test your understanding
 
 <details>
   <summary>Quiz</summary>
@@ -107,5 +107,28 @@ The types of paths we've used for navigating up to this point are called **relat
 ```
 $ cd /home/users/erin/documents
 ```
+**!!! Example**: Changing directory using an **relative path:**
+```
+$ ls 
+dropbox  documents  pictures  music
+$ cd music
+```
 
+**!!! Exercise**: Open your Finder/Explorer and navigate to some directory on your computer where you keep a piece of data you've recently gathered. Look at the path bar to get a sense of where this directory is located. Now, using the terminal, try to change into this directory using an absolute path as the argument for a cd command. Use **TAB** to autocomplete to save time and improve accuracy.
 
+**!!! Quick tip**: When moving up or down a directory structure using relative paths, you don't need to jump down each directory one at a time. You can double up your jumps using a `/` between directories. For example, if you are in `/Users/Name/` and you want to be in `/Users/Name/Documents/Labwork/`, try:
+
+```
+$ pwd
+/Users/Name
+$ cd Documents
+$ cd Labwork
+```
+OR
+```
+$ pwd
+/Users/Name
+$ cd Documents/Labwork
+$ pwd
+/Users/Name/Documents/Labwork/
+```
