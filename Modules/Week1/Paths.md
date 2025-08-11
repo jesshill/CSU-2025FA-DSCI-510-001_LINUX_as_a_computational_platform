@@ -77,9 +77,20 @@
 - Caps
      
 3. Which command lets you "see" what is in your current directory?
-- ... 
+- whoami
+- hostname
+- pwd
+- ls
+- currdir
+- dir 
    
-5. ...
+4. Which command lists the "address" or "path" of your current directory?
+- whoami
+- hostname
+- pwd
+- ls
+- curridr
+- dir
   
 </details>
 
