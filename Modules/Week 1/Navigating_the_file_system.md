@@ -96,7 +96,7 @@ $ touch 240820_test.txt
   - Then click on “This PC” or “C:” and follow the train of folders down and down until you locate the directory where your test file was stored. This is your home directory.
 - Create a shortcut to this home directory on your desktop so you always know where to find it.
 
-### As a group - Moving around - Up to the root
+### As a group: Moving around - Up to the root
 
 We will learn how to move into different directories and at the same time learn more about paths. To move to a new directory we use the command `cd` for Change Directory.
 
@@ -108,7 +108,7 @@ $ pwd
 $ ls
 ```
 
-What happened? Well, if you started in your home directory, nothing. This is because typing cd without anything after it defaults to **********changing you into your home directory.**************** To give more instruction as to where we want to change into, we need to add an argument. **Arguments** are additional user-specific information we supply to a command.
+What happened? Well, if you started in your home directory, nothing. This is because typing cd without anything after it defaults to changing you into your home directory. To give more instruction as to *where* we want to change into, we need to add an argument. **Arguments** are additional user-specific information we supply to a command.
 
 ```
 $ cd <directoryname>
@@ -116,4 +116,63 @@ $ cd <directoryname>
 
 A cool quirk of Linux is that a period, “.”, is shorthand for the **current working directory**. And two periods, “..”, is shorthand for the directory a level up from my current directory. The directory one-level-up is called the **parent directory**.
 
-**!!! Independent Exercise**: Try
+### Independent Exercise: Moving around 
+
+**!!! Exercise**: Write down the path of your curent working directory somewhere so you can remember it. Execute the following to step-wise navigate up through each directory. Continue this until you get to the top.
+
+```
+$ pwd
+$ ls
+$ cd . #this shouldn't change your location
+$ pwd 
+$ ls
+$ cd .. #this should change your location to the parent directory
+$ pwd
+$ ls
+$ cd ..
+$ pwd
+$ ls
+```
+
+You should get to a place where you eventually see this:
+
+```
+$ pwd
+/
+```
+
+This location is known as the **root**. This is the uppermost directory of your computer's file structure (that you are allowed to be in).
+
+Now that we are in the uppermost directory, let's navigate back down to where we were before. To do this, we'll browse the contents of our root directory using ls and then select a specific sub-directory to change into using:
+
+If the path to your home directory looked like this: `/subdirectoryname1/subdirectoryname2/subdirectoryname3`, you would do the following …
+
+```
+$ pwd
+$ ls
+$ cd subdirectoryname1
+$ pwd 
+$ ls
+$ cd subdirectoryname2
+$ pwd
+$ ls
+$ cd subdirectoryname3
+```
+
+Eventually, take this back down to your home directory.
+
+### Independent Exercise: Navigating Up and Down
+
+Now, try that same exercise one more time on your own.
+
+Navigate from your home directory to the root directory using `$ cd ..`
+
+Once at the root, navigate back through each sub-directory until you arrive back at home.
+
+Do you have any questions?
+
+**!!! Self-Assessment**: Reflect on the following - are you using ls and pwd between each cd step? Try to do this. It'll help you orient your current location.
+
+### Summing it up in pictures
+
+
