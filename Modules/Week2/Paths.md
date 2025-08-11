@@ -60,3 +60,7 @@ By the end of this week:
   - [Boulder Computing Training Series](https://www.colorado.edu/crdds/events#research_computing-89)
   - [Coding & Cookies](https://libguides.colostate.edu/coding-cookies/home) in the Morgan Library at CSU
 
+### Short in class quiz
+
+
+
