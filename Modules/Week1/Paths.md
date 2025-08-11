@@ -124,7 +124,9 @@ $ pwd
 $ cd Documents
 $ cd Labwork
 ```
+
 OR
+
 ```
 $ pwd
 /Users/Name
@@ -132,3 +134,34 @@ $ cd Documents/Labwork
 $ pwd
 /Users/Name/Documents/Labwork/
 ```
+
+**!!! Quick tip**: We have used `ls` to list the contents of our current working directory. If no argument is specified `ls` defaults to listing the contents of the current working directory. We can also specify the name of the directory whose contents we want to list as an argument … even if we are not in that directory! We can use either an absolute or relative path for this …
+
+```
+$ ls 
+Homework Labwork Servicework
+$ ls Servicework
+application1.docx report1.docx report2.docx
+$ ls /home/users/sandra/sheetmusic
+eight_polonaises.pdf hungarian_dance_no5.pdf six_variations.pdf 
+```
+
+### Shortcuts
+
+**TAB** autocomplete
+
+**CTRL+u** erase the current line
+
+**CTRL+l** (that's a lower case “L”), clear the terminal screen
+
+**CTRL+a** go to the beginning of the line
+
+**CTRL+e** to go the end of the line
+
+**CTRL+c** cancel out of a program or command that is being executed
+
+**CTRL+d** log out of the terminal
+
+**UP arrow** print out the last command executed (even if it failed).
+
+Continue to [Options](Options.md)
