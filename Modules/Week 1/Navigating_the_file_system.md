@@ -183,12 +183,12 @@ Do you have any questions?
 
 **!!! Quick tip**: 
 
-**tab to autocomplete:** When you're typing out the name of a directory or sub-directory, instead of typing out the whole thing, start typing it a few characters and then autocomplete by typing TAB. If the characters you've typed so far limit you down to one option, the name will autocomplete. If it narrows it down into a few options, press TAB again and those options will be listed.
+- **tab to autocomplete:** When you're typing out the name of a directory or sub-directory, instead of typing out the whole thing, start typing it a few characters and then autocomplete by typing TAB. If the characters you've typed so far limit you down to one option, the name will autocomplete. If it narrows it down into a few options, press TAB again and those options will be listed.
 
 **!!! Common pitfall**: 
 
-**not enough ls and pwd:** Many new users have trouble navigating directories when they first start out. It is something that you'll get used to over time. One thing that can help make the process easier is to continually execute pwd and ls commands. Just imagine that anytime you want to look at something in your Finder/Explorer, you are in effect issuing an ls command. So you should be typing ls as often as you look at your files!
+- **not enough ls and pwd:** Many new users have trouble navigating directories when they first start out. It is something that you'll get used to over time. One thing that can help make the process easier is to continually execute pwd and ls commands. Just imagine that anytime you want to look at something in your Finder/Explorer, you are in effect issuing an ls command. So you should be typing ls as often as you look at your files!
 
 **!!! Common pitfall**: 
 
-**spaces in names:** Linux does NOT like spaces in directory or filenames. If one of your directories contains a space, you'll need to type a backslash+space as \ instead of just a single space. This is called escaping a character.
+- **spaces in names:** Linux does NOT like spaces in directory or filenames. If one of your directories contains a space, you'll need to type a backslash+space as \ instead of just a single space. This is called escaping a character.
