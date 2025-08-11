@@ -53,3 +53,10 @@ By the end of this week:
   - head 
 </details>
 
+### Reminder: 
+
+- Assignments 1 & 2 → submit on canvas, DUE September 2nd by midnight
+- This course is short and should be a springboard to more learning such as:
+  - ...
+  - ...
+  - ...
