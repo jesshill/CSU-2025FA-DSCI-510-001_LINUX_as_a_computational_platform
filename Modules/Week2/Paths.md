@@ -1,14 +1,5 @@
 # Paths
 
-### Weeks objectives: 
-
-By the end of this week: 
-- ...
-- ...
-
-- You should be comfertable navigating around your file structure using Linux commands
-- You should understand how to move and copy files within your file strutcure 
-
 ### Todays objectives: 
 
 <details>
