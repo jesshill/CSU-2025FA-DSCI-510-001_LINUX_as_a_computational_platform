@@ -62,11 +62,11 @@
 <img width="410" alt="quiz1" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/quiz1.png">
 </p>
 
-  - cd David
-  - cd ..
-  - cd Users
-  - cd /Users
-  - cd /Users/Romario
+  - `cd David`
+  - `cd ..`
+  - `cd Users`
+  - `cd /Users`
+  - `cd /Users/Romario`
 
 2. Which key on your keyboard will allow you to autocomplete the name of an unambiguous path?
 - Return
@@ -77,23 +77,35 @@
 - Caps
      
 3. Which command lets you "see" what is in your current directory?
-- whoami
-- hostname
-- pwd
-- ls
-- currdir
-- dir 
+- `whoami`
+- `hostname`
+- `pwd`
+- `ls`
+- `currdir`
+- `dir` 
    
 4. Which command lists the "address" or "path" of your current directory?
-- whoami
-- hostname
-- pwd
-- ls
-- curridr
-- dir
+- `whoami`
+- `hostname`
+- `pwd`
+- `ls`
+- `currdir`
+- `dir`
   
 </details>
 
 ### Moving around: absolute paths v. relative paths
 
-The types of paths we've used for navigating up to this point are called relative paths. This means that they only make sense from the perspective of the current working directory. In contrast, we can use cd to take us to absolute paths that would make sense anywhere on the computer system. Absolute paths always begin with the root directory, /. When we execute pwd, the shell spits out our current working directory as an absolute path because it start with a / such as /Users/erinnishimura/.
+The types of paths we've used for navigating up to this point are called **relative paths**. This means that they only make sense from the perspective of the current working directory. In contrast, we can use `cd` to take us to **absolute paths** that would make sense anywhere on the computer system. **Absolute paths** always begin with the root directory, `/`. When we execute `pwd`, the shell spits out our current working directory as an absolute path because it start with a `/` such as `/Users/jessicahill/`.
+
+**!!! Vocabulary**: 
+- **Absolute path:** The exact, full address of a file or directory starting from the root `/`. The absolute path always starts with a forward slash. An example of navigating using an absolute path would be `cd /home/martha/dogstuff`
+- **Relative path:** The location of a file or directory that only makes sense in the context of a given working directory. Examples of navigating using a relative path would be `cd subdirectory` or `cd ..`
+
+**!!! Example**: Changing directory using an **absolute path:**
+
+```
+$ cd /home/users/erin/documents
+```
+
+
