@@ -55,7 +55,7 @@ By the end of this week:
 
 ### Reminder: 
 
-- Assignments 1 & 2 → submit on canvas, DUE September 2nd by midnight
+- Assignments 1 & 2 → submit on canvas, **DUE September 2nd by midnight**
 - This course is short and should be a springboard to more learning such as:
   - [Boulder Computing Training Series](https://www.colorado.edu/crdds/events#research_computing-89)
   - [Coding & Cookies](https://libguides.colostate.edu/coding-cookies/home) in the Morgan Library at CSU
