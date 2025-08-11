@@ -189,6 +189,6 @@ Do you have any questions?
 
 - **not enough ls and pwd:** Many new users have trouble navigating directories when they first start out. It is something that you'll get used to over time. One thing that can help make the process easier is to continually execute pwd and ls commands. Just imagine that anytime you want to look at something in your Finder/Explorer, you are in effect issuing an ls command. So you should be typing ls as often as you look at your files!
 
-**!!! Common pitfall**: 
-
 - **spaces in names:** Linux does NOT like spaces in directory or filenames. If one of your directories contains a space, you'll need to type a backslash+space as \ instead of just a single space. This is called escaping a character.
+
+Continue to [Paths](). 
