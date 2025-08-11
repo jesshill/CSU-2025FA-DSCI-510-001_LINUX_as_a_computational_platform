@@ -191,4 +191,4 @@ Do you have any questions?
 
 - **spaces in names:** Linux does NOT like spaces in directory or filenames. If one of your directories contains a space, you'll need to type a backslash+space as \ instead of just a single space. This is called escaping a character.
 
-Continue to [Paths](../Week2/Paths.md)
+Continue to [Paths](../Week 2/Paths.md)
