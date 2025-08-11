@@ -175,4 +175,6 @@ Do you have any questions?
 
 ### Summing it up in pictures
 
-
+<p align="center">
+<img width="410" alt="navigation" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/navigation.png">
+</p>
