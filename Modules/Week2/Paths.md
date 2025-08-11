@@ -51,4 +51,4 @@ By the end of this week:
   - ?
   - .
   - head 
-<details>
+  <details>
