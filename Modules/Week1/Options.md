@@ -34,3 +34,25 @@ These commands should do the same thing on most distributions …
 $ls -a -h -l
 $ls -ahl
 ```
+
+### Exercise: Exploring Options
+
+**!!! Exercise**: Let's obtain a dataset to allow us to explore ls and its options:
+
+Download the following file by clicking on it. When prompted, save it to your a directory you can navigate to by both your Finder/Explorer AND by the terminal: [chromsizes2.tgz]()
+
+Note: this may be a good time to make a directory specifically for this class.
+
+Use the Finder/Explorer, navigate to the location where you downloaded the file.
+
+Double click on the chromsizes2.tgz file to decompress it.
+
+**!!! Quick tip**: If double-clicking on the “tarball” doesn't open it, try copying-and-pasting the file someplace you can access through your terminal. Then, navigate to the file through the terminal, then execute this command line to decompress it.
+
+```
+$tar -zxvf chromsizes2.tgz
+```
+
+If you need to, move the resulting expanded directory and its contents to a location you can easily manipulate in the terminal.
+Open your terminal and navigate (use cd, pwd, ls) to the directory chromsizes.
+:?: Not working? I made a video of this in case it is confusing. Video link to tutorial of tarball download. Passcode: f$fQf2Lc
