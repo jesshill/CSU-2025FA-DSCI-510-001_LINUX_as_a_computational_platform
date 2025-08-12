@@ -7,17 +7,17 @@ We can compress a directory of files into a single, compressed file using the **
 </p>
 
 To compress a directory into a tarball:
-**tar compression**
-**tar** -zcvf <tarball.tgz> <directory_to_compress>
--z - gzip it
--c - compress it
--v - verbose
--f - files
+- **tar compression**
+- **tar** -zcvf <tarball.tgz> <directory_to_compress>
+- -z - gzip it
+- -c - compress it
+- -v - verbose
+- -f - files
 
 To extract a tarball into an un-compressed directory again:
-**tar extraction**
-**tar** -zxvf <tarball.tgz>
--z - it's gzipped
--x - eXpand it
--v - verbose
--f - files
+- **tar extraction**
+- **tar** -zxvf <tarball.tgz>
+- -z - it's gzipped
+- -x - eXpand it
+- -v - verbose
+- -f - files
