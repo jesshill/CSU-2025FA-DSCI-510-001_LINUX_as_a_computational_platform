@@ -4,6 +4,8 @@ We can compress a directory of files into a single, compressed file using the **
 
 
 
+
+
 To compress a directory into a tarball:
 tar compression
 tar -zcvf <tarball.tgz> <directory_to_compress>
