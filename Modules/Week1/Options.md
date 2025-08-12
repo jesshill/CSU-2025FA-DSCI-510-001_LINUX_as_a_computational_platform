@@ -59,7 +59,7 @@ Open your terminal and navigate (use `cd, pwd, ls`) to the directory chromsizes.
 
 Not working? Dr. Nishimura made a video of this in case it is confusing. [Video link to tutorial of tarball download](https://zoom.us/rec/component-page?eagerLoadZvaPages=sidemenu.billing.plan_management&accessLevel=meeting&action=viewdetailpage&sharelevel=meeting&useWhichPasswd=meeting&requestFrom=pwdCheck&clusterId=aw1&componentName=need-password&meetingId=baghS9zqnq9wa-F1KmP-HQdRBUimkEIk8kUzxBj449faPZDHgFKF91eBQsvQgbyo.O63ixl1U5Lv2ax7D&originRequestUrl=https%3A%2F%2Fzoom.us%2Frec%2Fshare%2F9_N4ArPU2l9LYc_jsRrACo0eI6X8eaa80SQcqPtexEcWyMaB7TbVkWJ7gYbepY9I%3FstartTime%3D1598531909000). Passcode: f$fQf2Lc
 
-**Advanced User BONUS Content:** [Tarballs and GZipping](Tarballs.md).
+**Advanced User BONUS Content:** [Tarballs and GZipping](../../Resources/Tarballs.md).
 
 **!!! Exercise**: Once you are within the directory chromsizes, try executing `ls` commands to view its contents using the following iterations:
 
