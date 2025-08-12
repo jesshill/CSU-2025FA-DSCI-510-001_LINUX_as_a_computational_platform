@@ -91,4 +91,19 @@ total 232
 
 ### Manuals
 
-... 
+Your Linux/GNU installation has instructions on how to use many of the commands built in. These are called manuals and they are accessible using:
+
+**Manual Usage**
+**man** <command_name>
+
+```
+$ man ls
+```
+
+Use the **SPACE** bar to navigate through the manual pages.
+
+Use **Q** to quit out of the manual pages.
+
+I hate to tell you this, but the man pages are often inaccurate. Little differences between the distros and installations will lead to minor different behaviors. When this happens, try googling your problem and your operating system.
+
+Continue on to [Working with files]()
