@@ -39,7 +39,7 @@ $ls -ahl
 
 **!!! Exercise**: Let's obtain a dataset to allow us to explore ls and its options:
 
-Download the following file by clicking on it. When prompted, save it to your a directory you can navigate to by both your Finder/Explorer AND by the terminal: [chromsizes2.tgz]()
+Download the following file by clicking on it. When prompted, save it to your a directory you can navigate to by both your Finder/Explorer AND by the terminal: [chromsizes2.tgz](https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Data/chromsizes2.tgz)
 
 Note: this may be a good time to make a directory specifically for this class.
 
