@@ -71,11 +71,24 @@ $ ls -a -l -h
 $ ls -alh
 ```
 
-**!!! Partner Exercise**: O
+**!!! Partner Exercise**: Find a partner. What combination of `ls` options would you execute to list the contents in the following order and file size format?
 
+- **Hint:** Folders . and .. are not shown
+- **Hint:** Consult the image of ls options at the top of this page.
+- **Hint:** There might be some differences between what I have listed in this section: -rw-r–r–@ and what you have. Those are permission codes and you don't need to worry about them now. We'll talk about them later.
 
+```
+total 232
+-rw-r--r--@ 1 erinnishimura  staff    18B Aug 24 05:20 wuhCor1_chrom_sizes.txt
+-rw-r--r--@ 1 erinnishimura  staff   229B Aug 24 05:21 sacCer3_chrom_sizes.txt
+-rw-r--r--@ 1 erinnishimura  staff   1.3K Aug 24 05:18 mm39_chrom_sizes.txt
+-rw-r--r--@ 1 erinnishimura  staff   375B Aug 24 05:16 hs1_chrom_sizes.txt
+-rw-r--r--@ 1 erinnishimura  staff    44K Aug 24 05:19 dm6_chrom_sizes.txt
+-rw-r--r--@ 1 erinnishimura  staff    47K Aug 24 05:19 danRer11_chrom_sizes.txt
+-rw-r--r--@ 1 erinnishimura  staff    99B Aug 24 05:20 ce11_chrom_sizes.txt
+-rw-r--r--@ 1 erinnishimura  staff   903B Aug 24 05:29 230824_README_download.txt
+```
 
+### Manuals
 
-
-
-
+... 
