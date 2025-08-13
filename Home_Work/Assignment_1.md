@@ -34,4 +34,12 @@ The grandparent directory: Can you find TWO ways to move into the grandparent di
 
 ## Question 3
 
-The
+If I have several directories within my `Photos` directory, like so: 
+`/Users/erin/Documents/Photos/Instagram/`
+`/Users/erin/Documents/Photos/NikonPics/`
+`/Users/erin/Documents/Photos/PanoShots/`
+`/Users/erin/Documents/Photos/Selfies/`
+
+How would I move from within the `Selfies` folder to the `Instagram` folder using one `cd` command that uses a **relative path**?
+
+
