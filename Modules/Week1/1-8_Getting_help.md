@@ -24,10 +24,12 @@
 
 *Depending on how the command was written, you can access its help page in a few different ways. You'll need to try each.*
 
-**man** <command>
-**help** <command>
-**command** -h
-**command** --help
+```
+$ man <command>
+$ help <command>
+$ command -h
+$ command --help
+```
 
 **!!! Quick tip**: When navigating the **man** pages press `spacebar` to scroll down and `q` to exit.
 
