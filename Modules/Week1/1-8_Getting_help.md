@@ -52,4 +52,4 @@ $logout
 $bye
 ```
 
-[Assignment 2](../../Home_Work/Assignment_2.md)
+Here is the link to get to [Assignment 2](../../Home_Work/Assignment_2.md)
