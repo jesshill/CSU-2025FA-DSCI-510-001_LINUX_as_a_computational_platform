@@ -95,6 +95,7 @@ total 232
 Your Linux/GNU installation has instructions on how to use many of the commands built in. These are called manuals and they are accessible using:
 
 **Manual Usage**
+
 `man <command_name>`
 
 ```
