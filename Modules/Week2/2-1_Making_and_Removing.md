@@ -156,8 +156,14 @@ Files are documents that live within directories. All files in the Linux environ
 - Should contain a file extension (.txt, .docx, .png, etc)
 - Should not be the name of a function (like ls)
 
-**!!! Quick tip:** If you cannot see file extensions on your computer, take a moment to make these visible.
+**!!! Quick tip:** If you cannot see file extensions on your computer, take a moment to make these visible:
   - [MacOS show file extensions](https://www.idownloadblog.com/2023/05/23/how-to-show-hide-filename-extensions-mac/)
   - [Windows show file extensions](https://www.howtogeek.com/205086/beginner-how-to-make-windows-show-file-extensions/)
 
-There are many ways to make a new file. We'll cover just a few:
+There are many ways to make a new file. We'll cover just a few: 
+
+#### Making files with touch 
+
+We can make a new file with **touch**:
+
+**touch** <filename.txt>
