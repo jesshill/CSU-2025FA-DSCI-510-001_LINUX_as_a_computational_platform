@@ -94,7 +94,7 @@ The calculation of the final letter grade will be made as follows:
 # Assignments
 
 - Assignments make up 70% of your course grade.
-- There will be **6 assignments**.
+- There will be **6 assignments**. Assignments must be turned in on Canvas by 11:59 pm on the due date. 
 - If you need to turn in an assignment LATE, please talk to me and request additional time before the due date. You may turn in an assignment up to **48 hours late** but only with **PRIOR** approval!
 
 # Student Disability Accommodations
