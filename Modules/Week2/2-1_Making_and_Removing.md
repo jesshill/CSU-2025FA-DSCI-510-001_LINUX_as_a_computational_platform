@@ -184,5 +184,7 @@ Well, that's a pretty boring file. Let's add some content to it using the linux 
 
 It'll look like this:
 
-
+<p align="center">
+<img width="410" alt="terminal" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/terminal.png">
+</p>
 
