@@ -27,8 +27,21 @@ Type **q** to quit
 $ less hs1_chrom_sizes.txt
 ```
 
-Use spacebar or down arrow or return to scroll down
-Use b or up arrow to scroll up
-Type q to quit
+Use **spacebar** or **down arrow** or **return** to scroll down
+
+Use **b** or **up arrow** to scroll up
+
+Type **q** to quit
+
+```
+$ head hs1_chrom_sizes.txt #show first 10 lines
+$ head -n 5 hs1_chrom_sizes.txt #show first 5 lines
+$ tail hs1_chrom_sizes.txt #show last 10 lines
+$ tail -n 5 hs1_chrom_sizes.txt #show last 5 lines
+```
+
+**!!! Quick tip**: Sometimes it looks like head or tail are showing way more lines than you expect. If your lines are very, very long (typical in bioinformatics), this may be due to forced word wrapping in the terminal. Try re-sizing your browser bigger or smaller to see if this is the case.
+
+**!!! Exercises**: S
 
 
