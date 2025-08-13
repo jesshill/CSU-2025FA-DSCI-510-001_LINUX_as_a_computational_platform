@@ -78,11 +78,11 @@ $ wc -c    # lists only the number of characters
 
 To date, we have only performed a command on a single argument:
 
-$ **command** [argument]
+`$ command [argument]`
 
 Most commands allow us to list multiple arguments and will perform the command on them in the order written:
 
-$ **command** [argument] <argument> <argument>
+`$ command [argument] <argument> <argument>`
 
 **!!! Exercise**: Try it!
 
