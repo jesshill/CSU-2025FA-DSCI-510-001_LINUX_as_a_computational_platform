@@ -1,5 +1,5 @@
-DSCI510 
-Assignment #1
+DSCI 510 
+Assignment 1
 Name: <yourNameHere>
 Date: <dateHere>
 #####################
