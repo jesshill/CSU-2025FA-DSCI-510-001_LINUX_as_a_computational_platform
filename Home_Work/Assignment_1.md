@@ -35,11 +35,31 @@ The grandparent directory: Can you find TWO ways to move into the grandparent di
 ## Question 3
 
 If I have several directories within my `Photos` directory, like so: 
+
 `/Users/erin/Documents/Photos/Instagram/`
+
 `/Users/erin/Documents/Photos/NikonPics/`
+
 `/Users/erin/Documents/Photos/PanoShots/`
+
 `/Users/erin/Documents/Photos/Selfies/`
 
-How would I move from within the `Selfies` folder to the `Instagram` folder using one `cd` command that uses a **relative path**?
+How would I move from within the `Selfies` directory to the `Instagram` directory using one `cd` command that uses a **relative path**?
 
+## Question 4
 
+Say you have accidentally named a directory with spaces in the name `Files for Qualifying Exam`. You try to list the contents of this directory by executing the following command?
+
+```
+$ ls Files for Qualifying Exam
+```
+
+However, this doesn't work as expected.
+
+A. Why doesn't this work? What is the computer trying to do?
+
+B. What is the proper command required to list the contents of this directory?
+
+## Question 5
+
+Open [Terminus](https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html) in a new tab. Explore this Linux game. To answer this question, name one command you learned from this game and the character who taught it to you.
