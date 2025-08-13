@@ -1,5 +1,7 @@
 # Making and Removing
 
+In this section, we'll learn how to create or delete files and directories using LINUX commands.
+
 ### Todays objectives: 
 
 <details>
@@ -105,4 +107,17 @@ HW 1 and 2 are due by 11:59 pm tonight!
 
 </details>
 
-### Moving around:
+### Making Directories
+
+We can make a new directory using the command `mkdir` (MaKe DIRectory):
+
+**mkdir** <newdirectoryname> …
+
+**!!! Quick tip:** The … means that you can add either one or more newdirectorynames.
+
+**!!! Exercise:** Let's make a new directory called “mynewdir”
+
+```
+$ mkdir mynewdir
+$ ls
+```
