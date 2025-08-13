@@ -15,6 +15,7 @@ Options are added after the command itself but before any arguments.
 `command [options] <arguments>`
 
 [] – optional. The command will work with or without these.
+
 <> – required. The command requires these arguments.
 
 Short options take one dash. Long options take two dashes.
