@@ -192,3 +192,5 @@ Do you have any questions?
 - **spaces in names:** Linux does NOT like spaces in directory or filenames. If one of your directories contains a space, you'll need to type a backslash+space as \ instead of just a single space. This is called escaping a character.
 
 Continue on to [Paths](1-4_Paths.md)
+
+[Assignment 1](Assignment1.md)
