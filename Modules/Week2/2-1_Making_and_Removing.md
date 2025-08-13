@@ -178,9 +178,11 @@ $ more quick_tips.txt #peek into the file quick_tips.txt
 ```
 #### Writing file content with nano
 
-Well, that's a pretty boring file. Let's add some content to it using the linux text editor called nano. This command will be different than previous commands we've executed. Instead of spitting something out to the screen below the prompt, nano will take us to a little text editor app within the terminal where we can type in some text. To exit out of nano, type CTRL+X. To save, type y.
+Well, that's a pretty boring file. Let's add some content to it using the linux text editor called **nano**. This command will be different than previous commands we've executed. Instead of spitting something out to the screen below the prompt, nano will take us to a little text editor app within the terminal where we can type in some text. To exit out of nano, type CTRL+X. To save, type `y`.
 
+**nano** <filename.txt>
 
+It'll look like this:
 
 
 
