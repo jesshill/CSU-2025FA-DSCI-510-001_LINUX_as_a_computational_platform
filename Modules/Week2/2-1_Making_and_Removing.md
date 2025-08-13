@@ -220,7 +220,13 @@ We can remove files using `rm` (ReMove).
 
 `-i` is an **option** for running `rm` interactively. It requests a confirmation to remove. Please get in the habit of using this option.
 
-**!!! Common pitfall:** ...
+**!!! Common pitfall:** **THERE IS NO UNDO IN LINUX**. Yep, that's right. If you remove a file, it's gone. There's no trash can or recycle bin you can pull that file out of. It is gone-gone!
+
+**Do not combine rm and * together. It is possible to delete everything.**
+
+;-) Quick tip: Always make sure you have a good backup system in place. A good back up system is automatic.
+
+Let's say we don't want the file common_pitfalls.txt anymore.
 
 
 
