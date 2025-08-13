@@ -120,4 +120,4 @@ Linux Family Tree:
 - Share: Please write down some notes about what you and your partner discussed here (names are optional)
 - **Asynchronous & Remote Students** - Please join in, too! Add your ideas to the document!
 
-Continue to [The_Terminal](1-2_The_Terminal.md)
+Continue on to [The_Terminal](1-2_The_Terminal.md)
