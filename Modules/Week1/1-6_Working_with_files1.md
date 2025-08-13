@@ -88,7 +88,6 @@ Most commands allow us to list multiple arguments and will perform the command o
 
 ```
 $ wc sacCer3_chrom_sizes.txt wuhCor1_chrom_sizes.txt
-
 ```
 
 Continue on to [Wildcards](1-7_Wildcards.md)
