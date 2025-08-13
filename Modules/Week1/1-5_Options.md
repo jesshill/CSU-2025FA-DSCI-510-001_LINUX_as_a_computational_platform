@@ -46,7 +46,7 @@ Note: this may be a good time to make a directory specifically for this class.
 
 Use the Finder/Explorer, navigate to the location where you downloaded the file.
 
-Double click on the chromsizes2.tgz file to decompress it.
+Double click on the `chromsizes2.tgz` file to decompress it.
 
 **!!! Quick tip**: If double-clicking on the “tarball” doesn't open it, try copying-and-pasting the file someplace you can access through your terminal. Then, navigate to the file through the terminal, then execute this command line to decompress it.
 
