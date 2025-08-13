@@ -91,4 +91,4 @@ $ wc sacCer3_chrom_sizes.txt wuhCor1_chrom_sizes.txt
 
 ```
 
-Continue to [Wildcards](1-7_Wildcards.md)
+Continue on to [Wildcards](1-7_Wildcards.md)
