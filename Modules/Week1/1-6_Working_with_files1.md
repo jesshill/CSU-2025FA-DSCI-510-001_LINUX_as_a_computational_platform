@@ -51,7 +51,7 @@ $ tail -n 5 hs1_chrom_sizes.txt #show last 5 lines
 
 One of the handiest commands for getting information about a file is word count.
 
-**wc** <file.txt> …
+`wc <file.txt> …`
 
 Word count spits out:
 
