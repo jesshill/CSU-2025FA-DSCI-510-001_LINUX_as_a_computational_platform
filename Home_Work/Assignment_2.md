@@ -18,7 +18,7 @@
 
 ## Preparation for the exercise
 
-- Download the following file: genomes_2018.tgz
+- Download the following file: [genomes_2018.tgz](https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Data/genomes_2018.tgz)
 - Extract it by either double-clicking on it OR navigating to where the file is located and executing:
 
 ```
