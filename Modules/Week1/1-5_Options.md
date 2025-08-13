@@ -18,7 +18,7 @@ Options are added after the command itself but before any arguments.
 
 <> – required. The command requires these arguments.
 
-Short options take one dash. Long options take two dashes.
+Short options take one dash `-`. Long options take two dashes `--`.
 
 Further, short options can often be lumped together.
 
