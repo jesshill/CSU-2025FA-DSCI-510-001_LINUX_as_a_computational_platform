@@ -8,9 +8,30 @@
   - Remove <answerHere> and replace with your actual answer
   - Yes, remove the “<” and “>” characters, too
 - **Turn in your answers as the .txt file on Canvas by uploading your file.**
+- Assignments account for 70% of your final grade. 
+
+---
 
 **!!! Hint**: If the question asks for a command, write out the full command line entry as you would write it on the command line to generate the requested task.
 
+---
+
 ## Question 1
 
-... 
+Test the two commands below. Make sure to navigate away from your home directory to several different locations to test them in order to understand their full behavior. Explain what each command does.
+
+```
+$ cd ~
+```
+```
+$ cd -
+```
+
+## Question 2
+
+The grandparent directory: Can you find TWO ways to move into the grandparent directory in a single command? That is, how can you move from
+`/Users/erin/Documents/Photos/Selfies/` to `/Users/erin/Documents/` by executing `cd` just once? Find TWO ways to do this. One way should use an **absolute path** and the other should use a **relative path**.
+
+## Question 3
+
+The
