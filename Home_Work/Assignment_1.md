@@ -1,6 +1,6 @@
 # Assignment 1
 
-- **Due Tuesday, September 2, 2025, 11:59 pm** 
+- Due **Tuesday, September 2, 2025, 11:59 pm** 
 - **DO NOT write out the questions. Do not write long descriptions. Only write your succinct answers.**
 - **Here is a template to turn in:** [Assignment1_yourName.txt]()
 
