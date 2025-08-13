@@ -106,4 +106,4 @@ Use **Q** to quit out of the manual pages.
 
 I hate to tell you this, but the man pages are often inaccurate. Little differences between the distros and installations will lead to minor different behaviors. When this happens, try googling your problem and your operating system.
 
-Continue on to [Working with files 1](Working_with_files1.md)
+Continue on to [Working with files 1](1-6_Working_with_files1.md)
