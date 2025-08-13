@@ -224,10 +224,49 @@ We can remove files using `rm` (ReMove).
 
 **Do not combine rm and * together. It is possible to delete everything.**
 
-;-) Quick tip: Always make sure you have a good backup system in place. A good back up system is automatic.
+**!!! Quick tip:** Always make sure you have a good backup system in place. A good back up system is automatic.
 
-Let's say we don't want the file common_pitfalls.txt anymore.
+Let's say we don't want the file `common_pitfalls.txt` anymore.
 
+```
+$ ls
+$ rm -i common_pitfalls.txt
+$ ls
+```
 
+**!!! More Exercises:** 
+
+1. Navigate to the course directory. If you execute the `ls` command, you should see the directories `01_Notes`, `02_Exercises`, `03_Assignments`.
+2. Navigate into `02_Exercises`.
+3. Create a new file with today's date somewhere in the filename and a .txt file extension.
+4. Copy and paste the instructions for this exercise into the new text file.
+5. Use `more` to peek into your new text file.
+6. Use `rm -i` to delete your newly made text file.
+
+### Removing directories and their contents with rm
+
+We can also remove directories AND all their contents using `rm`:
+
+`rm [-ir] <directoryname>`
+
+- `-i` interactive. request confirmation to remove.
+- `-r` recursive. remove entire directory and contents.
+- `<directoryname>` the name of the directory you want to remove.
+
+Always specify `-i` because there is the potential for deleting more than you bargained for.
+
+**!!! Common pitfall:** Until you are at Linux ninja status, please use `-i` with all your `rm` commands. Please use caution when using `rm`. Also, please have a good backup strategy in place as well.
+
+### rm with training wheels
+
+**!!! Cool Trick:** Better yet, we can write a new command called `srm` for Safe ReMove, like so:
+
+```
+alias srm='rm -i'
+```
+
+- Note, this only works if the spaces/no spaces are strictly adhered to.
+- Now you can remove files using `$ srm file.txt` and you will automatically be prompted whether you are sure.
+- This behavior will reset when you close the terminal. We will show you later in the course how to permanently customize your user experience so this behavior is permanent.
 
 
