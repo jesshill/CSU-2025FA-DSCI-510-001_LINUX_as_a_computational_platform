@@ -6,8 +6,8 @@
   <summary>Click to expand/collapse</summary>
 
 - **Vocabulary**
-  - Source (as in the source file in a copy cp command)
-  - Target (as in the target file in a copy cp command)
+  - Source (as in the source file in a copy `cp` command)
+  - Target (as in the target file in a copy `cp` command)
   - File transfer
   - File compression
   - File formats
@@ -44,10 +44,10 @@
   - md5sum or md5 or md5sum-lite
   - gzip
   - gunzip
-  - >
-  - 2>
-  - &>
-  - >>  
+  - `>`
+  - `2>`
+  - `&>`
+  - `>>`  
 </details>
 
 ### Test your understanding
