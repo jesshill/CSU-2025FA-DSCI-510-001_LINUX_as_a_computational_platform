@@ -121,3 +121,34 @@ We can make a new directory using the command `mkdir` (MaKe DIRectory):
 $ mkdir mynewdir
 $ ls
 ```
+
+### Removing Directories
+
+We can remove empty directories using `rmdir` (ReMove DIRectory):
+
+**rmdir** <directoryname> …
+
+**!!! Exercise:** Let's remove the “mynewdir” directory
+
+```
+$ ls
+$ rmdir mynewdir
+$ ls
+```
+
+**!!! More Exercises:** 
+
+1. Through the terminal, navigate to the place in your computer where you want to store files for this class. If you haven't already made a directory specifically for this class, use `mkdir` to make that directory.
+2. Navigate inside your new course directory.
+3. Make some subdirectories for the course like “Assignments”, “Notes”, “Exercises”.
+4. Check out your subdirectories using `ls`
+5. Hmm, maybe those subdirectories don't sort the way you want them to. Delete the directories “Assignments”, “Notes', and “Exercises”.
+6. You can add multiple directories by listing new directory names after `mkdir` separated by spaces: `mkdir dir1 dir2 dir3`
+7. Using one `mkdir` command, make the directories “01_Notes”, “02_Exercises”, “03_Assignments”.
+8. Now `ls` to see the subdirectories. 
+
+### Making Files
+
+
+
+
