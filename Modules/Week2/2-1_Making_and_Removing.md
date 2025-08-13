@@ -59,6 +59,7 @@ HW 1 and 2 are due by 11:59 pm tonight!
 
 <details>
   <summary>Quiz</summary>
+
 1. Which command line execution involves an absolute path?
   - `ls Users/Paul/Arakis`
   - `cd /Users/Jessica/Caladan`
