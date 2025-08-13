@@ -50,6 +50,8 @@
   - `>>`  
 </details>
 
+**HW 1 and 2 are due by tonight!**
+
 ### Test your understanding
 
 <details>
