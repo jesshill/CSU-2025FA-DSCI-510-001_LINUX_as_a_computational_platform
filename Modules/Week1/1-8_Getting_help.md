@@ -1,7 +1,5 @@
 # Getting Help ???
 
-*We probably won't get to this in class, so explore this section on your own.* 
-
 ### Getting help on the internet 
 
 **!!! Quick tip**: If you need help!, your first line of defense is GOOGLE!!! Some common sites that have large repositories of computational questions and answers:
