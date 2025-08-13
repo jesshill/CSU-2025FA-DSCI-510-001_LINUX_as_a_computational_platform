@@ -81,13 +81,13 @@ The directory you find yourself in when you first open up your terminal is calle
 
 **!!! Exercise**: Try to find where your home directory is located on your computer. This is pretty challenging, but here we go …
 
-- In your home directory, create a file called 240820_test.txt like so …
+- In your home directory, create a file called `240820_test.txt` like so …
 
 ```
 $ touch 240820_test.txt
 ```
 
-- Switch over to your **File Explorer** and **search** for the file 240820_test.txt on “this PC”.
+- Switch over to your **File Explorer** and **search** for the file `240820_test.txt` on “this PC”.
 - Once your File Explorer has located your test file, navigate to that place.
   - Open a NEW File Explorer.
   - Go to “View”
