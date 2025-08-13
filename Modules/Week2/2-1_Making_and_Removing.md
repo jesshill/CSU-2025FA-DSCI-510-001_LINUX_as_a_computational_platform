@@ -236,8 +236,8 @@ $ ls
 
 **!!! More Exercises:** 
 
-1. Navigate to the course directory. If you execute the `ls` command, you should see the directories `01_Notes`, `02_Exercises`, `03_Assignments`.
-2. Navigate into `02_Exercises`.
+1. Navigate to the course directory. If you execute the `ls` command, you should see the directories "01_Notes", "02_Exercises", "03_Assignments".
+2. Navigate into "02_Exercises".
 3. Create a new file with today's date somewhere in the filename and a .txt file extension.
 4. Copy and paste the instructions for this exercise into the new text file.
 5. Use `more` to peek into your new text file.
