@@ -188,3 +188,34 @@ It'll look like this:
 <img width="410" alt="nano" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/nano.png">
 </p>
 
+**!!! Exercise:** Let's add content to `quick_tips.txt` using nano:
+
+```
+$ nano quick_tips.txt
+```
+
+- Type in some content.
+- Remember, to exit out of nano, CTRL+X. Then press `y` to confirm.
+- Check the content using `more quick_tips.txt`.
+
+#### Making files with nano
+
+We can also make new files by skipping touch and just starting up nano directly.
+
+**!!! Exercise:** Let's make the new file `common_pitfalls.txt`.
+
+```
+$ nano common_pitfalls.txt
+```
+
+We will learn other ways to create new files in future lessons, too.
+
+**!!! Bonus Content:** For more detailed information on Nano: [nano tutorial]()
+
+### Removing Files
+
+
+
+
+
+
