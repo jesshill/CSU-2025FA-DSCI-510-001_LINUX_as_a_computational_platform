@@ -193,4 +193,4 @@ Do you have any questions?
 
 Continue on to [Paths](1-4_Paths.md)
 
-[Assignment 1](../../Home_Work/Assignment_1.md)
+Here is the link to get to [Assignment 1](../../Home_Work/Assignment_1.md)
