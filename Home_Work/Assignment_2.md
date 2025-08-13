@@ -16,50 +16,28 @@
 
 ---
 
+## Preparation for the exercise
+
+- Download the following file: genomes_2018.tgz
+- Extract it by either double-clicking on it OR navigating to where the file is located and executing:
+
+```
+$ tar -zxvf genomes_2018.tgz
+```
+- Navigate into the directory `genomes_2018`
+- The directory contains 11 .txt or .gtf files.
+
 ## Question 1
 
-Test the two commands below. Make sure to navigate away from your home directory to several different locations to test them in order to understand their full behavior. Explain what each command does.
-
-```
-$ cd ~
-```
-```
-$ cd -
-```
 
 ## Question 2
 
-The grandparent directory: Can you find TWO ways to move into the grandparent directory in a single command? That is, how can you move from
-`/Users/erin/Documents/Photos/Selfies/` to `/Users/erin/Documents/` by executing `cd` just once? Find TWO ways to do this. One way should use an **absolute path** and the other should use a **relative path**.
 
 ## Question 3
 
-If I have several directories within my `Photos` directory, like so: 
-
-`/Users/erin/Documents/Photos/Instagram/`
-
-`/Users/erin/Documents/Photos/NikonPics/`
-
-`/Users/erin/Documents/Photos/PanoShots/`
-
-`/Users/erin/Documents/Photos/Selfies/`
-
-How would I move from within the `Selfies` directory to the `Instagram` directory using one `cd` command that uses a **relative path**?
 
 ## Question 4
 
-Say you have accidentally named a directory with spaces in the name `Files for Qualifying Exam`. You try to list the contents of this directory by executing the following command?
-
-```
-$ ls Files for Qualifying Exam
-```
-
-However, this doesn't work as expected.
-
-A. Why doesn't this work? What is the computer trying to do?
-
-B. What is the proper command required to list the contents of this directory?
 
 ## Question 5
 
-Open [Terminus](https://web.mit.edu/mprat/Public/web/Terminus/Web/main.html) in a new tab. Explore this Linux game. To answer this question, name one command you learned from this game and the character who taught it to you.
