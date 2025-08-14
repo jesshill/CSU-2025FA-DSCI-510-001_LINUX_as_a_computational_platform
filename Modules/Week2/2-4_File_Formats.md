@@ -24,7 +24,7 @@ How do we know something is a **binary file**?
 - It is good practice to **always save files with the proper file extensions!** All files should have extensions!
 - Some standardized file formats will have lines at the beginning that start with `#`. These are comments. They typically contain information about how the information was generated.
 
-#### Text Editor 
+### Text Editor 
 
 Everyone will need to install a [text editor](https://en.wikipedia.org/wiki/Text_editor) for writing and modifying plain text files.
 
