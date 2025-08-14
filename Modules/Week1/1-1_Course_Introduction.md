@@ -37,14 +37,14 @@
   - Know the difference between an absolute path and a relative path
 
 - **Commands covered**
-  - whoami
-  - hostname
-  - pwd
-  - ls
-  - date
-  - cal
-  - touch
-  - cd
+  - `whoami`
+  - `hostname`
+  - `pwd`
+  - `ls`
+  - `date`
+  - `cal`
+  - `touch`
+  - `cd`
 </details>
 
 # Welcome to class!
