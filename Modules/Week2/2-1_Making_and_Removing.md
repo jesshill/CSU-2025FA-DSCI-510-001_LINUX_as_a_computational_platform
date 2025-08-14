@@ -210,7 +210,7 @@ $ nano common_pitfalls.txt
 
 We will learn other ways to create new files in future lessons, too.
 
-**!!! Bonus Content:** For more detailed information on Nano: [nano tutorial](nano_tutorial.md)
+**!!! Bonus Content:** For more detailed information on Nano: [nano_tutorial](nano_tutorial.md)
 
 ### Removing Files
 
