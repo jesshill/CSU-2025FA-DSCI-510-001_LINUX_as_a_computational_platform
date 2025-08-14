@@ -106,9 +106,59 @@ Didn't work? Try this one …
 $ wget --timestamping 'ftp://hgdownload.cse.ucsc.edu/goldenPath/sacCer3/chromosomes/*'
 ```
 
-- Use the commands you learned last week to explore what you have obtained (ls, more, less, head, tail, wc, etc).
+Use the commands you learned last week to explore what you have obtained (ls, more, less, head, tail, wc, etc).
 
 
+### Ensuring files were not corrupted using md5sum checksums
 
+To ensure your files were not corrupted during transit, the UCSC browser people have included **md5sum checksums** for each file that are located in a file called `md5sum.txt`. **checksums** are digital codes associated with a file that are calculated out of information within the file. If the integrity of the file is intact, the md5sum checksum program will match digital code in those text files.
 
+**!!! Group Exercise:** Check sums
 
+Check the sums of all the `.fa.gz` files using this command:
+
+```
+$ md5 *.fa.gz
+```
+
+**!!! Didn't work?** Try `md5sum *.fa.gz` or `md5sum-lite *.fa.gz` instead. Different distributions will have different utilities.
+
+Read the proper check sums included in this directory from UCSC like so:
+
+```
+$ more md5sum.txt
+```
+
+Do the numbers and letters match?
+
+### Unzipping files
+
+The `.fa.gz` files we have downloaded are compressed using a utility called **gzip** so they are smaller for transfer. You cannot navigate into them using `more` or `less` until they are uncompressed.
+
+**gzip usage**
+
+To compress:
+```
+gzip <filename.txt>
+```
+
+To un-compress:
+```
+gunzip <filename.txt.gz>
+```
+
+Let's unzip the files.
+```
+$ gunzip *.fa.gz
+$ ls -alh
+```
+
+**!!! Quick tip:** There are many other utilities that can be used for compressing files. Some examples are `bzip2`, `zip`, and `xz`.
+
+**!!! Best Practices:** 
+
+- Every time you download something, make sure it wasn't corrupted during transit.
+- Try to downloading data with commands that can be written down, not with clicking.
+- Every time you download something … write it down!
+
+Continue on to [File formats]()
