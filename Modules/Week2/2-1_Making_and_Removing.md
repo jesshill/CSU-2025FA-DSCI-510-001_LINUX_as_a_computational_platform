@@ -43,7 +43,7 @@ In this section, we'll learn how to create or delete files and directories using
   - `touch <filename>`
   - `nano <filename>`
   - `rsync` or `wget` (or sftp, curl, or scp – whichever works best for you)
-  - md5sum or md5 or md5sum-lite
+  - `md5sum` or `md5` or `md5sum-lite`
   - `gzip`
   - `gunzip`
   - `>`
