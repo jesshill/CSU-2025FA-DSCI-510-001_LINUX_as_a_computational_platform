@@ -69,9 +69,23 @@ We are going to do the following:
 
 ### Using rsync or wget to download files from UCSC Genome Browser
 
+**!!! Group Exercise:** Obtain the Saccharomyces cervisiae genome from the UCSC Genome Browser.
 
+- Go to [UCSC Genome Browser](https://genome.ucsc.edu/)
+- Navigate to Downloads → Genome Data → Other Genomes → S. cerevisiae
+- Let's take some time to navigate around the SacCer3 links
+- Open an terminal and navigate to a place on your local computer where you want to save your downloaded genome.
+- Make a new directory that will house the genome. (I'm putting mine in /myhome/DSCI510/02_Exercises/)
 
+```
+$ mkdir sacCer3
+```
 
+- navigate into that directory:
+
+```
+$ cd sacCer3
+```
 
 
 
