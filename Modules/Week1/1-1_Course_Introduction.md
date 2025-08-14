@@ -57,6 +57,9 @@
 - This class is the first in a 3-part series. The other 2 classess are Python (Dr. Tai Montgomery) & RNA-seq data analysis (me again). The RNA-seq class focuses on building pipelines using Linux and R.
 - Requirements: [Computer_Requirements](../../Computer_Requirements.md)
 
+### Introduction to you: 
+- Please take this breif [survey](https://forms.gle/yrKsr5GP6J7nrPsX7) to tell me and everyone else a little bit about yourself. 
+
 # Introduction to Linux
 
 ### What is Linux
