@@ -13,9 +13,9 @@ How do you we know something is a text file?
 
 How do we know something is a **binary file**?
 
-It has a specific file extension associated with a specific program
-It was produced in a specific program (Microsoft Word, for example)
-If you use `more` or `less`, it looks like a bunch of alien writing
+- It has a specific file extension associated with a specific program
+- It was produced in a specific program (Microsoft Word, for example)
+- If you use `more` or `less`, it looks like a bunch of alien writing
 
 **!!! Quick Tip:**
 
