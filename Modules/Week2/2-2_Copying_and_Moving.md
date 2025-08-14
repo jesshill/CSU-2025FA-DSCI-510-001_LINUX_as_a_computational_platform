@@ -40,7 +40,7 @@ $ cp /users/jtkirk/captainslog_2713.txt /users/jtkirk/captainslog_2714.txt
 Once you make the connection that names, absolute paths, or relative paths can substitute in for <source_file.txt> or <target_file.txt>, you can see how you can place the copied file in some other directory, or pull a copy of a file from a source directory into your working directory.
 
 <p align="center">
-<img width="410" alt="cp example 2" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/cp_example.png">
+<img width="410" alt="cp example 2" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/cp_example2.png">
 </p>
 
 Duplicating a file into a directory and renaming it: `cp <source_file.txt> <target/path/targetname.txt>`
