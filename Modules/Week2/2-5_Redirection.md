@@ -6,34 +6,26 @@
   <summary>Click to expand/collapse</summary>
 
 - **Vocabulary**
-  - Source (as in the source file in a copy `cp` command)
-  - Target (as in the target file in a copy `cp` command)
-  - File transfer
-  - File compression
-  - File formats
-  - Text files
-  - Binary files
-  - Text editor
-  - File extensions
-  - Checksums
   - Standard streams
   - Redirection
   - Standard input (stdin)
   - Standard output (stdout)
   - Standard error (stderr)
+  - Concatenate
+  - Regular expressions/regex
+  - Delimiting character
+  - Field
+  - Pipe
 
 - **Things you should know how to do after this class**
-  - Be comfortable using `cp` to copy files or directories in a few different ways (new file in the same directory, in a different directory, or with a new name)
-  - Be comfortable using `mv` to move files and directories in different ways. Know the difference between `cp` and `mv`.
-  - Know how to log into a remote computer, server, or supercomputer
-  - Know one or two ways to transfer files from remote computers to your local computer
-  - Know how to check whether your file was corrupted during transit.
-  - Know the difference between text files and binary files.
-  - Know that all your files should have file extensions.
-  - Know a little bit about FASTA and GTF/GFF (Annotation) files
-  - Know how to zip and unzip .gz/g-zipped files
   - Understand what stdout, stderr, and stdin mean
   - Know how to redirect stdout, or stderr to an output file.
+  - Know how to concatenate files together
+  - Know how to search for simple strings in files
+  - Know how to modify your search for simple strings using options
+  - Know how to cut out delimited information from files
+  - Know how to change the delimiter from a tab to another character (using cut)
+  - Know how to use pipes to combine two commands into one
 
 - **Commands covered**
   - mv
