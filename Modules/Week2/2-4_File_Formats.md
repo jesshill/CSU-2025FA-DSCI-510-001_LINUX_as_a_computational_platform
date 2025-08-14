@@ -43,8 +43,8 @@ Several standardized types of text files have been developed to handle biologica
 
 Genome information is typically stored in **FASTA** files and **GTF/GFF** (aka **Annotation files**). The combination of these two file types gives you the entire genome sequence (fasta) and the location of all genes and other features in the genome (annotation file).
 
-- More information about **FASTA FILES HERE**
-- More information about **ANNOTATION FILES HERE**
+- More information about [FASTA FILES HERE]()
+- More information about [ANNOTATION FILES HERE]()
 
 **Where can we obtain these files?** There are many places where we can download genomic data, but the main resources for Genomic Datasets are the following repositories:
 
@@ -53,8 +53,25 @@ Genome information is typically stored in **FASTA** files and **GTF/GFF** (aka *
 - [NCBI](https://www.ncbi.nlm.nih.gov/guide/howto/dwn-genome/)
 - Organism specific community resources like [Wormbase](https://www.wormbase.org/#012-34-5) or [TAIR](https://www.arabidopsis.org/)
 
+**!!! Question:** For your own research, what type of information do you need? What types of files is it stored in? If you are in a different field, what are the main data types you encounter? Are they stored in text/flat files? What are the repositories in which they are stored?
 
+### Independent Exercise 
 
+Try it for yourself!
 
+For this next exercise, try to download two *Saccharomyces cerevisiae* annotation files (.gtf files) and the chrom.sizes file. The .gtf files can be found here:
 
+[https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/](https://hgdownload.soe.ucsc.edu/goldenPath/sacCer3/bigZips/)
 
+They are located under the directory called genes
+
+Your challenge:
+1. Use rsync or wget to download the two .gtf.gz files.
+2. Uncompress the .gtz.gz files
+3. Compare the two versions of the annotation files.
+
+Your challenge
+1. download the file called sacCer3.chrom.sizes
+2. Use rsync or wget to download sacCer3.chrom.sizes
+
+Continue on to [Redirection]()
