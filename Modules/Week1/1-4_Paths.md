@@ -52,7 +52,7 @@
   - [Boulder Computing Training Series](https://www.colorado.edu/crdds/events#research_computing-89)
   - [Coding & Cookies](https://libguides.colostate.edu/coding-cookies/home) in the Morgan Library at CSU
 
-### Test your understanding
+### Test your understanding - take this quiz!
 
 <details>
   <summary>Quiz</summary>
