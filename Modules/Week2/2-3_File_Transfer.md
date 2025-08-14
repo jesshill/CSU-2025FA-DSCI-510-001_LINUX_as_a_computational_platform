@@ -8,11 +8,11 @@ When we learn software installation later in this course, we will add more of th
 
 Common file transfer programs are:
 
-- sftp
-- wget
-- curl
-- rsync
-- scp
+- **sftp**
+- **wget**
+- **curl**
+- **rsync**
+- **scp**
 
 ### sftp - Secure File Transfer Program
 
