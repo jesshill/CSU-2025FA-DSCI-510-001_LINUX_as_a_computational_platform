@@ -1,6 +1,8 @@
 # Nano: command line text editor
 
-<picture>
+<p align="center">
+<img width="410" alt="nano screen shot" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/nano_screen_shot.png">
+</p>
 
 Here are some facts about the command line text editor [nano](https://www.nano-editor.org/) 
 
@@ -40,4 +42,9 @@ If you just type `nano` and hit return, you open the interface.
 $ nano
 ```
 
-<picture>
+<p align="center">
+<img width="410" alt="nano interface x key" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/nano_interface_x_key.png">
+</p>
+
+
+
