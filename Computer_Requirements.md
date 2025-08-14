@@ -103,4 +103,4 @@ ilovealpine,123456
 
 **If you are having trouble with this, we can do it together once the class begins!**
 
-Back to [The Terminal](../Modules/Week1/1-2_The_Terminal.md)
+Back to [The Terminal](Modules/Week1/1-2_The_Terminal.md)
