@@ -17,7 +17,7 @@ It has a specific file extension associated with a specific program
 It was produced in a specific program (Microsoft Word, for example)
 If you use `more` or `less`, it looks like a bunch of alien writing
 
-**!!! Quick Tip:*** 
+**!!! Quick Tip:**
 
 - If you cannot see file extensions on your computer, take a moment to make these visible.
 - Where do file extensions come from? For flat, text files, you put them there!
