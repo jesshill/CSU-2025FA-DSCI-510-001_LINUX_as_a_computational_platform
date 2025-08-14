@@ -37,5 +37,24 @@ Everyone will need to install a [text editor](https://en.wikipedia.org/wiki/Text
   - Recommend [Notepad++](https://notepad-plus-plus.org/), BBEdit, or [Visual Studio Code](https://code.visualstudio.com/download) do not recommend TextEdit, Wordpad, Notebook, EMACS, or Microsoft Word.
   - If you already have a text editor you like that is not listed, you are free to use it provided it saves files in true flat .txt and not rich text format.
 
+### Standard file types in the life sciences
+
+Several standardized types of text files have been developed to handle biological data and genome data. You may already be familiar with some [Common Examples of Biological File Types](https://en.wikipedia.org/wiki/List_of_file_formats#Biology). In dealing with genomic information, almost all the files are **text files**.
+
+Genome information is typically stored in **FASTA** files and **GTF/GFF** (aka **Annotation files**). The combination of these two file types gives you the entire genome sequence (fasta) and the location of all genes and other features in the genome (annotation file).
+
+- More information about **FASTA FILES HERE**
+- More information about **ANNOTATION FILES HERE**
+
+**Where can we obtain these files?** There are many places where we can download genomic data, but the main resources for Genomic Datasets are the following repositories:
+
+- [UCSC Genome Browser](https://genome.ucsc.edu/index.html)
+- [Ensembl](https://www.ensembl.org/index.html)
+- [NCBI](https://www.ncbi.nlm.nih.gov/guide/howto/dwn-genome/)
+- Organism specific community resources like [Wormbase](https://www.wormbase.org/#012-34-5) or [TAIR](https://www.arabidopsis.org/)
+
+
+
+
 
 
