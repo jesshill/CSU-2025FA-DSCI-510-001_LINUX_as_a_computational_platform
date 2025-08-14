@@ -38,14 +38,14 @@ In this section, we'll learn how to create or delete files and directories using
   - Know how to redirect stdout, or stderr to an output file.
 
 - **Commands covered**
-  - mv
-  - cp
-  - touch <filename>
-  - nano <filename>
-  - rsync or wget (or sftp, curl, or scp – whichever works best for you)
+  - `mv`
+  - `cp`
+  - `touch <filename>`
+  - `nano <filename>`
+  - `rsync` or `wget` (or sftp, curl, or scp – whichever works best for you)
   - md5sum or md5 or md5sum-lite
-  - gzip
-  - gunzip
+  - `gzip`
+  - `gunzip`
   - `>`
   - `2>`
   - `&>`
