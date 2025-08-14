@@ -1,6 +1,6 @@
 # FASTA Files
 
-FASTA files store DNA, RNA, or amino acid sequence information. The file extension is `.fa` or `.fsa`
+**FASTA** files store DNA, RNA, or amino acid sequence information. The file extension is `.fa` or `.fsa`
 
 ```
 $ more favorite3UTRs.fa
