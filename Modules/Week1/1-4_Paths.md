@@ -29,11 +29,11 @@
 
 - **Commands covered**
   - `ls` with commands
-  - `man` <command>
+  - `man <command>`
   - `mkdir`
   - `rmdir`
-  - `touch` <filename>
-  - `nano` <filename>
+  - `touch <filename>`
+  - `nano <filename>`
   - `rm`
   - `more`
   - `less`
