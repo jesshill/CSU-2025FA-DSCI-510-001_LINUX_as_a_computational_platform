@@ -83,3 +83,5 @@ After hitting ENTER you will return to the prompt.
 ```
 $
 ```
+
+Back to [Making and Removing](../Modules/Week2/2-1_Making_and_Removing.md)
