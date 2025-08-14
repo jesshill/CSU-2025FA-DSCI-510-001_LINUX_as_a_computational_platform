@@ -57,55 +57,9 @@ In this section, we'll learn how to create or delete files and directories using
 
 HW 1 and 2 are due by 11:59 pm tonight!
 
-### Test your understanding
+### Test your understanding - Quiz
 
-<details>
-  <summary>Quiz</summary>
-
-1. Which command line execution involves an absolute path?
-  - `ls Users/Paul/Arakis`
-  - `cd /Users/Jessica/Caladan`
-  - `ls Admin`
-  - `cd ..`
-  - `cd /`
-  - `pwd`
-  - `ls -alh`
-
-2. Which command line execution contains an argument?
-  - `ls Users/Paul/Arakis`
-  - `cd /Users/Jessica/Caladan`
-  - `ls Admin`
-  - `cd ..`
-  - `cd /`
-  - `pwd`
-  - `ls -alh`
-     
-3. Which command line execution contains an option?
-  - `ls Users/Paul/Arakis`
-  - `cd /Users/Jessica/Caladan`
-  - `ls Admin`
-  - `cd ..`
-  - `cd /`
-  - `pwd`
-  - `ls -alh`
-   
-4. Which line of code will print out the last line of a file?
-- `head file1.txt`
-- `tail file1.txt`
-- `head -n 1 file1.txt`
-- `tail -n 1 file1.txt`
-- `more file1.txt`
-- `less file1.txt`
-
-5. Which of the following will match to c*.txt
-- computer1.txt
-- chromosomes.txt
-- chr.txt2
-- Chromosomes2.txt
-- mitochondria.txt
-- celegans.2txt
-
-</details>
+[Quiz](https://forms.gle/zLRYckV6ZPNjeahv8)
 
 ### Making Directories
 
