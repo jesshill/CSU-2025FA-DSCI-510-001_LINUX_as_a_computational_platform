@@ -54,7 +54,7 @@
 
 ### Test your understanding - take this quiz!
 
-[quiz](https://forms.gle/H6roASaoL2T2HkY89)
+[quiz](https://forms.gle/ucK3E8er7LGsdgMcA)
 
 ### Moving around: absolute paths v. relative paths
 
