@@ -28,21 +28,21 @@
   - Know how to get help using man, help, command -h, or command --help
 
 - **Commands covered**
-  - ls – with commands
-  - man <command>
-  - mkdir
-  - rmdir
-  - touch <filename>
-  - nano <filename>
-  - rm
-  - more
-  - less
-  - cp
-  - mv
-  - *
-  - ?
-  - .
-  - head 
+  - `ls` with commands
+  - `man` <command>
+  - `mkdir`
+  - `rmdir`
+  - `touch` <filename>
+  - `nano` <filename>
+  - `rm`
+  - `more`
+  - `less`
+  - `cp`
+  - `mv`
+  - `*`
+  - `?`
+  - `.`
+  - `head`
 </details>
 
 ### Reminder: 
