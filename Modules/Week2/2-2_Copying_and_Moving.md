@@ -115,6 +115,7 @@ Again, `mv` tries to operate in slightly different ways depending on the types o
 | **mv** <source_file.txt> <dir/target_file.txt> | Move source_file.txt into dir and rename it target_file.txt |
 | **mv** <source_file.txt> ... <dir> | Move source_file.txt(s) into dir and keep the names the same |
 
+
 **!!! Independent Exercise:** On your own, practice using the `mv` command to rename `danRer11_chrom_sizes.txt` to `dr11_chrom_sizes.txt`.
 
 Continue on to [File Transfer](2-3_File_Transfer.md)
