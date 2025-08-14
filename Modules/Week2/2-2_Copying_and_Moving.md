@@ -104,7 +104,7 @@ $ ls copy_of_backups
 Once you know `cp`, `mv` is pretty much the same thing with one exception. The source file will **disappear** once the operation is complete. This ends up **renaming** your file if you are working within the same directory. It acts like **cut-and-paste** instead of a copy-and-paste if you're moving between directories.
 
 <p align="center">
-<img width="410" alt="mv example" src="">
+<img width="410" alt="mv example" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/mv_example.png">
 </p>
 
 Again, `mv` tries to operate in slightly different ways depending on the types of arguments you give it:
