@@ -87,6 +87,28 @@ $ mkdir sacCer3
 $ cd sacCer3
 ```
 
+- We want to obtain the Dataset by Chromosome.
+- Download the contents of this directory using the command rsync:
+
+**rsync Usage:**
+
+`rsync [options] <source> <target>`
+
+```
+$ rsync -avzP rsync://hgdownload.cse.ucsc.edu/goldenPath/sacCer3/chromosomes/ .
+```
+
+**!!! Common pitfall:** Don't forget the trailing `.`. That indicates your target directory which is your current working directory.
+
+Didn't work? Try this one …
+
+```
+$ wget --timestamping 'ftp://hgdownload.cse.ucsc.edu/goldenPath/sacCer3/chromosomes/*'
+```
+
+- Use the commands you learned last week to explore what you have obtained (ls, more, less, head, tail, wc, etc).
+
+
 
 
 
