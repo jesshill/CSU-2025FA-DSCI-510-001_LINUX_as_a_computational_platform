@@ -57,7 +57,7 @@ In this section, we'll learn how to create or delete files and directories using
 
 HW 1 and 2 are due by 11:59 pm tonight!
 
-### Test your understanding - Quiz
+### Test your understanding - take this quiz!
 
 [Quiz](https://forms.gle/zLRYckV6ZPNjeahv8)
 
