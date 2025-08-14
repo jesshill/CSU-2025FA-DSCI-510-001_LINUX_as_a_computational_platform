@@ -44,7 +44,7 @@ Several standardized types of text files have been developed to handle biologica
 Genome information is typically stored in **FASTA** files and **GTF/GFF** (aka **Annotation files**). The combination of these two file types gives you the entire genome sequence (fasta) and the location of all genes and other features in the genome (annotation file).
 
 - More information about [FASTA FILES HERE](../../Resources/FASTA_Files.md)
-- More information about [ANNOTATION FILES HERE](../../Annotation_Files.md)
+- More information about [ANNOTATION FILES HERE](../../Annotation_Files.md) 
 
 **Where can we obtain these files?** There are many places where we can download genomic data, but the main resources for Genomic Datasets are the following repositories:
 
