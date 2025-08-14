@@ -74,4 +74,4 @@ Your challenge
 1. download the file called sacCer3.chrom.sizes
 2. Use rsync or wget to download sacCer3.chrom.sizes
 
-Continue on to [Redirection]()
+Continue on to [Redirection](2-5_Redirection.md)
