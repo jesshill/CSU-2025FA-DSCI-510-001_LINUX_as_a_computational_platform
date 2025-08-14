@@ -269,4 +269,10 @@ alias srm='rm -i'
 - Now you can remove files using `$ srm file.txt` and you will automatically be prompted whether you are sure.
 - This behavior will reset when you close the terminal. We will show you later in the course how to permanently customize your user experience so this behavior is permanent.
 
+**!!! Exercise:** 
 
+- Use the alias code to set up `srm`.
+- Make a file called `testingfile1.txt` (use nano or touch).
+- remove `testingfile1.txt` using `srm`.
+
+Continue on to [Copy and Move](2-2_Copying_and_Moving.md)
