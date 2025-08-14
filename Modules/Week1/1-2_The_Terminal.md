@@ -16,7 +16,7 @@ Linux maintains this older, text-based interface through the **terminal emulator
 
 **!!! Exercise**: launch your terminal
 
-For more details, see [Computer_Requirements](Computer_Requirements.md).
+For more details, see [Computer_Requirements](../../Computer_Requirements.md).
 
 ### Getting started on the terminal
 
