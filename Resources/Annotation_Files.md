@@ -35,4 +35,8 @@ chrI    SGD     CDS     335     649     .       +       0       Parent=YAL069W;N
 
 Figure: An example of a genome sequence (.fa) and annotation file (.gtf) that are rendered as browsable pictures on the [UCSC Genome Browser](https://genome.ucsc.edu/cgi-bin/hgTracks?db=ce11&lastVirtModeType=default&lastVirtModeExtraState=&virtModeType=default&virtMode=0&nonVirtPosition=&position=chrII%3A14631486%2D14645321&hgsid=2909126220_ONoxCiAHmYllJx8EXJGctuCOGa6F)
 
+<p align="center">
+<img width="410" alt="browser shot" src="">
+</p>
+
 Back to [File Formats](../Modules/Week2/2-4_File_Formats.md)
