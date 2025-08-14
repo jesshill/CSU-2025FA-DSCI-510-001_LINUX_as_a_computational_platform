@@ -72,12 +72,33 @@ $ ls
 $ ls backups
 ```
 
-A list of files can also be copied in this way: `cp <source_file.txt> … <target_directory>`
+A list of files can also be copied in this way: 
+
+`cp <source_file.txt> … <target_directory>`
 
 – where “…” means you can keep adding additional `source_files.txt`, as many as you have.
 
+#### Duplicating a directory and its contents
+
+Directories that contain files can also be duplicated using `cp`. Just add the option `-R`.  
+
+```
+$ cp -R backups copy_of_backups
+$ ls 
+$ ls backups
+$ ls copy_of_backups
+```
+
+**!!! Independent Exercise:** I like to stay organized by adding notes to myself within project directories. I call these README or ABOUT files.
+
+1. Within your directory called `chromSizes` create a directory called `NOTES`.
+2. Copy the file `README_download.txt` into the `NOTES` directory.
+
+**!!! Independent Exercise:** Add an XX genome.
+
+1. Copy `hs1_chrom_sizes.txt` to a new file called `hs1_chrom_sizes_XX.txt`.
+2. Using **nano**, go into `hs1_chrom_sizes_XX.txt` and delete the entry for the Y chromosome. **Hint:** you can't add a cursor anywhere you want. You'll need to navigate with arrow keys.
+
+### Moving files and directories with `mv`
 
 
-
-
-    
