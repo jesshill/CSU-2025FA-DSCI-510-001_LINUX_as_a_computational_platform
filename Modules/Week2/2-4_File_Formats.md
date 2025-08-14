@@ -28,10 +28,14 @@ If you use `more` or `less`, it looks like a bunch of alien writing
 
 Everyone will need to install a [text editor](https://en.wikipedia.org/wiki/Text_editor) for writing and modifying plain text files.
 
-- Mac: Recommend [BBEdit](https://www.barebones.com/products/). Click Download under the BBEdit software. You don't need to buy it. The free version does everything you need.
+- Mac:
+  - Recommend [BBEdit](https://www.barebones.com/products/) or [Xcode](https://xcodereleases.com/). Click Download under the BBEdit software. You dont need to buy it. The free version does everthing you need.
 
 **!!! Warning:** Do not use MAC's application called **TextEdit**. It is a rich text format editor and not a flat text editor.
 
+- Windows 11:
+  - Recommend [Notepad++](https://notepad-plus-plus.org/), BBEdit, or [Visual Studio Code](https://code.visualstudio.com/download) do not recommend TextEdit, Wordpad, Notebook, EMACS, or Microsoft Word.
+  - If you already have a text editor you like that is not listed, you are free to use it provided it saves files in true flat .txt and not rich text format.
 
 
 
