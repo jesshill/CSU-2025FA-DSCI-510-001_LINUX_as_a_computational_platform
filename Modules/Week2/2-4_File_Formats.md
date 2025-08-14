@@ -1,9 +1,9 @@
 # File Formats
 
-Let's learn about file formats. Different file formats are typically identified by specific file extensions, suffixes to their names that inform programs of their type. Two general types of file formats are:
+Let's learn about **file formats**. Different file formats are typically identified by specific **file extensions**, suffixes to their names that inform programs of their type. Two general types of file formats are:
 
-- text files (also called flat files) are files that have only text information.
-- binary files files that have more complex information that can be interpreted as formatting, images, application-specific objects, as well as text. Examples: .docx, .xlsx, .jpg, .pdf, and .m4p
+- **text files** (also called **flat** files) are files that have only text information.
+- **binary files** files that have more complex information that can be interpreted as formatting, images, application-specific objects, as well as text. Examples: .docx, .xlsx, .jpg, .pdf, and .m4p
 
 How do you we know something is a text file?
 
@@ -20,9 +20,18 @@ If you use `more` or `less`, it looks like a bunch of alien writing
 **!!! Quick Tip:*** 
 
 - If you cannot see file extensions on your computer, take a moment to make these visible.
-- It is good practice to always save files with the proper file extensions! All files should have extensions!!
-- Some standardized file formats will have lines at the beginning that start with #. These are comments. They typically contain information about how the information was generated.
+- Where do file extensions come from? For flat, text files, you put them there!
+- It is good practice to **always save files with the proper file extensions!** All files should have extensions!
+- Some standardized file formats will have lines at the beginning that start with `#`. These are comments. They typically contain information about how the information was generated.
 
 #### Text Editor 
 
-...
+Everyone will need to install a [text editor](https://en.wikipedia.org/wiki/Text_editor) for writing and modifying plain text files.
+
+- Mac: Recommend [BBEdit](https://www.barebones.com/products/). Click Download under the BBEdit software. You don't need to buy it. The free version does everything you need.
+
+**!!! Warning:** Do not use MAC's application called **TextEdit**. It is a rich text format editor and not a flat text editor.
+
+
+
+
