@@ -57,3 +57,27 @@ $ cp mm10_chrom_sizes.txt backups/mm10_chrom_sizes_backup.txt
 $ ls 
 $ ls backups
 ```
+
+**!!! Quick Tip:** Absolute paths as well as relative paths can be used as the source and target in `cp`.
+
+If you want to duplicate a file into a sub-directory, you don't need to change the name. To keep the name the same ...
+
+`cp <source_file.txt> <target_directory>`
+
+**!!! Exercise:** Try it out
+
+```
+$ cp dm6_chrom_sizes.txt backups
+$ ls 
+$ ls backups
+```
+
+A list of files can also be copied in this way: `cp <source_file.txt> … <target_directory>`
+
+– where “…” means you can keep adding additional `source_files.txt`, as many as you have.
+
+
+
+
+
+    
