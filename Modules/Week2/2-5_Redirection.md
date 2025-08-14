@@ -28,18 +28,26 @@
   - Know how to use pipes to combine two commands into one
 
 - **Commands covered**
-  - mv
-  - cp
-  - touch <filename>
-  - nano <filename>
+  - alias
+  - ssh
   - rsync or wget (or sftp, curl, or scp – whichever works best for you)
   - md5sum or md5 or md5sum-lite
   - gzip
   - gunzip
   - `>`
-  - `2>`
-  - `&>`
-  - `>>`  
+2>
+&>
+>>
+cat
+grep
+cut
+| 
+sort
+uniq
+tee
+
+ 
+ 
 </details>
 
 
