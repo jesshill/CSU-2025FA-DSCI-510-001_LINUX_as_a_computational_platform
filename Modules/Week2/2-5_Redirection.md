@@ -28,26 +28,24 @@
   - Know how to use pipes to combine two commands into one
 
 - **Commands covered**
-  - alias
-  - ssh
-  - rsync or wget (or sftp, curl, or scp – whichever works best for you)
+  - `alias`
+  - `ssh`
+  - `rsync` or `wget` (or sftp, curl, or scp – whichever works best for you)
   - md5sum or md5 or md5sum-lite
-  - gzip
-  - gunzip
+  - `gzip`
+  - `gunzip`
   - `>`
-2>
-&>
->>
-cat
-grep
-cut
-| 
-sort
-uniq
-tee
+  - `2>`
+  - `&>`
+  - `>>`
+  - `cat`
+  - `grep`
+  - `cut`
+  - `|`
+  - `sort`
+  - `uniq`
+  - `tee`
 
- 
- 
 </details>
 
 
