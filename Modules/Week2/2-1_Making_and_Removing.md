@@ -116,7 +116,7 @@ Files are documents that live within directories. All files in the Linux environ
 
 There are many ways to make a new file. We'll cover just a few: 
 
-#### Making files with touch 
+#### Making files with `touch`
 
 We can make a new file with **touch**:
 
