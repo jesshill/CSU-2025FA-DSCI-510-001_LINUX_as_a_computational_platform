@@ -15,7 +15,7 @@ The following commands will help you to access and organize the information cont
 To prepare for the exercise, please do the following …
 
 1. Make a directory called `workingWithFiles`
-2. Using nano, copy and paste the following content into a file called `chr_sizes.txt`
+2. Using `nano`, copy and paste the following content into a file called `chr_sizes.txt`
 
 ```
 # a list of the yeast chromosomes and their lengths
@@ -66,6 +66,39 @@ $
 ```
 
 ### Searching for patterns using `grep`
+
+**Regular expressions** in computing describes a sequence of characters for which you want to search. It is often shortened to **regex*. Regular expressions are very powerful in computing and the expressions themselves can quickly become very complex with lots of wildcards and wiggle room for complex variations on the searched pattern. For this lesson, we'll focus on simple letter and number combinations. In this case, we can think of it here as simple pattern searching and matching.
+
+**grep usage**
+
+`grep [options] <pattern> <file> …`
+
+- there are many options for `grep`
+- Typically, the pattern given to search is enclosed in quotes.
+- `grep` can search multiple files
+
+Let's say we want to know how long the mitochondrial genome is in yeast:
+
+```
+$ grep 'chrM' chr_sizes.txt
+```
+
+**!!! Individual Exercises:** Try executing the following to get a sense of what grep does and does not do. To learn more about these options, read the grep man page.
+
+```
+$ grep -n 'chrM' chr_sizes.txt
+$ grep -v 'chrM' chr_sizes.txt
+$ grep -v '#' chr_sizes.txt
+$ grep 'chr' chr_sizes.txt
+$ grep '^chr' chr_sizes.txt 
+$ grep 'chrII' chr_sizes.txt
+$ grep -w 'chrII' chr_sizes.txt
+```
+
+**!!! Common pitfall:** Did you notice how searching for `chr` gave you both the chromosomes listed in columns as well as the word `chromosome` in the header? Also, `chrII` returned both `chrII` and `chrIII`. This is something to look out for with grep. We'll cover more advanced ways to restrict your regular expressions in later lessons.
+
+Quick tip: As long as you use quotes around your search pattern, you can include a space in it.
+
 
 
 
