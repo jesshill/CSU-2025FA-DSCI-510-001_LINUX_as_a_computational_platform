@@ -30,7 +30,7 @@ $ wget --timestamping 'ftp://hgdownload.cse.ucsc.edu/goldenPath/ce11/chromosomes
 
 ```
 
-**Not working?** Click [here]() for more help.
+**Not working?** Click [here](extra_help_for_assignment3.md) for more help.
 
 - A. What is the md5sum you obtain for the file `chrI.fa.gz`?
 - B. What command line would decompress **all** the .fa.gz files (in one command)? execute the command
