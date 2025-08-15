@@ -1,4 +1,4 @@
-# Redirection
+# Redirection 
 
 ### Todays objectives: 
 
@@ -57,6 +57,26 @@ HW 1 and 2 are due by 11:59 pm tonight!
 
 [Quiz](https://forms.gle/rmNNG3vXTzVgFc6X8)
 
-### Making Directories
+### Standard Streams 
 
-We can make a new directory 
+**Standard streams** are default input and output channels. In Linux, there are three standard streams: **stdin**, **stdout**, and **stderr**. You may also see input and output channels referred to as Input/Output or simply **I/O**.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
