@@ -1,5 +1,5 @@
 DSCI 510 
-Assignment #3
+Assignment 3
 Name: <yourNameHere>
 Date: <dateHere>
 #####################
