@@ -77,16 +77,58 @@ If you run an errant command, say `wc werkejtkhgo` when there is no file `werkej
 
 Redirection of standard-output is performed using the `>` operator.
 
+**Redirect stdout Usage:**
 
+`command line > outputfilename.txt`
 
+```
+$ wc chrI.fa > wc_output.txt
+```
 
+### Redirect error and status messages with 2>
 
+Let's see what happens if we tried to redirect an errant command …
 
+```
+$ wc blerg > wc_fake_output.txt
+```
 
+We can capture the error message with ... `2>`. This **redirects** standard-error to our desired file:
 
+**Redirect stderr Usage:**
 
+`command line 2> outputfilename.txt`
 
+```
+$ wc blerg 2> wc_err_output.txt
+```
 
+### Redirect both output and error/status messages with &>
 
+Wonderful! But what if we had given `wc` two files, one good and one bad. Experiment a little.
 
+```
+$ wc chrI.fa blerg > wc_both_1.txt
+$ wc chrI.fa blerg 2> wc_both_2.txt
+```
 
+We can capture both using `&>`:
+
+**Redirect stdout and stderr Usage:**
+
+`command line &> outputfilename.txt`
+
+```
+$ wc chrI.fa blerg &> wc_both_3.txt
+```
+
+**!!! Common pitfall:** redirection will overwrite existing files. If, instead, you would prefer to append the new information to the end of an existing file, you can use `»`
+
+```
+$ wc chrI.fa >> runningTotal.txt
+$ wc chrII.fa >> runningTotal.txt
+$ wc chrIII.fa >> runningTotal.txt
+$ more runningTotal.txt
+```
+
+Continue on to [Working with files 2](2-6_Working_with_files2.md)
