@@ -73,7 +73,7 @@ If you run an errant command, say `wc werkejtkhgo` when there is no file `werkej
 
 **Redirection** allows us to circumvent the defaults, allowing us to redefine where standard output and standard error go. This is a useful way to capture information.
 
-### Redirect output with >
+### Redirect output with `>`
 
 Redirection of standard-output is performed using the `>` operator.
 
@@ -85,7 +85,7 @@ Redirection of standard-output is performed using the `>` operator.
 $ wc chrI.fa > wc_output.txt
 ```
 
-### Redirect error and status messages with 2>
+### Redirect error and status messages with `2>`
 
 Let's see what happens if we tried to redirect an errant command …
 
@@ -103,7 +103,7 @@ We can capture the error message with ... `2>`. This **redirects** standard-erro
 $ wc blerg 2> wc_err_output.txt
 ```
 
-### Redirect both output and error/status messages with &>
+### Redirect both output and error/status messages with `&>`
 
 Wonderful! But what if we had given `wc` two files, one good and one bad. Experiment a little.
 
