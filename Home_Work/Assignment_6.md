@@ -10,15 +10,6 @@
 - **Turn in your answers as the .txt file on Canvas by uploading your file.**
 - Assignments account for 70% of your final grade. 
 
----
-
-**!!! Hint**: If the question asks for a command, write out the full command line entry as you would write it on the command line to generate the requested task.
-
----
-
-## Preparation for the exercise
-
-
 
 ## Question 1
 
