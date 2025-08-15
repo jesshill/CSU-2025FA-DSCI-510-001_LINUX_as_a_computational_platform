@@ -3,7 +3,9 @@
 The following commands will help you to access and organize the information contained in files.
 
 `cat` – concatenate. concatenate files together
+
 `grep` – regular expressions. search for a specific pattern within a file
+
 `cut` – pull out a specific column (or any other delimited information) from a file
 
 ### Let's make a file
@@ -36,7 +38,7 @@ chrI	230218
 chrM	85779
 ```
 
-### Concatenating files with cat
+### Concatenating files with `cat`
 
 The `cat` command reads one or more files and prints the output of all files to the screen. The output can be redirected to a file, as well, and in this way, we can join files together.
 
@@ -56,8 +58,14 @@ $ wc double_sizes.txt
 
 **!!! Challenge question:** If you had the following files in your directory, how would you concatenate them together using a wildcard?
 
+```
+$ ls
+data1.csv data2.csv data3.csv data4.csv
 
+$ 
+```
 
+### Searching for patterns using `grep`
 
 
 
