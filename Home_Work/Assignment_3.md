@@ -95,6 +95,25 @@ A. What command line would you use to save the header information from `ce11_ann
 #!genebuild-last-updated 2014-10
 ```
 
-B. What command line would you use to save the chromosome name, the start codon #, and stop codon # of every entry in ce11_annotation_ensembl_to_ucsc.gtf to a new file called ce11.bed?
+B. What command line would you use to save the chromosome name, the start codon #, and stop codon # of every entry in `ce11_annotation_ensembl_to_ucsc.gtf` to a new file called `ce11.bed`?
 
 (**hint**, they are in columns 1 & 4 & 5; hint - it takes a little while to print out; hint - peeking into the file ce11.bed would look like this)
+
+```
+#!genome-build WBcel235
+#!genome-version WBcel235
+#!genome-date 2012-12
+#!genome-build-accession NCBI:GCA_000002985.3
+#!genebuild-last-updated 2014-10
+chrV    1480    3039
+chrV    1480    3039
+chrV    1480    1579
+chrV    1480    1579
+chrV    1480    1482
+chrV    1691    1782
+chrV    1691    1782
+chrV    2851    3039
+chrV    2851    3036
+chrV    3037    3039
+chrV    5690    6511
+```
