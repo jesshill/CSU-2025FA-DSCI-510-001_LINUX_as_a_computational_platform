@@ -108,4 +108,4 @@ inputfile="SARSCoV2_ncbiGenes.gtf"
 
 - A. Copy your code into the answer key.
 - B. Write down what you wrote on the command line to execute this code (hint: should start with bash)
-- C. Copy and paste what you get when you execute the command $ head SARS_Cov2_exons.bed
+- C. Copy and paste what you get when you execute the command `$ head SARS_Cov2_exons.bed`
