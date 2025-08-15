@@ -91,7 +91,7 @@ mytxtfile=$1
 
 ## Question 4 - Complete a gtf2bed.sh script
 
-Below is a short but incomplete script called gtf2bed.sh. The script takes as input the [SARSCoV2_ncbiGenes.gtf]() file and outputs a .bed that lists the chromosome, start, stop, and strand information for each “exon”. That is, it will first filter for lines that contain the term 'exon', then extract out the 1st, 4th, 5th, & 7th columns. Then it will save the information in an output file.
+Below is a short but incomplete script called gtf2bed.sh. The script takes as input the [SARSCoV2_ncbiGenes.gtf](https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Data/SARSCoV2_ncbiGenes.gtf) file and outputs a .bed that lists the chromosome, start, stop, and strand information for each “exon”. That is, it will first filter for lines that contain the term 'exon', then extract out the 1st, 4th, 5th, & 7th columns. Then it will save the information in an output file.
 
 Use any of the .gtf files used in this course as a practice/test file.
 
