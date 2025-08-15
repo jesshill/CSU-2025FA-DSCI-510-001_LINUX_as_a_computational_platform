@@ -130,7 +130,7 @@ $ ls
 $ ls -alh
 $ more quick_tips.txt #peek into the file quick_tips.txt
 ```
-#### Writing file content with nano
+#### Writing file content with `nano`
 
 Well, that's a pretty boring file. Let's add some content to it using the linux text editor called **nano**. This command will be different than previous commands we've executed. Instead of spitting something out to the screen below the prompt, nano will take us to a little text editor app within the terminal where we can type in some text. To exit out of nano, type CTRL+X. To save, type `y`.
 
@@ -176,7 +176,7 @@ We can remove files using `rm` (ReMove).
 
 **!!! Common pitfall:** **THERE IS NO UNDO IN LINUX**. Yep, that's right. If you remove a file, it's gone. There's no trash can or recycle bin you can pull that file out of. It is gone-gone!
 
-**Do not combine rm and * together. It is possible to delete everything.**
+**Do not combine `rm` and `*` together. It is possible to delete everything.**
 
 **!!! Quick tip:** Always make sure you have a good backup system in place. A good back up system is automatic.
 
