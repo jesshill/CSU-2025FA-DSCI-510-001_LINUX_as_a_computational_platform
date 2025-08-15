@@ -129,11 +129,20 @@ $ cut -f 1,2 chr_sizes_table.txt
 
 **!!! Common pitfalls:** The `cut` utility counts like so: 1, 2, 3, 4. However, not all computing languages start on 1. Many start on 0 and count like so: 0, 1, 2, 3. It is a good idea to double check your language by testing it every time.
 
+<p align="center">
+<img width="410" alt="mug" src="">
+</p>
 
+**!!! Common pitfalls:** `cut` defaults to looking for **tab** delimiting. It outputs with a default **tab** separator. To change these defaults, you can use the option **-d**. On a MAC, this changes both the input and output delimiting character. In other versions of cut, the two can be specified independently.
 
+```
+$ cut -d "," -f 2 file.txt #set the delimiting character to a comma, and then cut out the second field.
+$ cut -d " " -f 2 file.txt #set the delimiting character to a space, then cut out the second field.
+$ cut -d "\t" -f 2 file.txt #set the delimiting character to a tab, then cut out the second field. (default)
+```
 
+**!!! Ecercises:**
 
+- `cat` practice: Go to the directory where you downloaded the individual chromosomes of the yeast genome. Use a `cat` command to concatenate ALL the chromosomes together into the file `sacCer3_genome.fasta`.
 
-
-
-
+Continue on to [Independent practice](Independent_practice.md)
