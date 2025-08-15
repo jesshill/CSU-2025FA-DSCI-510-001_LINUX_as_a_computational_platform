@@ -61,11 +61,21 @@ HW 1 and 2 are due by 11:59 pm tonight!
 
 **Standard streams** are default input and output channels. In Linux, there are three standard streams: **stdin**, **stdout**, and **stderr**. You may also see input and output channels referred to as Input/Output or simply **I/O**.
 
+<p align="center">
+<img width="410" alt="stdin, stdout, stderr" src="">
+</p>
 
+**Standard Input**, or **stdin**, is input going into the shell. By default, this input comes from you typing on the keyboard.
 
+When your run a command, say `wc file1.txt`, the shell sends its output to a special file called **standard output** (**stdout**), which by default is not saved in a directory, but is routed to the screen.
 
+If you run an errant command, say `wc werkejtkhgo` when there is no file `werkejtkhgo`, an error message will be produced. The error message goes to a file called **standard error** (**stderr**) that is also routed to the screen by default.
 
+**Redirection** allows us to circumvent the defaults, allowing us to redefine where standard output and standard error go. This is a useful way to capture information.
 
+### Redirect output with >
+
+Redirection of standard-output is performed using the `>` operator.
 
 
 
