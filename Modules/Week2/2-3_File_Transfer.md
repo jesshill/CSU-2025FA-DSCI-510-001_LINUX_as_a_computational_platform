@@ -8,13 +8,13 @@ When we learn software installation later in this course, we will add more of th
 
 Common file transfer programs are:
 
-- **sftp**
-- **wget**
-- **curl**
-- **rsync**
-- **scp**
+- `sftp`
+- `wget`
+- `curl`
+- `rsync`
+- `scp`
 
-### sftp - Secure File Transfer Program
+### `sftp` - Secure File Transfer Program
 
 ```
 ftp <sftp://address/to/ftp/site>
@@ -24,7 +24,7 @@ ftp <sftp://address/to/ftp/site>
 -use commands cd, ls, get, bye
 ```
 
-### wget - World wide web GET
+### `wget` - World wide web GET
 
 ```
 wget <http://address/to/file/file.txt>
@@ -32,7 +32,7 @@ wget <http://address/to/file/file.txt>
 -must be installed on MacOS systems using Conda or Homebrew
 ```
 
-### curl - Command line URL
+### `curl` - Command line URL
 
 ```
 curl [options] <sourcefile.txt> curl [–remote-name-all] <http://address/to/file/file.txt>
@@ -40,7 +40,7 @@ curl [options] <sourcefile.txt> curl [–remote-name-all] <http://address/to/fil
 -can only download one file at a time
 ```
 
-### rsync - Remote file and directory SYNChronization
+### `rsync` - Remote file and directory SYNChronization
 
 ```
 rsync [options] <source> <target>
@@ -52,7 +52,7 @@ rsync [-avzP] http://address/to/dir/> <.>
 - P progress, print information on progress to the screen
 ```
 
-### scp - Secure CoPy
+### `scp` - Secure CoPy
 
 ```
 scp <sourcefile> <target>
@@ -67,7 +67,7 @@ We are going to do the following:
 2. Ensure the files were not corrupted in transit (using md5 sums)
 3. Unzip the files (using gunzip)
 
-### Using rsync or wget to download files from UCSC Genome Browser
+### Using `rsync` or `wget` to download files from UCSC Genome Browser
 
 **!!! Group Exercise:** Obtain the *Saccharomyces cervisiae* genome from the UCSC Genome Browser.
 
@@ -90,7 +90,7 @@ $ cd sacCer3
 - We want to obtain the Dataset by Chromosome.
 - Download the contents of this directory using the command rsync:
 
-**rsync Usage:**
+**`rsync` Usage:**
 
 `rsync [options] <source> <target>`
 
@@ -109,7 +109,7 @@ $ wget --timestamping 'ftp://hgdownload.cse.ucsc.edu/goldenPath/sacCer3/chromoso
 Use the commands you learned last week to explore what you have obtained (ls, more, less, head, tail, wc, etc).
 
 
-### Ensuring files were not corrupted using md5sum checksums
+### Ensuring files were not corrupted using `md5sum` checksums
 
 To ensure your files were not corrupted during transit, the UCSC browser people have included **md5sum checksums** for each file that are located in a file called `md5sum.txt`. **checksums** are digital codes associated with a file that are calculated out of information within the file. If the integrity of the file is intact, the md5sum checksum program will match digital code in those text files.
 
@@ -135,7 +135,7 @@ Do the numbers and letters match?
 
 The `.fa.gz` files we have downloaded are compressed using a utility called **gzip** so they are smaller for transfer. You cannot navigate into them using `more` or `less` until they are uncompressed.
 
-**gzip usage**
+**`gzip` usage**
 
 To compress:
 ```
