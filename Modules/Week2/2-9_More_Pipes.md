@@ -120,14 +120,54 @@ Use a `cut` command to extract the 9th row of information from this .gtf file li
 $ cut -f 9 SARSCoV2_ncbiGenes.gtf 
 ```
 
+This column of information contains the annotation information associated with each entry.
 
+How would you extract out just the gene ids?
 
+```
+#HINT:
+$ cut -f 9 SARSCoV2_ncbiGenes.gtf | cut <put some additional code here>
+```
 
+Answer? 
 
+### Where do the arguments go in piped commands?
 
+This is typically where students start to get confused about where the arguments need to go when using pipes.
 
+If you are working with files, the file will be the argument of the **first** command. This is because the argument of the second command is actually equivalent to the **output** of the first command.
 
+`$ command [options] <argument.txt> | command [options] | command [options]`
 
+So it will look like …
 
+```
+$ grep 'allgenes' myfile.gtf | wc
+```
 
+Here, the argument for the `grep` command is <myfile.gtf>. The argument for the `wc` command is the output of the `grep` command.
 
+### Pairwork - Challenge Exercise
+
+**!!! Exercise:** Can you write a series of pipes that will list the unique genes in the SARS-CoV2 genome?
+
+**Hint** … the final product should look like this …
+
+```
+"E"
+"M"
+"N"
+"ORF10"
+"ORF1a"
+"ORF1ab"
+"ORF3a"
+"ORF6"
+"ORF7a"
+"ORF7b"
+"ORF8"
+"S"
+```
+
+What were some of your answers? 
+
+Continue on to [Working with files 3]()
