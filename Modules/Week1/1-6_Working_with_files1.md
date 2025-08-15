@@ -1,6 +1,6 @@
 # Working With Files 1
 
-### Peeking inside files with more and less
+### Peeking inside files with `more` and `less`
 
 There are four main commands for printing file contents to the screen …
 
