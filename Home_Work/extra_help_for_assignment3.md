@@ -1,4 +1,4 @@
-[...](...)
+[too big](...)
 
 - Download by clicking, and saving to an appropriate directory.
 - Unzip the tarball.
