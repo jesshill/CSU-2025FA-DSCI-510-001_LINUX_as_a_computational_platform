@@ -23,11 +23,9 @@ For this question, read the exam assignment. Practice answering the first questi
 
 Practice brainstorming what you might do for the Final Exam project. You don't have to commit to this project. It will be actually pretty tricky to determine what is feasible or not until you learn more about bash scripting. For this question, just try to brainstorm what you might **want** to do.
 
-A. What is the operation your script will perform?
-
-B. Why is this a useful operation to do in your field or in your project?
-
-C. Outline a few key commands or steps your script will do.
+- A. What is the operation your script will perform?
+- B. Why is this a useful operation to do in your field or in your project?
+- C. Outline a few key commands or steps your script will do.
 
 Having trouble? Think about how you might filter, sort, select, re-format, compile, quantitate, or display information from your text file in a way that would be meaningful.
 
@@ -68,11 +66,9 @@ inputfile="SARSCoV2_ncbiGenes.gtf"
 # Write a line of code below that echos (prints out) a brief summary of what was done to the user.
 ```
 
-A. Copy your code into the answer key.
-
-B. Write down what you wrote on the command line to execute this code (hint: should start with bash)
-
-C. Copy and paste what you get when you execute the command `$ head SARS_Cov2_exons.bed`
+- A. Copy your code into the answer key.
+- B. Write down what you wrote on the command line to execute this code (hint: should start with bash)
+- C. Copy and paste what you get when you execute the command `$ head SARS_Cov2_exons.bed`
 
 ## Question 5 - special variables
 
