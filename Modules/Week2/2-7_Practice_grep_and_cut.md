@@ -42,7 +42,7 @@ This will allow you to split on other delimiters like spaces (' ') or commas (,)
 
 - What is in each column of your annotation file? Use cut to print out individual columns of information to the screen.
   - Notice how columns have the same information in each row. Others have unique information.
-- To look it up, reference here: [ALL ABOUT ANNOTATION FILES]()
+- To look it up, reference here: [ALL ABOUT ANNOTATION FILES](../../Resources/Annotation_Files.md)
 - Can you redirect only the 9th column from this file into an output file called `featureDetails.txt`?
 
 Continue on to [Pipes](2-8_Pipes.md)
