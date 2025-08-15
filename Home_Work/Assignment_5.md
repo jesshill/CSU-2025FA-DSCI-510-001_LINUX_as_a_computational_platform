@@ -24,7 +24,9 @@ For this question, read the exam assignment. Practice answering the first questi
 Practice brainstorming what you might do for the Final Exam project. You don't have to commit to this project. It will be actually pretty tricky to determine what is feasible or not until you learn more about bash scripting. For this question, just try to brainstorm what you might **want** to do.
 
 A. What is the operation your script will perform?
+
 B. Why is this a useful operation to do in your field or in your project?
+
 C. Outline a few key commands or steps your script will do.
 
 Having trouble? Think about how you might filter, sort, select, re-format, compile, quantitate, or display information from your text file in a way that would be meaningful.
