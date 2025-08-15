@@ -85,7 +85,7 @@ For this next question, use this C. elegans annotation file below. Download it f
 
 A. What command line would you use to save the header information from `ce11_annotation_ensembl_to_ucsc.gtf` into a file called `annotation_information.txt`?
 
-(**hint** - It should end up looking like below; hint - write the full line of code)
+(**hint** - It should end up looking like below; **hint** - write the full line of code)
 
 ```
 #!genome-build WBcel235
@@ -97,7 +97,7 @@ A. What command line would you use to save the header information from `ce11_ann
 
 B. What command line would you use to save the chromosome name, the start codon #, and stop codon # of every entry in `ce11_annotation_ensembl_to_ucsc.gtf` to a new file called `ce11.bed`?
 
-(**hint**, they are in columns 1 & 4 & 5; hint - it takes a little while to print out; hint - peeking into the file ce11.bed would look like this)
+(**hint**, they are in columns 1 & 4 & 5; **hint** - it takes a little while to print out; **hint** - peeking into the file ce11.bed would look like this)
 
 ```
 #!genome-build WBcel235
