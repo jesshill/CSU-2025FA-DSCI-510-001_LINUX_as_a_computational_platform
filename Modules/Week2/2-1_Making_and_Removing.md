@@ -152,7 +152,7 @@ $ nano quick_tips.txt
 - Remember, to exit out of nano, CTRL+X. Then press `y` to confirm.
 - Check the content using `more quick_tips.txt`.
 
-#### Making files with nano
+#### Making files with `nano`
 
 We can also make new files by skipping touch and just starting up nano directly.
 
@@ -197,7 +197,7 @@ $ ls
 5. Use `more` to peek into your new text file.
 6. Use `rm -i` to delete your newly made text file.
 
-### Removing directories and their contents with rm
+### Removing directories and their contents with `rm`
 
 We can also remove directories AND all their contents using `rm`:
 
@@ -211,7 +211,7 @@ Always specify `-i` because there is the potential for deleting more than you ba
 
 **!!! Common pitfall:** Until you are at Linux ninja status, please use `-i` with all your `rm` commands. Please use caution when using `rm`. Also, please have a good backup strategy in place as well.
 
-### rm with training wheels
+### `rm` with training wheels
 
 **!!! Cool Trick:** Better yet, we can write a new command called `srm` for Safe ReMove, like so:
 
