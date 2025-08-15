@@ -62,7 +62,7 @@ HW 1 and 2 are due by 11:59 pm tonight!
 **Standard streams** are default input and output channels. In Linux, there are three standard streams: **stdin**, **stdout**, and **stderr**. You may also see input and output channels referred to as Input/Output or simply **I/O**.
 
 <p align="center">
-<img width="410" alt="stdin, stdout, stderr" src="">
+<img width="410" alt="stdin, stdout, stderr" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/stdin-stdout-stderr.png">
 </p>
 
 **Standard Input**, or **stdin**, is input going into the shell. By default, this input comes from you typing on the keyboard.
