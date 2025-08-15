@@ -170,4 +170,4 @@ Here, the argument for the `grep` command is <myfile.gtf>. The argument for the 
 
 What were some of your answers? 
 
-Continue on to [Working with files 3]()
+Continue on to [Working with files 3](../Week3/3-2_Working_with_file3.md)
