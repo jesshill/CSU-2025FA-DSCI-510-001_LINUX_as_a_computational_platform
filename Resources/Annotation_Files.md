@@ -40,3 +40,5 @@ Figure: An example of a genome sequence (.fa) and annotation file (.gtf) that ar
 </p>
 
 Back to [File Formats](../Modules/Week2/2-4_File_Formats.md)
+
+Back to [Practice grep and cut](../Modules/Week2/2-7_Practice_grep_and_cut.md)
