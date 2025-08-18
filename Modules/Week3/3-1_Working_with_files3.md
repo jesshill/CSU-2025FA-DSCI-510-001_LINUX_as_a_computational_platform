@@ -115,4 +115,4 @@ If this is starting to feel AWKward, you're not alone. Once you start to imagine
 
 `sed` and `AWK` are extremely fast! If you can write code in them, they will typically run faster than a python code.
 
-Continue on to [Intro to scripting - Scripting 1](3-3_Scripting1.md)
+Continue on to [Intro to scripting - Scripting 1](3-2_Scripting1.md)
