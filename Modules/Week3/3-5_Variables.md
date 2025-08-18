@@ -155,8 +155,14 @@ I have 23 files in my current working directory."
 
 We can do arithmetic operations in bash scripts using double parentheses provided we are working with integers …
 
-
-
+| Symbol | Meaning | Example |
+|--------|---------|---------|
+| + | adding | 'myresult=$(( 3 + 5 ))' |
+| - | subtracting | 'myresult=$(( 5 - 3 ))' |
+| * | multiplication | 'myresult=$(( 5*3 ))' |
+| / | division for integers that divide perfectly | 'myresult=$(( 12/3 ))' |
+| % | modulo (find the remainder) | 'myresult=$(( 11%3 ))' |
+| `** or ^` | exponential | 'myresult=$(( 10**4 ))' |
 
 
 
