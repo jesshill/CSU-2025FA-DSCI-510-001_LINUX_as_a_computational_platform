@@ -161,7 +161,7 @@ echo $(date) >> $projectname/README_${projectname}.txt
 echo "startProject>>> successfully completed"
 ```
 
-**!!! Group Exercise:***
+**!!! Group Exercise:**
 
 - Copy the script above into a file called `startProject.sh`
 - Execute the script to test it. Note, this time you don't need to make your own project directory. The script will make it for you.
