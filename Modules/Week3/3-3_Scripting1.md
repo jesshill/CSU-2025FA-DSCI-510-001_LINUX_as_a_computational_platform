@@ -71,3 +71,21 @@ Let's take a look at each part of this script …
 <p align="center">
 <img width="410" alt="scripting1" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/scripting1.png">
 </p>
+
+### The nuts and bolts of writing
+
+OK, so how do we actually write these scripts? I find it useful to use a **text editor** to write my scripts. I use BBEdit, so my scripts look like this. I write them in the BBEdit app.
+
+<p align="center">
+<img width="410" alt="scripting2" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/scripting2.png">
+</p>
+
+**Other options** - you can also write scripts in nano for simple scripts. There are other terminal-embedded text editors that are more complicated than nano like **vim** or **emacs** but these are beyond the scope of this class.
+
+**On ALPINE** - ALPINE has its own text editor for you to use.
+
+**!!! THE CHALLENGE:** the major challenge is syncing up where you are in the terminal with where your script of interest is located.
+
+**!!! PC PITFALL** Are you working on Notepad++ on a PC and seeing weird stuff at the end of each line like `\r` or `\r\n`? If so, you'll need to set your “end of line conversion. To do this, go into Notepad++ **Settings –> Preferences** –> Navigate to End of line conversion and select unix/mac. OR, go to **Edit –> EOL Conversion** and select Windows/Linux/Mac.
+
+
