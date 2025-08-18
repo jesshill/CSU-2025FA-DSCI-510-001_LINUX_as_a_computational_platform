@@ -157,15 +157,38 @@ We can do arithmetic operations in bash scripts using double parentheses provide
 
 | Symbol | Meaning | Example |
 |--------|---------|---------|
-| + | adding | 'myresult=$(( 3 + 5 ))' |
-| - | subtracting | 'myresult=$(( 5 - 3 ))' |
-| * | multiplication | 'myresult=$(( 5*3 ))' |
-| / | division for integers that divide perfectly | 'myresult=$(( 12/3 ))' |
-| % | modulo (find the remainder) | 'myresult=$(( 11%3 ))' |
-| `** or ^` | exponential | 'myresult=$(( 10**4 ))' |
+| + | adding | `myresult=$(( 3 + 5 ))` |
+| - | subtracting | `myresult=$(( 5 - 3 ))` |
+| * | multiplication | `myresult=$(( 5*3 ))` |
+| / | division for integers that divide perfectly | `myresult=$(( 12/3 ))` |
+| % | modulo (find the remainder) | `myresult=$(( 11%3 ))` |
+| `** or ^` | exponential | `myresult=$(( 10**4 ))` |
 
+**!!! Warning** - these expressions only work with integers. Numbers with decimal points are called **floating point number** in computer science. To do calculations on those, use the built in `bc` application which stands for either **bench calculator** or **basic calculator**.
 
+**bc usage**
 
+`echo “<math expression>” | bc -l`
 
+that's a `-l`, as in little L
 
+**!!! Example:**
 
+```
+$ echo "11/3" | bc -l
+```
+
+OR
+
+```
+myresult=$(echo "11/3" | bc -l)
+echo $myresult
+```
+
+**!!! Pitfall** The difficulty of doing mathematics using LINUX is a major drawback of LINUX. Other languages that are much more conducive to mathematics are **R** which is built around a statistics framework and Python when used with its many lovely math modules like **NumPy**, **Pandas**, and **MatplotLib**.
+
+**!!! Helpful Resource** 
+
+Here's a quick little [bash scripting cheat sheet](https://devhints.io/bash)
+
+Continue on to [Array Variables](3-6_Array_Variables.md)
