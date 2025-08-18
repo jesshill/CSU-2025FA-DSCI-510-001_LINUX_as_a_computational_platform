@@ -92,7 +92,7 @@ Log into your CSU NET ID. You will receive a DUO PUSH on your phone. Accept it.
 To access the LINUX command line on ALPINE, go to the Clusters menu. Select >_Alpine Shell
 In another window, you can also access your files by going to the Files menu and selecting any available directories.
 
-For reference, see: [Connecting to remote computers]()
+For reference, see: [Connecting to remote computers](../../Resources/Connecting_to_remote_computers.md)
 
 
 
