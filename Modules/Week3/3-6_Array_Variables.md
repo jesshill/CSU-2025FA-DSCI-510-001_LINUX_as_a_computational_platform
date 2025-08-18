@@ -82,12 +82,24 @@ HW 1 and 2 are due by 11:59 pm tonight!
 
 ### Test your understanding - take this quiz!
 
-[Quiz](https://forms.gle/rmNNG3vXTzVgFc6X8)
+[Quiz]()
 
-### Standard Streams 
+### Try Alpine login again:  
 
-**Standard streams** are default input and output channels. In Linux, there are three standard streams: **stdin**, **stdout**, and **stderr**. You may also see input and output channels referred to as Input/Output or simply **I/O**.
+Navigate to https://ondemand-rmacc.rc.colorado.edu in a new tab or window
+For me, I right-click on the above link and select Open Link in New Window
+Log into your CSU NET ID. You will receive a DUO PUSH on your phone. Accept it.
+To access the LINUX command line on ALPINE, go to the Clusters menu. Select >_Alpine Shell
+In another window, you can also access your files by going to the Files menu and selecting any available directories.
 
-<p align="center">
-<img width="410" alt="stdin-stdout-stderr" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/stdin-stdout-stderr.png">
-</p>
+For reference, see: [Connecting to remote computers]()
+
+
+
+
+
+
+
+
+
+
