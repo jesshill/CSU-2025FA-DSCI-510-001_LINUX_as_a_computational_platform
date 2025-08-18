@@ -88,3 +88,21 @@ You shallnotpass
 
 Go back to the Shadow 		 You shall not 	 pass.
 ```
+
+### Commenting Out 
+
+You can gently ask the computer to ignore lines of code by adding a pound sign in front of it. This is **called commenting out** your code.
+
+```
+#!/usr/bin/env bash
+ 
+echo "Hello World!"
+echo "My name is Marvin"
+#echo "and I am having a rather boring day"
+#echo "In fact, all my days are rather boring"
+#echo "Maybe I can share stories of my life with you to pass the time?"
+```
+
+**!!! Super Useful:** Commenting out lines of code is super useful when you are trying to find a bug in your code. For example, you can comment out all the lines of code and then add lines back in one at a time to determine where the error lies.
+
+Continue on to [Variables](3-5_Variables.md)
