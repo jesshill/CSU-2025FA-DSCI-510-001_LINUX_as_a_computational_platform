@@ -86,16 +86,15 @@ HW 1 and 2 are due by 11:59 pm tonight!
 
 ### Try Alpine login again:  
 
-Navigate to https://ondemand-rmacc.rc.colorado.edu in a new tab or window
-For me, I right-click on the above link and select Open Link in New Window
-Log into your CSU NET ID. You will receive a DUO PUSH on your phone. Accept it.
-To access the LINUX command line on ALPINE, go to the Clusters menu. Select >_Alpine Shell
-In another window, you can also access your files by going to the Files menu and selecting any available directories.
+- Navigate to https://ondemand-rmacc.rc.colorado.edu in a new tab or window
+  - For me, I right-click on the above link and select Open Link in New Window
+- Log into your CSU NET ID. You will receive a DUO PUSH on your phone. Accept it.
+- To access the LINUX command line on ALPINE, go to the Clusters menu. Select >_Alpine Shell
+- In another window, you can also access your files by going to the Files menu and selecting any available directories.
 
 For reference, see: [Connecting to remote computers](../../Resources/Connecting_to_remote_computers.md)
 
-
-
+Keep 
 
 
 
