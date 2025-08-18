@@ -55,15 +55,36 @@ Echo statement options:
 
 `echo [options] “statement”`
 
-`-n omit trailing carriage return`
+`-n` omit trailing carriage return
 
-`-e allow special character interpretations. “\n” will be interpreted as a return. “\t” will be interpreted as a tab`
+`-e` allow special character interpretations. “\n” will be interpreted as a return. “\t” will be interpreted as a tab
 
 **!!! Exercise:** Write a script called `balrog.sh`. Write a series of echo statements. Try using -e and -n to test how things work:
 
 **!!! Example:** The script below is `balrog.sh`
 
 ```
+#!/usr/bin/env bash
+ 
+# Affirmations for Grad Students
+echo "The dark fire will not avail you!"
+echo "Go back to the Shadow"
+echo -n "You shall not"
+echo -n "pass"
+ 
+echo -e "\n\n"
+ 
+echo -e "Go back to the Shadow \t\t You shall not \t pass."
+```
+
+It spits out the following: 
+
+```
+$ bash balrog.sh  
+The dark fire will not avail you!
+Go back to the Shadow
+You shallnotpass
 
 
+Go back to the Shadow 		 You shall not 	 pass.
 ```
