@@ -86,6 +86,19 @@ OK, so how do we actually write these scripts? I find it useful to use a **text 
 
 **!!! THE CHALLENGE:** the major challenge is syncing up where you are in the terminal with where your script of interest is located.
 
-**!!! PC PITFALL** Are you working on Notepad++ on a PC and seeing weird stuff at the end of each line like `\r` or `\r\n`? If so, you'll need to set your “end of line conversion. To do this, go into Notepad++ **Settings –> Preferences** –> Navigate to End of line conversion and select unix/mac. OR, go to **Edit –> EOL Conversion** and select Windows/Linux/Mac.
+**!!! PC PITFALL** Are you working on Notepad++ on a PC and seeing weird stuff at the end of each line like `\r` or `\r\n`? If so, you'll need to set your “end of line conversion". To do this, go into Notepad++ **Settings –> Preferences** –> Navigate to **End of line conversion** and select unix/mac. OR, go to **Edit –> EOL Conversion** and select Windows/Linux/Mac.
+
+### The nuts and bolts of executing
+
+To execute a bash script, we simply navigate on the terminal to the place where our script is located. Then, I use `ls` to ensure I can **see** the script located in my working directory. Then, I execute it using the command **bash**, like so…
+
+**bash usage**
+
+`bash <script.sh>`
+
+<p align="center">
+<img width="410" alt="scripting3" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/scripting3.png">
+</p>
+
 
 
