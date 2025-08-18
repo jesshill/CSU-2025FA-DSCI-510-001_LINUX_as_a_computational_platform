@@ -100,5 +100,80 @@ To execute a bash script, we simply navigate on the terminal to the place where 
 <img width="410" alt="scripting3" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/scripting3.png">
 </p>
 
+**!!! Group Exercise:** Let's work together to execute this script and see what it does.
+
+Make a new directory called `IntroToScripting`
+Navigate into `IntroToScripting` (**Hint:** You should see IntroToScripting's path when you type `$ pwd`
+Copy and paste the text below into a file called `startProject.sh` in the `IntroToScripting` directory.
+
+```
+#!/usr/bin/env bash
+ 
+# Make three subdirectories
+mkdir 01_input
+mkdir 02_scripts
+mkdir 03_output
+ 
+# Start a readme file
+touch README.txt
+```
+
+Now, let's execute the script with the following command on the command line:
 
 
+```
+$ bash startProject.sh
+```
+
+Navigate what just happened. 
+
+### Expanding our code
+
+OK, let's make this a little bit more fancy …
+
+**!!! Jess demo:** I will demonstrate opening the code in a text editor and amending the script so that it expands on some of its functionality. In the end I'll have this new code (or something close to it):
+
+☟ **This is what it should look like on BBEdit or Notepad++ when you open the file:**
+
+```
+#!/usr/bin/env bash
+ 
+# Prompt user for a project name
+echo -n "startProject>>> Enter your new project name (no spaces) and press [RETURN]: "
+read projectname
+ 
+# Report progress
+echo -e "startProject>>> Starting project named $projectname"
+ 
+# Make a project directory and three subdirectories
+mkdir $projectname
+mkdir $projectname/01_input
+mkdir $projectname/02_scripts
+mkdir $projectname/03_output
+ 
+# Start a readme file
+touch $projectname/README_${projectname}.txt
+ 
+# Add date info to readme file
+echo $(date) >> $projectname/README_${projectname}.txt
+ 
+# Report completion
+echo "startProject>>> successfully completed"
+```
+
+**!!! Group Exercise:***
+
+- Copy the script above into a file called `startProject.sh`
+- Execute the script to test it. Note, this time you don't need to make your own project directory. The script will make it for you.
+
+### What did we learn from the demonstration?
+
+**!!! Comment your code !!!** This makes your code readable to other users. Remember *other users* also refers to future-you.
+
+**!!! Testing:** Test your scripts frequently for proper behavior. Even the best programmers test their code every few lines.
+
+**!!! Expansion:** Scripts are often expanded from basic functionality out to more complex functionality. So we are typically writing from a skeletal script to a more “fleshed out” script. Scripts can also be written from top → down. When writing top → down, plan ahead and write out the comments first.
+
+**!!! Isolation:** Sometimes when you are building on the functionality of a script, it makes sense to comment out several blocks of code during the testing phase (also called **debugging** phase). This allows you to isolate just the new changes you are introducing before seeing how they integrate into the complete script.
+
+Continue on to [More scripting - Scripting 2](3-4_Scripting2.md)
