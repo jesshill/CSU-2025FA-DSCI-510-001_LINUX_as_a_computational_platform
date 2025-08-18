@@ -70,6 +70,95 @@ favoriteLetter="E"
 
 **!!! Exercise:** Favorite things
 
+Use the code below to assign your favorite things to different variables.
+
+- First! Copy the code below into a file called `favoriteThings.sh` using either nano or a text editor.
+- Run the code as is.
+- Next, add in the values to all the variables
+- Run the code again
+
+**!!! Bonus** - try breaking your code by adding spaces around the equals sign. Then fix it again.
+
+```
+#!/usr/bin/env bash
+ 
+#enter your name here
+username=
+ 
+#enter your favorite things here. You may need to use quotes for some things.
+favoriteOrganism=
+ 
+favoriteShow=
+ 
+favoriteFood=
+ 
+echo "Hi, my name is $username. My favorite organism is $favoriteOrganism. My favorite show is $favoriteShow. I love to eat $favoriteFood."
+```
+
+### Variable Reassignment
+
+We can change a variable's associated value within a program. This is called **reassignment**. Say you watch a new show and you now want to update what your favorite show is, like so …
+
+```
+#!/usr/bin/env bash
+ 
+#enter your name here
+username="Marc Nishimura"
+ 
+#enter your favorite things here. You may need to use quotes for some things.
+favoriteOrganism="Arabidopsis"
+ 
+favoriteShow="Breaking Bad"
+ 
+favoriteFood="sushi"
+ 
+echo "Hi, my name is $username. My favorite organism is $favoriteOrganism. My favorite show is $favoriteShow. I love to eat $favoriteFood."
+ 
+#reassigning a new value to a variable 
+favoriteShow="Better Call Saul"
+ 
+echo "Hi, my name is $username. My favorite organism is $favoriteOrganism. My favorite show is $favoriteShow. I love to eat $favoriteFood."
+```
+
+**!!! Exercise:** Reassign a new value to one of your variables and then copy the same echo statement below that reassignment line of code.
+
+**?** Why are we interested in making variables? Within a bash script, saving information into variables allows you to take in different inputs and execute reproducible commands on that input. Eventually, we will want to do some series of tasks many, many times within a script. This will involve multiple iterations, called looping. Each time we go around a loop, we will change the input values while keeping the commands operating on them the same.
+
+### Capturing output as variables
+
+You can capture the output of a command as a variable like so:
+
+```
+$ today=$(date)
+ 
+$ echo $today
+```
+
+You can capture the output of a numerical operation as a variable with double parentheses like so:
+
+```
+$ mytotal=$((49 + 50))
+ 
+$ echo $mytotal
+```
+
+**!!! Exercise:** modify your `favoriteThings.sh` script to capture the output of a command or numerical operation. Write an echo statement to dereference the variable.
+
+**!!! Advanced skills exercise** modify your `favoriteThings.sh` script to report how many files you have in the current working directory. Print out this information to the user with the following statement:
+
+```
+"Hi, my name is Erin. My favorite organism is C. elegans. My favorite show is Better Call Saul. I love to eat ramen.
+I have 23 files in my current working directory."
+```
+
+### A few details about math in bash
+
+We can do arithmetic operations in bash scripts using double parentheses provided we are working with integers …
+
+
+
+
+
 
 
 
