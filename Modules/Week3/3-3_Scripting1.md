@@ -1,6 +1,6 @@
 # Intro To Scripting 
 
-### Chaining with ; 
+### Chaining with `;`
 
 So far, we've executed one command per line. However, we learned to pipe commands together, which is a way of combining two commands into one long command.
 
@@ -68,4 +68,6 @@ touch README.txt
 
 Let's take a look at each part of this script …
 
-... picture
+<p align="center">
+<img width="410" alt="scripting1" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/scripting1.png">
+</p>
