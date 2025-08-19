@@ -191,4 +191,4 @@ echo $myresult
 
 Here's a quick little [bash scripting cheat sheet](https://devhints.io/bash)
 
-Continue on to [Array Variables](3-5_Array_Variables.md)
+Continue on to [Array Variables](3-6_Array_Variables.md)
