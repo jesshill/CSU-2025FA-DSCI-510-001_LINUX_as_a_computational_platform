@@ -1,4 +1,4 @@
-# Working with files 3 - `sed`, `tr`, `AWK` substitutions 
+# Working with files 3
 
 ### Todays objectives: 
 
