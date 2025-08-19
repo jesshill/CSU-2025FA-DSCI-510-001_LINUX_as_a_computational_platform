@@ -58,14 +58,11 @@
 
 ### Reminder: 
 
-HW 1 and 2 are due by 11:59 pm tonight!
+HW 3 and 4 are due by 11:59 pm tonight!
 
 ### Test your understanding - take this quiz!
 
-[Quiz 3](https://forms.gle/rmNNG3vXTzVgFc6X8)
+[Quiz 4]()
 
 ### Standard Streams 
 
-### Reminder: 
-
-HW 3 and 4 are due by 11:59 pm tonight!
