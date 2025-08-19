@@ -1,5 +1,7 @@
 # Working with files 3 - `sed`, `tr`, `AWK` substitutions 
 
+### Todays objectives: 
+
 Already, we have learned many ways of working within files to read, find, or change their contents.
 
 - `cat`
@@ -13,6 +15,11 @@ In this section we'll learn
 - `tr`
 - `AWK` (I'll just reference you to AWK)
 
+### Reminder: 
+
+HW 3 and 4 are due by 11:59 pm tonight!
+
+### `sed`, `tr`, `AWK` substitutions 
 
 In this section, we'll add to our toolkit by learning three ways to **find and replace** select content within a file. The first is using `sed` **- Stream EDitor**. `sed` is a complex program capable of filtering and transforming text within a file. sed is capable of very complex functionality, but for today, we'll just learn its **find and replace** function.
 
