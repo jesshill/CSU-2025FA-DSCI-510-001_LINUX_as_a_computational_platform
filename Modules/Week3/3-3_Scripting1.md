@@ -176,4 +176,4 @@ echo "startProject>>> successfully completed"
 
 **!!! Isolation:** Sometimes when you are building on the functionality of a script, it makes sense to comment out several blocks of code during the testing phase (also called **debugging** phase). This allows you to isolate just the new changes you are introducing before seeing how they integrate into the complete script.
 
-Continue on to [More scripting - Scripting 2](3-3_Scripting2.md)
+Continue on to [More scripting - Scripting 2](3-4_Scripting2.md)
