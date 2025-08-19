@@ -94,7 +94,7 @@ Keep learning:
 - DSCI 512 - RNA-seq
 - [RC help events and training](https://www.colorado.edu/rc/events)
   - [Working with Linux](https://colorado.libcal.com/calendar/events/linux) a short course - Friday, August 29, 11am - 12pm
-- [Coding & Cookies]() through the Morgan Library
+- [Coding & Cookies](https://libguides.colostate.edu/coding-cookies/home) through the Morgan Library
 
 ### Array Variables
 
@@ -116,4 +116,81 @@ echo ${arrayname[*]}
 echo ${arrayname[@]}
 ```
 
+**!!! Recall:** We just used parentheses to capture the output of a command into a variable, but in those cases, there was an extra dollar sign in the syntax: 
 
+```
+$ myscripts=$(ls *.sh) #captures the names of scripts in a directory as the values of an array variable
+ 
+$ echo $myscripts
+ 
+$ myships=(enterprise discovery titan voyager) #assigns values to an array variable
+ 
+$ echo $myships
+```
+
+Let's explore this more. Make a bash script called `exploringArrays.sh`. Within it, create the array `ships` with four **values**. Values are also called **elements**. We can access the elements in a variety of ways:
+
+```
+#!/usr/bin/env bash
+ 
+# Create an array variable
+ships=(enterprise discovery titan voyager)
+ 
+# Explore the elements
+echo ${ships[*]} # all elements
+echo ${ships[@]} # all elements
+echo ${ships[0]} # the first element
+echo ${ships[1]} # the second element
+echo ${ships[2]} # the third element
+echo ${ships[3]} # the fourth element
+```
+
+In the example above, the number within the square brackets is called an **index** (plural is indices or indexes). The process of accessing an individual element using an index is called **indexing**. Indexing relies on the fact that elements within an array have a set order.
+
+We can also use indices to add a new element to an array or to **reassign** an element of an array. Try this:
+
+```
+#!/usr/bin/env bash
+ 
+# Create an array variable
+ships=(enterprise discovery titan voyager)
+ 
+# Explore the elements
+echo ${ships[*]} # all elements
+echo ${ships[@]} # all elements
+echo ${ships[0]} # the first element
+echo ${ships[1]} # the second element
+echo ${ships[2]} # the third element
+echo ${ships[3]} # the fourth element
+ 
+# Add a new starship
+ships[4]="excelsior"
+ 
+echo "Added a new element: ${ships[*]}"
+ 
+# Replace a starship
+ships[1]="defiant"
+ 
+echo "Changed an element: ${ships[*]}"
+```
+
+Finally, we can assess how many elements are in an array variable using the following syntax:
+
+```
+# length of an array variable. That is, how many elements are in the array:
+echo ${#ships[*]}
+```
+
+**!!! Independent Exercise:** What cities have you lived in and in what order?
+
+- create an array variable called `mycities`
+- Add the names of cities you have lived in as individual elements
+- **Hint** use quotes to enclose values that contain spaces like “San Francisco”
+- Write a little paragraph using an echo statement about your life in which you dereference the different cities using indexes.
+- Your final output should read something like the below paragraph:
+
+`“I was born in Palo Alto. I grew up in Saratoga. I moved to Santa Cruz for college. Then I lived in Eugene. Next, I moved to Berkeley for graduate school. After that, I lived in Chapel Hill. Now, I live in Fort Collins.”`
+
+**!!! Alternative Exercise:** If you haven't lived in very many cities, that's ok. You can list cities you have visited or cities where you wish to live or visit.
+
+Continue on to [Special Variables](3-6_Special_variables_and_IO.md)
