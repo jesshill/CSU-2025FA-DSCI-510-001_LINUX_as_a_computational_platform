@@ -77,7 +77,7 @@
 
 ### Test your understanding - take this quiz!
 
-[Quiz 4](https://forms.gle/Yzqwismcg5N1RB136)
+[Quiz 5](https://forms.gle/Yzqwismcg5N1RB136)
 
 ### Try Alpine login again:  
 
@@ -193,4 +193,4 @@ echo ${#ships[*]}
 
 **!!! Alternative Exercise:** If you haven't lived in very many cities, that's ok. You can list cities you have visited or cities where you wish to live or visit.
 
-Continue on to [Special Variables](3-6_Special_variables_and_IO.md)
+Continue on to [Special Variables](3-7_Special_variables_and_IO.md)
