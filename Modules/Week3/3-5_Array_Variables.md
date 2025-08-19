@@ -87,18 +87,37 @@ HW 1 and 2 are due by 11:59 pm tonight!
 ### Try Alpine login again:  
 
 - Navigate to https://ondemand-rmacc.rc.colorado.edu in a new tab or window
-  - For me, I right-click on the above link and select Open Link in New Window
-- Log into your CSU NET ID. You will receive a DUO PUSH on your phone. Accept it.
-- To access the LINUX command line on ALPINE, go to the Clusters menu. Select >_Alpine Shell
-- In another window, you can also access your files by going to the Files menu and selecting any available directories.
+  - For me, I right-click on the above link and select **Open Link in New Window**
+- Log into your "CSU NET ID". You will receive a "DUO PUSH" on your phone. Accept it.
+- To access the LINUX command line on ALPINE, go to the **Clusters** menu. Select **>_Alpine Shell**
+- In another window, you can also access your files by going to the **Files** menu and selecting any available directories.
 
 For reference, see: [Connecting to remote computers](../../Resources/Connecting_to_remote_computers.md)
 
-Keep 
+Keep learning: 
+- DSCI 511 - Python
+- DSCI 512 - RNA-seq
+- [RC help events and training](https://www.colorado.edu/rc/events)
+  - [Working with Linux](https://colorado.libcal.com/calendar/events/linux) a short course - Friday, August 29, 11am - 12pm
+- [Coding & Cookies]() through the Morgan Library
 
+### Array Variables
 
+So far, we have assigned only a single value to each variable. We can also assign multiple, ordered values to a variable. These create **array variables**.
 
+Arrays are zero-based. That is, the first element is accessed with the number 0.
 
+**Assign values** to an array variable using parentheses:
 
+```
+arrayname=(value1 value2 value3 value4)
+```
 
+**Dereference** the list in a variety of different ways:
+
+```
+echo $arrayname
+echo ${arrayname[*]}
+echo ${arrayname[@]}
+```
 
