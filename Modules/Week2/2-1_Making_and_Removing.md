@@ -59,7 +59,7 @@ HW 1 and 2 are due by 11:59 pm tonight!
 
 ### Test your understanding - take this quiz!
 
-[Quiz](https://forms.gle/zLRYckV6ZPNjeahv8)
+[Quiz 2](https://forms.gle/zLRYckV6ZPNjeahv8)
 
 ### Making Directories
 
