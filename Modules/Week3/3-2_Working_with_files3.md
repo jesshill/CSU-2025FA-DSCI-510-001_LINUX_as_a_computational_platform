@@ -1,7 +1,5 @@
 # Working with files 3
 
-### Todays objectives: 
-
 Already, we have learned many ways of working within files to read, find, or change their contents.
 
 - `cat`
@@ -14,10 +12,6 @@ In this section we'll learn
 - `sed`
 - `tr`
 - `AWK` (I'll just reference you to AWK)
-
-### Reminder: 
-
-HW 3 and 4 are due by 11:59 pm tonight!
 
 ### Substitutions with `sed`, `tr`, `AWK`
 
@@ -122,4 +116,4 @@ If this is starting to feel AWKward, you're not alone. Once you start to imagine
 
 `sed` and `AWK` are extremely fast! If you can write code in them, they will typically run faster than a python code.
 
-Continue on to [Intro to scripting - Scripting 1](3-2_Scripting1.md)
+Continue on to [Intro to scripting - Scripting 1](3-3_Scripting1.md)
