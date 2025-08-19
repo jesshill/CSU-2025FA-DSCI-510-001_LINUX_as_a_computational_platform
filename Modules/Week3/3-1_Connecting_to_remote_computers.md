@@ -1,4 +1,6 @@
 ...
 
 
-Back to [Array Variables](../Modules/Week3/3-5_Array_Variables.md)
+### Reminder: 
+
+HW 3 and 4 are due by 11:59 pm tonight!
