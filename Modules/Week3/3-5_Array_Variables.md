@@ -121,3 +121,4 @@ echo ${arrayname[*]}
 echo ${arrayname[@]}
 ```
 
+
