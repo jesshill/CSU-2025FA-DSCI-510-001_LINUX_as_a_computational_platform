@@ -64,5 +64,29 @@ HW 3 and 4 are due by 11:59 pm tonight!
 
 [Quiz 4](https://forms.gle/kbtffRSixFUx68h69)
 
-### Standard Streams 
+### Connecting to remote computers
+
+Up to this point, we have only used the terminal to interact with your **local** computer. Today we will talk about several ways we can use the terminal to interact with **remote** computers over the internet.
+
+In some instances, we will **log into** a remote computer, also known as **connecting** to it. This will allow us to interact with that computer as if we had opened its terminal. With this access, we could navigate that computer's file structure, write new files, run jobs, or transfer files. It would be just like interacting with our local computer.
+
+This differs slightly from **transferring files** between the remote computer and our local computer. We transferred files from UCSC Genome Browser to our local computer. In that instance, UCSC Genome browser set up a special **public-facing, read-only** directory of files that we could copy over to our computer but we wouldn't be able to write files there or run commands there.
+
+What types of remote computers can we log into?
+
+```
+1. remote personal computers
+2. servers or repositories (computing or file storage)
+3. supercomputers
+```
+
+### Accessing remote computers with ssh - Secure SHell
+
+**ssh usage**
+
+`ssh <addressOfRemoteServer>`
+
+`ssh [-l <yourloginname>] <addressOfRemoteServer> #that's a lower case “L”`
+
+
 
