@@ -82,10 +82,19 @@ echo $newvar # should be "ifor"
 
 Cheatsheet For String Replacement - Altering the Values of Variables
 
+| Syntax | Description |
+|--------|-------------|
+| `${oldvar/find/replace}` | Replace the *first* match of **find** with **replace** from **oldvar** |
+| `${oldvar//find/replace}` | Replace the *every* match of **find** with **replace** from **oldvar** |
+| `${oldvar/#find/replace}` | If **find** matches the *first* characters of **oldvar**, replace them with **replace** |
+| `${oldvar/%find/replace}` | If **find** matches *last characters* of **oldvar**, replace them with **replace** |
+| `${oldvar:position:length}` | Extract **length** characters from **oldvar** starting at **position** |
+| `${#oldvar}` | Report the number of characters in **oldvar** |
+
+**!!! Practice on your own:** Try to modify your script from before called `countingLines.sh` so that it takes in a single text file as an argument, say `file1.txt`. Then, have your script print out the number of lines in that file to a new output file called `file1_linecount.txt`.
+
+Answer here
 
 
 
-
-
-
-
+Continue on to [Environmental Variables](3-9_Environmental_Variables.md)
