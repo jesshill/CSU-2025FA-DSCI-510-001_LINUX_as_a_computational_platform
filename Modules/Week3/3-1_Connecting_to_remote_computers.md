@@ -124,7 +124,9 @@ The team at CU Boulder who developed ALPINE have helped to create an alternative
   - For me, I right click on the above link and select **Open Link in New Window**
   - You will be asked to select an identity provider using a pull-down menu. Select on the pull-down menu (it may say **ORCID**). Start typing **Colorado State University**. Click on **Remember** and log in. It should look like this
 
-
+<p align="center">
+<img width="410" alt="login" src="">
+</p>
 
 Next steps:
 - Log into your CSU NET ID. You will receive a DUO PUSH on your phone. Accept it.
