@@ -39,6 +39,53 @@ echo $newvar # should output COlOradO
 Make a new variable `$newvar` that replaces “pattern” at the BEGINNING of the string `$oldvar` with “replacement”.
 
 ```
+oldvar="To be or not to be"
+newvar=${oldvar/#To/So}
+echo $newvar # should be "So be or not to be"
+```
+
+**Replace a suffix**
+
+`<newvarname>=${<oldvarname>/%<pattern>/<replacement>}`
+
+Make a new variable `$newvar` that replaces “pattern” at the END of the string `$oldvar` with “replacement”.
 
 ```
+oldvar="file1.txt"
+newvar=${oldvar/%txt/fastq}
+echo $newvar # should be "file1.fastq"
+```
+
+**Subset a string** 
+
+`<newvarname>=${<oldvarname>:<n>}`
+
+Make a new variable `$newvar` that corresponds to the `$var` string starting at nth letter.
+
+```
+oldvar="California"
+newvar=${oldvar:3}
+echo $newvar # should be ifornia
+```
+
+**Subset a string of specific length** 
+
+`<newvarname>=${<oldvarname>:<n>:<length>}`
+
+Make a new variable `$newvar` that corresponds to the `$oldvar` string starting at nth letter and going for “length” letters.
+
+```
+oldvar="California"
+newvar=${oldvar:3:4}
+echo $newvar # should be "ifor"
+```
+
+Cheatsheet For String Replacement - Altering the Values of Variables
+
+
+
+
+
+
+
 
