@@ -111,4 +111,17 @@ Well, it's really the same within a script.
 wc $1 > output_counts.txt
 ```
 
+**!!!** Within scripts, `»` which appends information to the end of an output file is often very handy. Just remember - you may want to use `>` the first time you start your output file. This ensures that if you run your scripts multiple times, it makes a new output file every time and doesn't append to the previous run's output file. 
 
+```
+#!/usr/bin/env bash
+ 
+wc $1 > output_counts.txt
+wc $2 >> output_counts.txt
+```
+
+It is technically possible to have a user supply the desired output file name as an argument. However, that can get risky by confusing input files that exist with output files that are going to be created. It becomes very easy to overwrite files accidentally.
+
+In the next section, I'll show you how you can create output file names from input file names. This can be very handy.
+
+Continue on to [String Operations](3-8_String_Operations.md)
