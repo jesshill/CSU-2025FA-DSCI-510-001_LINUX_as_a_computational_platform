@@ -93,10 +93,9 @@ Cheatsheet For String Replacement - Altering the Values of Variables
 
 **!!! Practice on your own:** Try to modify your script from before called `countingLines.sh` so that it takes in a single text file as an argument, say `file1.txt`. Then, have your script print out the number of lines in that file to a new output file called `file1_linecount.txt`.
 
-Answer here
 
 <details>
-  <summary>Click to expand/collapse</summary>
+  <summary>Answer here</summary>
 
 ```
 #!/usr/bin/env bash
