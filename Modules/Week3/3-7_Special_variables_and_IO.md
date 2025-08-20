@@ -16,13 +16,13 @@ wc -w file1.txt
 
 ### Reading
 
-We can have the user supply the input interactively using the command read
+We can have the user supply the input interactively using the command **read**
 
 **!!! Exercise:** 
-- Create a new directory called moreScripting
+- Create a new directory called `moreScripting`
 - In that directory, copy and paste some files from other places on your file system.
-- Create a new script called wordCounter.sh.
-- Copy and paste the following code into wordCounters.sh:
+- Create a new script called `wordCounter.sh`.
+- Copy and paste the following code into `wordCounters.sh`:
 
 ```
 #!/usr/bin/env bash
@@ -32,3 +32,34 @@ read filetocount
  
 wc -w $filetocount
 ```
+
+- Make sure you know some of the filenames in your current working directory.
+- Execute your script and see what happens:
+
+```
+bash wordCounter.sh
+```
+
+**Usage of read**
+
+`read <variable name>`
+
+`read` prompts the reader to type something and press enter. The entered keystrokes become the value assigned to the variable named in the command argument.
+
+### Special Variables - passing input into scripts as arguments
+
+We can also pass input into our script as arguments. These arguments can be typed in by the user as they execute the script on the command line like so:
+
+`bash <shellscript.sh> [argument1] [argument2] …` 
+
+Argument1 will be captured as a **special variable** that can be dereferenced using the syntax **$1** within the script itself. Argument2 can be dereferenced as **$2**. Special variables are initiated when you execute your code. They are useful for accessing information about how the script was executed.
+
+Here's how we pass in arguments from the command line.
+
+### List of special variables
+
+
+
+
+
+
