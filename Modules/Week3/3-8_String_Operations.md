@@ -95,6 +95,25 @@ Cheatsheet For String Replacement - Altering the Values of Variables
 
 Answer here
 
+<details>
+  <summary>Click to expand/collapse</summary>
 
+```
+#!/usr/bin/env bash
+ 
+# capture the first argument in a variable called myfirstfile
+myfirstfile=$1
+ 
+# use a sub-string substitution line to create a new variable called myoutputfile in which .txt is substituted for _linecount.txt
+myoutputfile=${myfirstfile/%.txt/_linecount.txt}
+ 
+# operate on the input file and save the line count to the desired output file
+wc -l $myfirstfile > $myoutputfile
+ 
+#allfiles=$*
+#wc -l ${allfiles[*]}
+```
+
+</details>
 
 Continue on to [Environmental Variables](3-9_Environmental_Variables.md)
