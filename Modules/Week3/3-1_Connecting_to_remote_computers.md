@@ -118,14 +118,14 @@ Password: godofmischief,push
 
 The team at CU Boulder who developed ALPINE have helped to create an alternative way to interact with the ALPINE Supercomputer, one that can happen in you internet browser like Chrome or Firefox. This method of accessing ALPINE is called OnDemand.
 
-**!!! Exercise:** Let's practice accessing ALPINE using OnDemand together.
+**!!! Exercise:** Let's practice accessing ALPINE using **OnDemand** together.
 
 - Navigate to [OnDemand](https://ondemand-rmacc.rc.colorado.edu/pun/sys/dashboard) in a new tab or window
   - For me, I right click on the above link and select **Open Link in New Window**
   - You will be asked to select an identity provider using a pull-down menu. Select on the pull-down menu (it may say **ORCID**). Start typing **Colorado State University**. Click on **Remember** and log in. It should look like this
 
 <p align="center">
-<img width="410" alt="login" src="">
+<img width="410" alt="login" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/login_window.png">
 </p>
 
 Next steps:
