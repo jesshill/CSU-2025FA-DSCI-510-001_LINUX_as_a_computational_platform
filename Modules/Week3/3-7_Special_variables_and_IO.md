@@ -58,8 +58,57 @@ Here's how we pass in arguments from the command line.
 
 ### List of special variables
 
+| Syntax | Meaning |
+|--------|---------|
+| $0 | The name of the Bash script |
+| $1 | The first argument passed to the script |
+| $2 | The second argument passed to the script |
+| $3 | The third argument passed to the script, etc … |
+| $# | How many arguments were passed to the script |
+| $@ | All the arguments supplied to the script |
+| $* | All the arguments supplied to the script |
 
+**!!! Example:** Here is a script called `countingLines.sh`
 
+```
+#!/usr/bin/env bash
+ 
+wc -l $1
+```
 
+And it is executed on the command line like so:
+
+```
+$ bash countingLines.sh file1.txt
+```
+
+This is where the real power of programming/scripting comes in. Our special variables script has the exact same behavior as the hard coding and reading examples above. However, using special variables we can apply our script to different inputs without re-editing the script directly.
+
+**!!! Best Practices** It is good practice to pass arguments into variables that have nice, descriptive names. This is a good idea because it is hard to remember what $1 means. Also, $1 looks really robotic in a script, especially once you start doing math. Try this …
+
+```
+#!/usr/bin/env bash
+ 
+myfirstfile=$1
+ 
+wc -l $myfirstfile
+```
+
+**!!! Independent Exercise:** 
+- Create the script `countingLines.sh` as written above.
+- Pass an existing file to `countingLines.sh` as an argument and ensure it is working properly
+- How would you modify your script `countingLines.sh` so it can take in up to 3 arguments?
+
+### Saving output from scripts
+
+How did we save information to files on the command line?
+
+Well, it's really the same within a script.
+
+```
+#!/usr/bin/env bash
+ 
+wc $1 > output_counts.txt
+```
 
 
