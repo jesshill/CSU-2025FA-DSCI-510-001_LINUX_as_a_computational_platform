@@ -10,3 +10,35 @@ By far the most common string operations I perform are **replacements** which ju
 
 Make a new variable `$newvar` that replaces one instance of “pattern” in `$oldvar` with “replacement”.
 
+**!!! Exercise:** You can follow along on the command line:
+
+```
+oldvar="Colorado"
+newvar=${oldvar/o/O}
+echo $newvar #should output COlorado
+```
+
+**Globally replace a part of the string**
+
+```
+<newvarname>=${<oldvarname>//<pattern>/<replacement>}
+```
+
+Make a new variable `$newvar` that replaces ALL instances of “pattern” in `$oldvar` with “replacement”
+
+```
+oldvar="Colorado"
+newvar=${oldvar//o/O}
+echo $newvar # should output COlOradO
+```
+
+**Replace a prefix**
+
+`<newvarname>=${<oldvarname>/#<pattern>/<replacement>}`
+
+Make a new variable `$newvar` that replaces “pattern” at the BEGINNING of the string `$oldvar` with “replacement”.
+
+```
+
+```
+
