@@ -84,9 +84,48 @@ What types of remote computers can we log into?
 
 **ssh usage**
 
-`ssh <addressOfRemoteServer>`
+```
+ssh <addressOfRemoteServer>
 
-`ssh [-l <yourloginname>] <addressOfRemoteServer> #that's a lower case “L”`
+ssh [-l <yourloginname>] <addressOfRemoteServer> #that's a lower case “L”
+```
+
+**!!! Exercise:** Try logging into Alpine using **ssh** 
+
+The login address for ALPINE is: `login.rc.colorado.edu`
+
+If your username is `loki@colostate.edu`, and your password is `godofmischief`, you would log in like so:
+
+```
+$ssh -l loki@colostate.edu login.rc.colorado.edu
+Password: godofmischief,push
+# Switch to your DUO app on your phone to approve
+```
+
+**!!! that's a lower case "L"**
+
+**!!! Replace your eID e-mail with loki@colostate.edu**
+
+**!!! You won't see anything pop up when you type your password**
+
+**!!! If `,push` doesnt work, try `,phone` or the 6-digit code on your DUO app (refreshes every 20 seconds)**
+
+**!!! Exercise:** Make a file.
+- Use nano to create a file called `iwashere.txt`
+- Write a little note
+
+### Accessing ALPINE using OnDemand
+
+The team at CU Boulder who developed ALPINE have helped to create an alternative way to interact with the ALPINE Supercomputer, one that can happen in you internet browser like Chrome or Firefox. This method of accessing ALPINE is called OnDemand.
+
+**!!! Exercise:** Let's practice accessing ALPINE using OnDemand together.
+
+- Navigate to [OnDemand](https://ondemand-rmacc.rc.colorado.edu/pun/sys/dashboard) in a new tab or window
+  - For me, I right click on the above link and select Open Link in New Window
+  - You will be asked to select an identity provider using a pull-down menu. Select on the pull-down menu (it may say ORCID). Start typing Colorado State University. Click on Remember and log in. It should look like this
+
+
+
 
 
 
