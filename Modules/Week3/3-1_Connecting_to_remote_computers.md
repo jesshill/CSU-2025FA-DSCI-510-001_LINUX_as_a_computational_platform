@@ -121,11 +121,16 @@ The team at CU Boulder who developed ALPINE have helped to create an alternative
 **!!! Exercise:** Let's practice accessing ALPINE using OnDemand together.
 
 - Navigate to [OnDemand](https://ondemand-rmacc.rc.colorado.edu/pun/sys/dashboard) in a new tab or window
-  - For me, I right click on the above link and select Open Link in New Window
-  - You will be asked to select an identity provider using a pull-down menu. Select on the pull-down menu (it may say ORCID). Start typing Colorado State University. Click on Remember and log in. It should look like this
+  - For me, I right click on the above link and select **Open Link in New Window**
+  - You will be asked to select an identity provider using a pull-down menu. Select on the pull-down menu (it may say **ORCID**). Start typing **Colorado State University**. Click on **Remember** and log in. It should look like this
 
 
 
+Next steps:
+- Log into your CSU NET ID. You will receive a DUO PUSH on your phone. Accept it.
+- To access the LINUX command line on ALPINE, go to the **Clusters** menu. Select **>_Alpine Shell**
+- In another window, you can also access your files by going to the **Files** menu and selecting any available directories.
 
+**!!! Reflection:** How did this go for everyone? What problems were encountered?
 
-
+Continue on to [Working with files 3](3-2_Working_with_files3.md)
