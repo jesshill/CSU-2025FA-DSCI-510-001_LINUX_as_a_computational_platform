@@ -90,4 +90,4 @@ In LINUX, there are different types of loops: `while`, `for`, `until`, and `sele
 
 These three structures are each very simple on their own, but combined together, a sophisticated complexity emerges.
 
-Continue on to [Conditionals]()
+Continue on to [Conditionals](4-2_Conditionals.md)
