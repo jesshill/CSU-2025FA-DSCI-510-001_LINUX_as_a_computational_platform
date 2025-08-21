@@ -65,13 +65,29 @@ In LINUX, the order of sequenced operations is dictated by the order of the line
 
 ### Conditionals 
 
-Conditionals (sometimes also called selections) are forks in the road. A question is asked and depending on the answer, either action A or B is chosen.
+**Conditionals** (sometimes also called **selections**) are forks in the road. A question is asked and depending on the answer, either action **A** or **B** is chosen.
 
-Example
+Example:
+- If it's a weekday → go to the lab
+- If it's a weekend → clean the house
 
-If it's a weekday → go to the lab
-If it's a weekend → clean the house
-In LINUX, conditionals are specified by if statements.
+In LINUX, conditionals are specified by `if` statements.
 
+### Loops
 
+**Loops** are similar to conditionals in that they also ask a question. However, the difference is that loops ask the same question over and over and over again until a set criterion is satisfied.
 
+Example: Hammering a nail
+- You ask - is the nail hammered in? No → hit the nail
+- Now is the nail hammered in? No → hit the nail
+- Now is the nail hammered in? No → hit the nail
+- Now is the nail hammered in? No → hit the nail
+- Now is the nail hammered in? No → hit the nail
+- Now is the nail hammered in? No → hit the nail
+- Now is the nail hammered in? Yes → stop hammering
+
+In LINUX, there are different types of loops: `while`, `for`, `until`, and `select`. In the interest of time, we will only cover `while` and `for`.
+
+These three structures are each very simple on their own, but combined together, a sophisticated complexity emerges.
+
+Continue on to [Conditionals]()
