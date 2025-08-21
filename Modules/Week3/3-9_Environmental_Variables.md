@@ -88,4 +88,4 @@ These will differ depending on your operating system and version of the shell.
 
 Later, we will learn to modify these configuration files to customize our user experience. For now, just know that they exist, they are used to customize the user experience, but one should tread with caution before altering them. These files impact how your terminal, shell, and computer operate.
 
-Continue on to [Scripting 3 - Control Flow](4-1_Scripting3.md)
+Continue on to [Scripting 3 - Control Flow](../Week4/4-1_Scripting3.md)
