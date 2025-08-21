@@ -54,7 +54,38 @@ Here are some interesting environmental variables outlined in [the optional cour
 <img width="410" alt="envVars" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/envVars.png">
 </p>
 
+Most environmental variables are all caps, but not all of them. This is why it is bad form to make your own, personal variables in all caps.
 
+We can **dereference** environmental variables like any other variable.
 
+**!!! EXERCISE:** Follow along
 
+```
+$ echo $USER
+$ echo $SHELL
+$ echo $HOME
+$ echo $PWD
+$ echo $OLDPWD
+$ echo $PATH
+```
 
+### How is the environment established?
+
+Every time we start a shell session, the shell acquires information about the environment by reading **configuration files**. Some of these are system-wide files that you don't modify. But a few of these, such as **startup files** are modifiable by the user and can allow you to create a customized user experience.
+
+Typically, startup files are located in your $HOME directory and are named:
+
+```
+# Where ~ is the symbol for your $HOME directory:
+~/.profile
+~/.bash_profile
+~/.bashrc
+~/.zrc
+~/.zenv
+```
+
+These will differ depending on your operating system and version of the shell.
+
+Later, we will learn to modify these configuration files to customize our user experience. For now, just know that they exist, they are used to customize the user experience, but one should tread with caution before altering them. These files impact how your terminal, shell, and computer operate.
+
+Continue on to [Control Flow]()
