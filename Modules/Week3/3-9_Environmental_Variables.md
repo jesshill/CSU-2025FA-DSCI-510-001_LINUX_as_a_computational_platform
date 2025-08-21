@@ -33,5 +33,4 @@ LOGNAME=jessicahill
 INFOPATH=/opt/homebrew/share/info:
 HOMEBREW_CELLAR=/opt/homebrew/Cellar
 _=/usr/bin/printenv
-Jessicas-MacBook-Pro-2:~ jessicahill$ 
 ```
