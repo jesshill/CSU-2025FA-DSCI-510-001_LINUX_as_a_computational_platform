@@ -20,17 +20,17 @@
 
 - **Commands covered**
   - String operations:
-    - newvar=${oldvar/a/A}
-    - newvar=${oldvar//a/A}
-    - newvar=${oldvar/#To/So}
-    - newvar=${oldvar/%txt/fastq}
-    - newvar=${oldvar:3}
-    - newvar=${oldvar:3:4}
-  - if
-  - else
-  - elif
-  - for
-  - while
+    - `newvar=${oldvar/a/A}`
+    - `newvar=${oldvar//a/A}`
+    - `newvar=${oldvar/#To/So}`
+    - `newvar=${oldvar/%txt/fastq}`
+    - `newvar=${oldvar:3}`
+    - `newvar=${oldvar:3:4}`
+  - `if`
+  - `else`
+  - `elif`
+  - `for`
+  - `while`
 
 </details>
 
