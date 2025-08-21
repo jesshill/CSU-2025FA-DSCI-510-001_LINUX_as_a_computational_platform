@@ -41,7 +41,7 @@ HW 5 and 6 are due by 11:59 pm tonight!
 
 ### Test your understanding - take this quiz!
 
-[Quiz 6]()
+[Quiz 6](https://forms.gle/Ck9tM4q91brAZ8457)
 
 ### Control Flow
 
@@ -51,9 +51,27 @@ All the software we use in every aspect of our lives is running some sort of cod
 <img width="410" alt="controlFlow" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/sequence_cond_loops.png">
 </p>
 
+### Sequences
 
+**Sequences** are actions that are completed in a specific order. **A** must be done first. Next **B**. Then **C**. Sequences are complete when all the actions in the sequence are complete.
 
+Example:
+- wake up
+- take shower
+- get dressed
+- eat breakfast
 
+In LINUX, the order of sequenced operations is dictated by the order of the lines of code. Each line is executed one at a time.
+
+### Conditionals 
+
+Conditionals (sometimes also called selections) are forks in the road. A question is asked and depending on the answer, either action A or B is chosen.
+
+Example
+
+If it's a weekday → go to the lab
+If it's a weekend → clean the house
+In LINUX, conditionals are specified by if statements.
 
 
 
