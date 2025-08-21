@@ -50,7 +50,9 @@ Environmental variables are different from special variables and user-defined va
 
 Here are some interesting environmental variables outlined in [the optional course textbook](https://linuxcommand.org/tlcl.php)
 
-
+<p align="center">
+<img width="410" alt="envVars" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/envVars.png">
+</p>
 
 
 
