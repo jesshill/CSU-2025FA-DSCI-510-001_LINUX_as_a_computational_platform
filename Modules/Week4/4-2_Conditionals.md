@@ -63,12 +63,12 @@ Don't forget the spaces just inside of the square bracket!
 
 | Symbol | Comparison |
 |--------| -----------|
-| -eq | Returns true if two numbers are **equal** |
-| -ne | Returns true if two numbers are **not equal** |
-| -lt | Returns true if a number is **less than** another |
-| -le | Returns true if a number is **less than or equal to** another number |
-| -gt | Returns true if a number is **greater than** another number |
-| -ge | Returns true if a number is **greater than or equal to** another number |
+| `-eq` | Returns true if two numbers are **equal** |
+| `-ne` | Returns true if two numbers are **not equal** |
+| `-lt` | Returns true if a number is **less than** another |
+| `-le` | Returns true if a number is **less than or equal to** another number |
+| `-gt` | Returns true if a number is **greater than** another number |
+| `-ge` | Returns true if a number is **greater than or equal to** another number |
 
 Here are some examples:
 
@@ -96,8 +96,34 @@ For a detailed description of how these are used see: [Ryan's Tutorials: bash if
 
 **!!! Exercise:** Write a brief script called `numberReader.sh` that asks the user to type in a number. If the number is greater than 100, print out “That's a big number”
 
-m( Potential Pitfall - The following does not work:
+**!!! Potential Pitfall:** The following does not work ...
+
+```
+# Throws an error and doesn't work
+if [$myvar -le 2023]
+then
+  echo "your number is less than 2023"
+fi
+```
+
+**!!! Potential Pitfall:** In some situations, conditional statements work better with double square brackets
+
+```
+[[ if statement here ]] 
+```
+
+[More about single vs double square brackets](https://www.baeldung.com/linux/bash-single-vs-double-brackets#:~:text=The%20single%20bracket%20is%20a,brackets%20is%20generally%20more%20convenient.)
+
+### `if/else`
 
 
+Try running your screenPatrons.sh script again but now type in a number that is less than 21. Hmmm, it's not very satisfying. if/else statements can help with that. If the test is true, you can execute one block of code. If the test is false, you can execute a different block:
 
+if else Usage
 
+if [ <some test> ]
+then
+    <commands>
+else
+    <commands>
+fi
