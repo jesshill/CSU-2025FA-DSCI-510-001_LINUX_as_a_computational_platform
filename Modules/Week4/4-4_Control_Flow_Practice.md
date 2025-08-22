@@ -187,14 +187,3 @@ done
 ```
 
 </details>
-
-**!!! Conditional Practice Challenge - Exercise 6** Recall how we can pass an argument into our script as input like so …
-
-```
-$ bash countingLines.sh file1.txt
-```
-
-
-
-
-
