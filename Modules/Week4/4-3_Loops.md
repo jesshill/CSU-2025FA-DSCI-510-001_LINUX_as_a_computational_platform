@@ -227,14 +227,56 @@ done < listOfHouses.txt
 
 ### Tips, Warnings, and Bonus Content
 
+**!!! Warning** - Stuck in a loop? If you are stuck in an infinite loop, press `CTRL + C`
 
+**!!! Tip** - incrementing numeric variables using x++
+- If we have a numeric variable called x that is assigned the value 0, we can add one to this variable each time we go around the loop with the following x++ syntax …
 
+```
+x=0
+ 
+while [ $x -le 5 ]
+do
+  echo "x is equal to $x"
+ 
+  ((x++))     # Means the same as x=$(( $x + 1 ))
+ 
+done
+ 
+# similarly, "((x--))" will decrease the value by 1.
+```
 
+**!!! Conventions** - We have been using **x** as a counter variable in class. And typically counter variables are single letters. The convention however is typically to choose **i**. In many online examples, you'll see **i**, so just be aware. 
 
+**!!! Bonus content** 
+- `break` - If you want to stop going around the loop, you can use the command `break`. Typically, you'll need to place a conditional within a loop to use this correctly.
+- `continue` - If you want to skip to the next round of the loop, use the command `continue`. Typically, you'll need to place a conditional within a loop to use this correctly.
+- for loops C-style - hard
 
+### Looping over arguments
 
+A typical task is to supply your script with a list of arguments using a wildcard character like so …
 
+```
+$ bash measureDiskSpace.sh *.txt
+```
 
+Say this script performs `du -h <file.txt>` on each file you pass to it and formats the output like so …
 
+```
+Disk usage for file1.txt is:    0B	file1.txt
+Disk usage for file2.txt is:  4.0K	file2.txt
+Disk usage for file3.txt is: 23.0K      file3.txt
+```
 
+**!!! Exercise:** Try to think about how you would write `measureDiskSpace.sh` so it can accept any number of arguments provided, such as when you call it with a wildcard.
 
+**!!! Hint:** Try converting the special array variable for arguments into a new array variable name like so. Then see if you can use a loop structure we already learned to help you do this.
+
+```
+myarguments=$@
+```
+
+My answer here
+
+Continue on to [Flow Practice]()
