@@ -158,7 +158,9 @@ fi
 
 This can get more complex, but in the interest of time, we're going to skip over this section. I'll include it here for those who wish to learn on their own.
 
-...
+<p align="center">
+<img width="410" alt="ifelifelse" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/if_elif_else.jpg">
+</p>
 
 Conditionals can get more complex by adding elif which can add more test criteria.
 
