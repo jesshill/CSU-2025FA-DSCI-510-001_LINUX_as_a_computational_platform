@@ -306,9 +306,9 @@ $ nano colors.rc
 2. You **do** need to export the variable again. `export LSCOLORS`
 3. Almost there - colors.rc has to be `sourced` during login.
 4. `source colors.rc` must be placed at the very bottom of your login startup file:
-  4.1. bash: `.bash_profile`
-  4.2. zsh: `.zshrc`
-  4.3. Create the file if it doesn't exist.
+  - bash: `.bash_profile`
+  - zsh: `.zshrc`
+  - Create the file if it doesn't exist.
 5. Open a new terminal window (ctrl-alt-t Windows) (command-t Mac) and see if the list colors are defined.
 
 ---
