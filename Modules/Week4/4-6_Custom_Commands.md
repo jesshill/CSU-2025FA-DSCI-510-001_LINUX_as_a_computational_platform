@@ -279,6 +279,38 @@ LS_COLORS='di=34:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=
 export LS_COLORS # only has to happen once
 ```
 
+**Try it!**
+
+1. Change the foreground color of directories,
+2. paste in the new code using the syntax above.
+3. use `ls` in your home directory to test it out
+4. Try changing the background color of the “directory"
+
+**Other file types - for the curious**
+
+If you want to test the display of other file types, you have to look in system directories.
+- /dev should have symbolic links, and character and block special files
+- /bin /usr/sbin, some have the set-uid/set-gid
+
+**Saving changes to your environment**
+
+Everything is saved in configuration files or scripts, and executed when you login, or open a new terminal.
+
+Let's make a new configuration file called `colors.rc` (.rc is a convention for config file extensions).
+
+```
+$ nano colors.rc
+```
+
+1. Set the value of LSCOLORS or LS_COLORS in the file, as you did in the terminal.
+2. You **do** need to export the variable again. `export LSCOLORS`
+3. Almost there - colors.rc has to be `sourced` during login.
+4. `source colors.rc` must be placed at the very bottom of your login startup file:
+  4.1. bash: `.bash_profile`
+  4.2. zsh: `.zshrc`
+  4.3. Create the file if it doesn't exist.
+5. Open a new terminal window (ctrl-alt-t Windows) (command-t Mac) and see if the list colors are defined.
+
 ---
 
 </details>
