@@ -187,7 +187,7 @@ Whereas the nodes are analogous to CPU and memory on your home laptop, the files
 Here are the different file storage spaces available:
 
 <p align="center">
-<img width="500" alt="storage locations" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/storageLocations.png">
+<img width="600" alt="storage locations" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/storageLocations.png">
 </p>
 
 **!!! Exercise:** Explore your directories through the command line on ALPINE:
