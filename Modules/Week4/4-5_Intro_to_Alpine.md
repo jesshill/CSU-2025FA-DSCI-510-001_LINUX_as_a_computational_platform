@@ -190,5 +190,16 @@ Here are the different file storage spaces available:
 <img width="410" alt="storage locations" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/storageLocations.png">
 </p>
 
+**!!! Exercise:** Explore your directories through the command line on ALPINE:
 
+```
+$ curc-quota. #curc-quota lets you check how much disk space you are using up 
+$ pwd # check where you are
+$ ls -alh
+$ cd /projects/$USER
+$ ls -alh
+$ cd /scratch/alpine/$USER
+$ ls -alh
+```
 
+Continue on to [Custom Commands on Alpine](4-6_Custom_Commands.md)
