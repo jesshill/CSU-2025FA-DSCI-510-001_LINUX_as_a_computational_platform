@@ -52,3 +52,55 @@ What commands go inside the loop? Anything you want, really. I do recommend test
 
 **!!! Exercise:** Let's try this together. Let's make a Hogwarts houses array. Let's start giving some points to different houses using a script `givePoints.sh`. Start `givePoints.sh` and make it executable. Next, copy in the following code:
 
+```
+#!/usr/bin/env bash
+ 
+#assign hogwarts houses to the array variable called houses
+houses=(Gryffindor Slytherin Ravenclaw Hufflepuff)
+ 
+# each element in the array variable houses will be sequentially accessed as the variable $housename
+for housevar in ${houses[@]}
+do
+    echo -e "Ten points for $housevar"
+ 
+done
+```
+
+Test it out! What happened?
+
+**!!! Independent Exercise:** Try it out yourself.
+- Write a script called `cycleNames.sh`
+- Create an array variable called `labgroup` that includes all the members of your lab (or family or friend-group)
+- Use a simple `for` loop to cycle over each person in `labgroup` and repeat a simple echo statement such as `“Hello, $member”` or `“$member, it's your turn for lab meeting”`.
+
+### `while` loops
+
+`while` loops are loops that test a conditional at each iteration of the loop. If the conditional statement is true, the code block is executed. If the condition is false, the loop stops.
+
+**while usage**
+
+```
+while [ <some test> ]
+do
+    <commands>
+done
+```
+
+Similar to what we learned in the `for` loops, the words `while`, `do`, and `done` must be literally written. The [ <some test > ] section is going to adhere to the rules and conventions we saw in the conditional section. And the commands can be anything we wish.
+
+To achieve the proper behavior, our while loop will need three major components:
+
+1. INITIALIZATION - where we start counter variable (i = 0)
+2. CONDITION - where we check if our counter variable satisfies some conditional criteria (less than #, greater than #); and
+3. INCREMENTALIZATION - where we reassign our counter by adding or subtracting 1 to/from it.
+
+**!!! Example:** here is a loop that counts from 1 to 5. Let's call it `simpleCounter.sh`
+
+
+
+
+
+
+
+
+
