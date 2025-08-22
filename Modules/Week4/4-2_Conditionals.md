@@ -117,13 +117,34 @@ fi
 ### `if/else`
 
 
-Try running your screenPatrons.sh script again but now type in a number that is less than 21. Hmmm, it's not very satisfying. if/else statements can help with that. If the test is true, you can execute one block of code. If the test is false, you can execute a different block:
+Try running your `screenPatrons.sh` script again but now type in a number that is less than 21. Hmmm, it's not very satisfying. **if/else** statements can help with that. If the test is true, you can execute one block of code. If the test is false, you can execute a different block:
 
-if else Usage
+**if/else Usage**
 
+```
 if [ <some test> ]
 then
     <commands>
 else
     <commands>
 fi
+```
+
+```
+#!/usr/bin/env bash
+ 
+# prompt user for their age
+echo -e "How old are you?"
+ 
+read age
+ 
+#Conditional statement
+if [ $age -ge 21 ]
+then
+    echo -e "Welcome to the club!"
+else
+    echo - "Scram, kid!"
+fi
+```
+
+
