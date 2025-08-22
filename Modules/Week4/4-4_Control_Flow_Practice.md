@@ -38,11 +38,11 @@
 
 ### Reminder: 
 
-HW 5 and 6 are due by 11:59 pm tonight!
+Final exame due by (or can turn in before) teusday September 23rd! 
 
 ### Test your understanding - take this quiz!
 
-[Quiz 7](https://forms.gle/Ck9tM4q91brAZ8457)
+[Quiz 7]()
 
 ### Exercises for practice
 
