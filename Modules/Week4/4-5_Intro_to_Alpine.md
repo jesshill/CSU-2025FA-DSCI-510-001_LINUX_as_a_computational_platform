@@ -175,7 +175,7 @@ Compute nodes are **multi-core processors**. This means we can run multiple jobs
 Here is an outline of the different types of compute nodes available:
 
 <p align="center">
-<img width="410" alt="alpine nodes" src="">
+<img width="410" alt="alpine nodes" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/alpine_nodes.png">
 </p>
 
 ### Alpine File Storage
