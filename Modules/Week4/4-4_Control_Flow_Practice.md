@@ -42,7 +42,7 @@ Final exam due on teusday September 23rd!
 
 ### Test your understanding - take this quiz!
 
-[Quiz 7]()
+[Quiz 7](https://forms.gle/LFgfbRWYnnCYCDM16)
 
 ### Exercises for practice
 
