@@ -115,6 +115,8 @@ Cool! What else can I do in my `.bash_profile`?
 <details>
   <summary>Quick PATH modifications</summary>
 
+  ---
+
 **example .bash_profile modifications**
 
 ```
@@ -137,10 +139,14 @@ More references here:
 - [How to change colors](https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/)
   - Note: the variable is LSCOLORS on Alpine, not LS_COLORS as in their tutorial
 
+  ---
+
 </details>
 
 <details>
   <summary>Edit your .bash_profile</summary>
+
+  ---
 
 **!!! Warning:** Be very careful modifying your PATH. Make a backup of your startup files before modifying them. If something goes amiss, you can then revert to the previous startup file.
 
@@ -189,12 +195,16 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 ```
 
+  ---
+
 </details>
 
 <details>
   <summary>Using variables in your environment</summary>
 
-**Chaning settings in your environment**
+  ---
+  
+**Changing settings in your environment**
 
 Now that we've had practice with variables, and seen some environmental variables, let's explore how `ls` uses an environmental variable to color its output.
 
@@ -233,6 +243,8 @@ alias ls='ls -G'
 This insures that `ls` will color its output, and is probably already set for you. If you like how it colors its output already, that's OK, we're just tinkering for now.
 
 **Syntax of `LSCOLORS/LS_COLORS`**
+
+  ---
 
 </details>
 
