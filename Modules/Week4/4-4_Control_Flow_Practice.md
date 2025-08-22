@@ -38,7 +38,7 @@
 
 ### Reminder: 
 
-Final exame due by (or can turn in before) teusday September 23rd! 
+Final exam due on teusday September 23rd! 
 
 ### Test your understanding - take this quiz!
 
