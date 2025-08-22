@@ -119,4 +119,25 @@ done
 
 </details>
 
-**!!! SUPER ULTIMATE NINJA SKILLS CHALLENGE EXERCISE: Exercise 5 -
+**!!! SUPER ULTIMATE NINJA SKILLS CHALLENGE EXERCISE - Exercise 5** - Remember the SARS-COV2 GTF file we downloaded before? Go ahead and download that again. Write a script that selects only the coding sequence entry lines (says CDS on column 3), and then outputs the gene name (written after gene_id in column 9), and then calculates the length of the coding sequence, and then outputs the following:
+- Input file: [SARS-CoV-2 genome](https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Data/SARSCoV2_ncbiGenes.gtf)
+- Example output: 
+```
+ORF1a 	13214
+ORF1ab 	13202
+ORF1ab 	8084
+S 	3818
+ORF3a 	824
+E 	224
+M 	665
+ORF6 	182
+ORF7a 	362
+ORF7b 	128
+ORF8 	362
+N 	1256
+ORF10 	113
+```
+- Note: - this is super hard and you'll need to try things that we didn't cover in class as well as navigate through some weird syntax funkiness.
+- BONUS exercise answer:
+
+
