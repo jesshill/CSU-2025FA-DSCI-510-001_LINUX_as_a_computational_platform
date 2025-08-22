@@ -191,11 +191,61 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 
 </details>
 
-
 <details>
-  <summary>Edit your .bash_profile</summary>
+  <summary>Using variables in your environment</summary>
 
+**Chaning settings in your environment**
 
+Now that we've had practice with variables, and seen some environmental variables, let's explore how `ls` uses an environmental variable to color its output.
+
+Maybe you already have it, to check, do:
+
+```
+printenv | grep COLOR
+```
+
+Does anyone have any output from this?
+
+If you already do, then it's being set somewhere, which is fine. This next lesson will show you how to configure it.
+
+**Background**
+
+On linux, doing `ls –color` tells ls to look at the environmental variable `LS_COLORS` for settings on how to color directories, links, executable files, and other more advanced types of files.
+
+On BSD (Macs), `ls -G` does the same, but it looks for the variable `LSCOLORS`.
+
+Usually, these flags are supplied in the alias. Do:
+
+```
+alias ls
+```
+
+to see if you have the flag set. If not, do:
+
+```
+# linux (Windows Ubuntu)
+alias ls='ls --color'
+ 
+# BSD (Mac Terminal)
+alias ls='ls -G'
+```
+
+This insures that `ls` will color its output, and is probably already set for you. If you like how it colors its output already, that's OK, we're just tinkering for now.
+
+**Syntax of `LSCOLORS/LS_COLORS`**
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
