@@ -192,5 +192,10 @@ export LSCOLORS=ExFxBxDxCxegedabagacad
 </details>
 
 
+<details>
+  <summary>Edit your .bash_profile</summary>
 
+
+
+</details>
 
