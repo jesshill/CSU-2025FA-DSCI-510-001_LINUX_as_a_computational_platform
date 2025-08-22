@@ -251,7 +251,47 @@ done
 **!!! Bonus content** 
 - `break` - If you want to stop going around the loop, you can use the command `break`. Typically, you'll need to place a conditional within a loop to use this correctly.
 - `continue` - If you want to skip to the next round of the loop, use the command `continue`. Typically, you'll need to place a conditional within a loop to use this correctly.
-- for loops C-style - hard
+- `for` loops C-style - hard
+
+<details>
+  <summary>`for` usage - C style</summary>
+
+This will may be familiar to people who have written code in other languages that have been influenced by the C language.
+
+Personally, don't use C-style loops very often, but they are useful to illustrate that `while` loops and `for` loops do the same thing.
+
+In a `while` loop, we actually did three things:
+
+1. INITIALIZATION – When we set counter=0, we initiated the counter.
+2. CONDITION – When we checked whether $counter -lt 2, we were testing for a conditional statement
+3. AFTERTHOUGHT – when we added 1 to $counter, this is called an afterthough.
+
+Those three steps are used in a C-style for loop in a slightly different way, like so:
+
+```
+for (( <INITIALIZATION>; <CONDITION>; <AFTERTHOUGHT> ))
+do
+<commands>
+done
+```
+
+Here is an example of the same loop in a C-style:
+
+```
+#!/usr/bin/env bash
+ 
+files=(file1.txt file2.txt file3.txt)
+ 
+for (( counter=0; counter <= 2; counter++ ))
+do
+  echo $counter
+  echo ${files[$counter]}
+done
+```
+
+The syntax within the double parentheses is very special because it is basically mimicking “C”. Don't worry if it seems to look weird. If this doesn't make sense, just skip it and move on to Python-style loops. You can totally live without C-style loops.
+
+</details>
 
 ### Looping over arguments
 
