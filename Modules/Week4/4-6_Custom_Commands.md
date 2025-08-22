@@ -350,3 +350,33 @@ Do this by clicking the **New Directory** button like so …
 <p align="center">
 <img width="410" alt="edit file" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/editfile.png">
 </p>
+
+Let's go ahead and put this script on ALPINE.
+
+```
+#!/usr/bin/env bash
+ 
+# Prompt user for a project name
+echo -n "startProject>>> Enter your new project name (no spaces) and press [RETURN]: "
+read projectname
+ 
+# Report progress
+echo -e "startProject>>> Starting project named $projectname"
+ 
+# Make a project directory and three subdirectories
+mkdir $projectname
+mkdir $projectname/01_input
+mkdir $projectname/02_scripts
+mkdir $projectname/03_output
+ 
+# Start a readme file
+touch $projectname/README_${projectname}.txt
+ 
+# Add date info to readme file
+echo $(date) >> $projectname/README_${projectname}.txt
+ 
+# Report completion
+echo "startProject>>> successfully completed"
+```
+
+
