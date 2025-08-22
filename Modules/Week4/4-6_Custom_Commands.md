@@ -256,6 +256,10 @@ This is hard (or time consuming) to deal with, so let's use a utility to generat
 
 go to [Geoff Greer](https://geoff.greer.fm/lscolors/) to see how the settings change with different highlights.
 
+<p align="center">
+<img width="410" alt="lscolors tool" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/lscolor_webtool.png">
+</p>
+
 **Syntax**
 
 BSD: 
