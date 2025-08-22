@@ -42,7 +42,7 @@ How do these supercomputer systems compare to our laptops?
 
 [List of upcoming workshops](https://www.colorado.edu/rc/events)
 
-[All content from past workshops](https://github.com/ResearchComputing/)
+[All content from past workshops!!!](https://github.com/ResearchComputing/)
 
 
 ### Some pictures of the HPC System
