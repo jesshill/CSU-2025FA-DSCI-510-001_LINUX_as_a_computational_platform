@@ -139,7 +139,7 @@ ORF10 	113
 ```
 - Note: - this is super hard and you'll need to try things that we didn't cover in class as well as navigate through some weird syntax funkiness.
 
-Answer for BONUS exercise 5:
+Answer for exercise 5:
 
 <details>
   <summary>Answer</summary>
@@ -187,3 +187,14 @@ done
 ```
 
 </details>
+
+**!!! Challenge Exercise 6: Conditional Practice**
+
+
+
+
+
+
+
+
+
