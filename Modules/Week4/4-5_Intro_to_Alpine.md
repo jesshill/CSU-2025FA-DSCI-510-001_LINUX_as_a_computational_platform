@@ -118,4 +118,36 @@ Next steps:
 <img width="410" alt="login window" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/alpine.png">
 </p>
 
+### The ALPINE System - Mapped out
+
+<p align="center">
+<img width="410" alt="alpine map" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/alpine_map.png">
+</p>
+
+Just like your local computer, the ALPINE supercomputer is comprised of **computing hardware (CPUs, GPUs, etc), memory, and **file storage space**.
+
+When we log into ALPINE through ssh or onDemand, we don't immediately have access to all the parts of the ALPINE hardware. Instead, we arrive at the login node. The name of the login node is written right prior to the prompt. Typing `hostname` also gives you the name of the login node.
+
+**!!! Try It:** type `hostname`
+
+#### The Nodes
+
+[Detailed descriptions of nodes](https://curc.readthedocs.io/en/latest/compute/node-types.html)
+
+Nodes are spaces on the SUMMIT system where you can do tasks and execute jobs. Each node type has a designated purpose. Part of your job will be to learn what is appropriate behavior on the different types of nodes. We will learn about the login nodes, the compile nodes, and the compute nodes.
+
+##### login nodes
+When you first log into the SUMMIT system using ssh, you will be on a login node. Think of this as a lobby of a hotel. This is where you arrive first. You can do things like move and copy files, edit scripts, and execute small tasks. You should not run large jobs in the login node. You should not install software when you are here.
+
+##### compile nodes
+To move to a compile node, use the command acompile.
+
+:!: TRY IT: Switch over to a compile node like so…
+
+
+
+
+
+
+
 
