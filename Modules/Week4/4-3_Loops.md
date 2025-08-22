@@ -317,6 +317,29 @@ Disk usage for file3.txt is: 23.0K      file3.txt
 myarguments=$@
 ```
 
-My answer here
+My answer here:
 
-Continue on to [Flow Practice]()
+<details>
+  <summary>Answer</summary>
+
+```
+#!/usr/bin/env bash
+ 
+# Capture arguments
+myarguments=$@
+ 
+#Loop over each argument
+ 
+for myfile in ${myarguments[@]}
+do
+	# Calculate the disk usage for a file
+	myspace=$( du -h $myfile )
+ 
+	# Print the sentence including the file name and the disk usage:
+	echo -e "Disk usage for $myfile is: $myspace"
+done
+```
+
+</details>
+
+Continue on to [Control Flow Practice](4-4_Control_Flow_Practice.md)
