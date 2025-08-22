@@ -112,9 +112,36 @@ $ echo $PATH
 
 Cool! What else can I do in my `.bash_profile`?
 
-...
+<details>
+  <summary>Quick PATH modifications</summary>
 
-...
+example .bash_profile modifications
+
+```
+# Change colors so they look cooler:
+export CLICOLOR=1
+export LSCOLORS=GxFxBxDxGxegedabagacad
+ 
+# My prompt: 
+# Change the color of the prompt: 
+export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+# Make my prompt shorter - good for teaching:
+PS1='\u:\W\$ '
+ 
+# My aliases
+alias srm='rm -i'
+```
+
+More references here:
+- [Guide to editing the prompt](https://phoenixnap.com/kb/change-bash-prompt-linux)
+- [How to change colors](https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/)
+  - Note: the variable is LSCOLORS on Alpine, not LS_COLORS as in their tutorial
+
+</details>
+
+
+
+
 
 
 
