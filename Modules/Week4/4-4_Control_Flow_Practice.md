@@ -77,7 +77,7 @@ WARNING! text3.txt is empty!!!
 The file text4.txt takes up 4.0K of disk space
 ```
 
-Answer for Exercise 4
+Answer for Exercise 4:
 
 <details>
   <summary>Answer</summary>
@@ -119,3 +119,4 @@ done
 
 </details>
 
+**!!! SUPER ULTIMATE NINJA SKILLS CHALLENGE EXERCISE: Exercise 5 -
