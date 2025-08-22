@@ -126,7 +126,7 @@ Next steps:
 <img width="410" alt="alpine map" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/alpine_map.png">
 </p>
 
-Just like your local computer, the ALPINE supercomputer is comprised of **computing hardware (CPUs, GPUs, etc), memory, and **file storage space**.
+Just like your local computer, the ALPINE supercomputer is comprised of **computing hardware** (CPUs, GPUs, etc), memory, and **file storage space**.
 
 When we log into ALPINE through ssh or onDemand, we don't immediately have access to all the parts of the ALPINE hardware. Instead, we arrive at the login node. The name of the login node is written right prior to the prompt. Typing `hostname` also gives you the name of the login node.
 
