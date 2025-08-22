@@ -59,3 +59,39 @@ How do these supercomputer systems compare to our laptops?
 <img width="410" alt="HPC3" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/HPC3.png">
 </p>
 
+### Accessing Alpine
+
+To log onto ALPINE, you can use the terminal command `ssh` or you can use the browser portal called **onDemand**. I'm including a description of the `ssh` here for your reference, but we'll skip down to use onDemand together.
+
+#### ssh into ALPINE
+
+You can log into ALPINE using `ssh` in your own terminal window like so:
+
+```
+$ssh -l loki@colostate.edu login.rc.colorado.edu
+Password: godofmischief,push
+# Switch to your DUO app on your phone to approve
+ 
+## OR ##
+$ssh loki@colostate.edu@login.rc.colorado.edu
+Password: godofmischief,push
+# Switch to your DUO app on your phone to approve
+```
+
+**!!!** that's a lower case “L”
+
+**!!!** no spaces around the `,`
+
+**!!!** Replace loki@colostate.edu with your eID+e-mail
+
+**!!!** Replace your password with godofmischief
+
+**!!!** You won't see anything pop up when you type your password
+
+**!!!** If `,push` doesn't work, try `,phone` or the 6-digit code on your DUO app (refreshes every 20 seconds)
+
+**!!!** If you are on a PC, they recommend using [PuTTY](https://www.putty.org/) or [Powershell](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.5&viewFallbackFrom=powershell-7.3). If you are on a MAC, just do this on your terminal.
+
+
+
+
