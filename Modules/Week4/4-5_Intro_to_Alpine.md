@@ -132,7 +132,7 @@ When we log into ALPINE through ssh or onDemand, we don't immediately have acces
 
 #### The Nodes
 
-[Detailed descriptions of nodes](https://curc.readthedocs.io/en/latest/compute/node-types.html)
+Detailed descriptions of [nodes](https://curc.readthedocs.io/en/latest/compute/node-types.html)
 
 Nodes are spaces on Alpine where you can do tasks and execute jobs. Each node type has a designated purpose. Part of your job will be to learn what is appropriate behavior on the different types of nodes. We will learn about the **login nodes**, the **compile nodes**, and the **compute nodes**.
 
@@ -161,3 +161,25 @@ Let's see what software is available to load:
 ```
 $ module avail
 ```
+
+##### Compute nodes
+
+**Compute notes** are the most numerous nodes on the system. There are roughly 256 regular compute nodes on the ALPINE system and 42 specialized ones. The compute nodes are where big jobs will run.
+
+To run the jobs, we will need to get in line by requesting a job through a process called **batch submission**. Depending on how many users there are and what types of jobs have already been requested to run, we will be assigned to different compute nodes when they become available. The batch submission software used by ALPINE is called **slurm** and the main command we use is `sbatch`.
+
+Compute nodes are **multi-core processors**. This means we can run multiple jobs on one node. In the ALPINE architecture, we will mostly be using the **AMD milan** compute nodes (called `amilan`) which have 64 cores and can run up to 64 jobs simultaneously. Users can also request multiple nodes, too.
+
+Here is an outline of the different types of compute nodes available:
+
+<p align="center">
+<img width="410" alt="alpine nodes" src="">
+</p>
+
+### Alpine File Storage
+
+Detailed information about the [File Storage on Alpine](https://curc.readthedocs.io/en/latest/compute/filesystems.html)
+
+Whereas the nodes are analogous to CPU and memory on your home laptop, the filesystem is analogous to your hard drive. This is where data will be stored. The ALPINE team has pre-organized several nice directories where each user can house their data. Each space has a designated purpose.
+
+Here are the different file storage spaces available:
