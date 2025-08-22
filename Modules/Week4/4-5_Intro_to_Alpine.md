@@ -23,14 +23,34 @@ How do these supercomputer systems compare to our laptops?
 ### What are the benefits and drawbacks of using a supercomputer?
 
 #### Benefits
-
-power, efficiency, and speed!!!
-team of professionals to help set up the system and provide user support
-allows for collaboration with other users
+- power, efficiency, and speed!!!
+- team of professionals to help set up the system and provide user support
+- allows for collaboration with other users
 
 #### Drawbacks
+- There is a learning curve
+- Multi-user platform requires job-sharing - there is usually a queue to execute your code
+- May not have architecture specialized for your task.
 
-There is a learning curve
-Multi-user platform requires job-sharing - there is usually a queue to execute your code
-May not have architecture specialized for your task.
+### Resources & References
+
+[Overview of research computing including ALPINE]()
+
+[ALPINE quick start guide]()
+
+[Please cite CURC Resources to help them maintain funding!!!]()
+
+[List of upcoming workshops]()
+
+[All content from past workshops]()
+
+[FAQs]()
+
+### Some pictures of the HPC System
+
+
+
+
+
+
 
