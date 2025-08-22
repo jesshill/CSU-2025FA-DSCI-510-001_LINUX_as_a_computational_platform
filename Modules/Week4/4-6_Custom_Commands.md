@@ -115,7 +115,7 @@ Cool! What else can I do in my `.bash_profile`?
 <details>
   <summary>Quick PATH modifications</summary>
 
-example .bash_profile modifications
+**example .bash_profile modifications**
 
 ```
 # Change colors so they look cooler:
@@ -139,10 +139,57 @@ More references here:
 
 </details>
 
+<details>
+  <summary>Edit your .bash_profile</summary>
 
+**!!! Warning:** Be very careful modifying your PATH. Make a backup of your startup files before modifying them. If something goes amiss, you can then revert to the previous startup file.
 
+Update $PATH environmental variable …
+- Navigate to home directory using `$ cd`
+- See if there is already a file called `.bash_profile`
+  - If one already exists, make a backup of it using `$ cp .bash_profile bash_profile_backup.txt`
+  - If it doesnt exist, make one using `$ touch .bash_profile`
+- Edit the bash profile to inlcude the name of your new scripts path. For example: `Users/jesshill/myscripts`
 
+```
+export PATH="/Users/jesshill/myscripts:$PATH"
+```
 
+- for yours, if your path (use pwd to check) is <mypath>, put it in here where <mypath> is the absolute path of your scripts directory.
+
+```
+export PATH="<mypath>:$PATH"
+```
+
+To enact the changes, either close and re-open the terminal OR type:
+
+```
+$ source .bash_profile
+```
+
+**!!! Warning:** 
+- Please be very careful with this. You can really alter your computer's behavior this way. Test this out on ALPINE first before you try this on your own laptop.
+- Before changing your `.bash_profile`, make a backup.
+- If you have run into some trouble doing this, just delete the `.bash_profile` file and re-start the terminal. Or, revert to a backed up `.bash_profile` and re-start the terminal.
+
+** Other fun things you can do with .bash_profile**
+
+The `.bash_profile` file executes every time you open a new terminal window. So, you can put lots of cool stuff in here like your alias commands. You can also customize the colors of your terminal.
+
+```
+# My custom paths
+export PATH="<mypath>:$PATH"
+ 
+# My alias commands:
+alias srm='rm -i'
+ 
+# Change my colors so they look cooler:
+export PS1="\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+```
+
+</details>
 
 
 
