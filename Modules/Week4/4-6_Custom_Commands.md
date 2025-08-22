@@ -115,7 +115,7 @@ Cool! What else can I do in my `.bash_profile`?
 <details>
   <summary>Quick PATH modifications</summary>
 
-  ---
+---
 
 **example .bash_profile modifications**
 
@@ -139,14 +139,14 @@ More references here:
 - [How to change colors](https://www.howtogeek.com/307899/how-to-change-the-colors-of-directories-and-files-in-the-ls-command/)
   - Note: the variable is LSCOLORS on Alpine, not LS_COLORS as in their tutorial
 
-  ---
+---
 
 </details>
 
 <details>
   <summary>Edit your .bash_profile</summary>
 
-  ---
+---
 
 **!!! Warning:** Be very careful modifying your PATH. Make a backup of your startup files before modifying them. If something goes amiss, you can then revert to the previous startup file.
 
@@ -195,14 +195,14 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 ```
 
-  ---
+---
 
 </details>
 
 <details>
   <summary>Using variables in your environment</summary>
 
-  ---
+---
   
 **Changing settings in your environment**
 
@@ -244,7 +244,38 @@ This insures that `ls` will color its output, and is probably already set for yo
 
 **Syntax of `LSCOLORS/LS_COLORS`**
 
-  ---
+This has to be a value of a variable, so it will be a long string, which means a lot of abbreviation.
+
+Example: `LSCOLORS=Exfxcxdxbxeggaabagacad`
+
+Example: `di=1;34:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=36;40:su=30;41:sg=30;46:tw=30;42:ow=30;43`
+
+This is hard (or time consuming) to deal with, so let's use a utility to generate the code.
+
+**Exercise**
+
+go to [Geoff Greer](https://geoff.greer.fm/lscolors/) to see how the settings change with different highlights.
+
+**Syntax**
+
+BSD: 
+```
+# BSD
+LSCOLORS=CODE
+# example
+LSCOLORS=exfxcxdxbxegedabagacad
+ 
+export LSCOLORS # only has to happen once
+ 
+# Linux:
+LS_COLORS='CODE IN QUOTES'
+# example
+LS_COLORS='di=34:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43'
+ 
+export LS_COLORS # only has to happen once
+```
+
+---
 
 </details>
 
