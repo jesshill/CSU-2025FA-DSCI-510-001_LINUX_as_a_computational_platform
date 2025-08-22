@@ -316,12 +316,24 @@ $ nano colors.rc
 </details>
 
 
+Recall our steps:
 
+1. Add the `bin` directory to your `$PATH`
+2. Put script in `bin` directory
+3. Make script executable
+4. Take the `.sh` off the script name
 
+#### 2. Put script in `bin` directory
 
+The proper place to put short user command scripts on ALPINE is in our projects directory.
 
+- Navigate to your PROJECTS directory.
+  - You can do this through the FILES menu
+  - OR, you can do this through the shell (cd, etc)
 
-
+<p align="center">
+<img width="410" alt="files menue" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/fileNavigation.png">
+</p>
 
 
 
