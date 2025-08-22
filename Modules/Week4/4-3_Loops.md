@@ -96,10 +96,92 @@ To achieve the proper behavior, our while loop will need three major components:
 
 **!!! Example:** here is a loop that counts from 1 to 5. Let's call it `simpleCounter.sh`
 
+```
+#!/usr/bin/env bash
+ 
+# INITIALIZATION of the counter variable x setting it to 1
+x=1
+ 
+# CONDITION - check whether x is less than or equal to 5? If TRUE - do a loop. If FALSE - go to the next code block.
+while [ $x -le 5 ]
+do
+ 
+  echo "In this round of the loop x is equal to $x"
+ 
+  #INCREMENTALIZATION - Add 1 to x
+  x=$(( $x + 1 ))
+ 
+done
+ 
+echo "The code is complete"
+```
 
+We can also use while loops to access content within an array variable but it can be a little tricky …
 
+```
+#!/usr/bin/env bash
+ 
+# INITIALIZATION of the counter variable x setting it to 1
+x=1
+ 
+# CONDITION - check whether x is less than or equal to the number of elements in the houses array? If TRUE - do a loop. If FALSE - go to the next code block.
+while [ $x -le ${#houses[@]} ]
+do
+ 
+  echo "In this round of the loop x is equal to $x"
+ 
+  echo "ten points to ${houses[$x]}"
+ 
+  #INCREMENTALIZATION - Add 1 to x
+  x=$(( $x + 1 ))  
+ 
+done
+```
 
+OK, that's weird. It looks like it started accessing the second element, Slytherin, first. Why?
 
+You'll recall that array variables start their counting on the number **0**. For this reason, we'll need to modify our code and start the iteration variable on 0. We'll also need to change the conditional -le (less than or equal to) to -lt (less than). If we don't do this, the loop will cycle too many times. Note, I also changed the comments, too.
+
+```
+houses=(Gryffindor Slytherin Ravenclaw Hufflepuff)
+ 
+# INITIALIZATION of the counter variable x setting it to 0
+y=0
+ 
+# CONDITION - Is x is less than the number of elements the number of elements in the houses array? If TRUE - do a loop. If FALSE - go to the next code block.
+while [ $y -lt ${#houses[@]} ]
+do
+ 
+  echo "In this round of the loop x is equal to $y"
+ 
+  echo "ten points to ${houses[$y]}"
+ 
+  #INCREMENTALIZATION - Add 1 to y
+  y=$(( $y + 1 )) 
+ 
+done
+```
+
+**!!! Tip:** Incrementing numeric variables using x++
+
+if we have a numeric variable called x that is assigned the value 0, we can add one to this variable each time we go around the loop with the following x++ syntax …
+
+```
+x=0
+ 
+while [ $x -le 5 ]
+do
+  echo "x is equal to $x"
+ 
+  ((x++))     # Means the same as x=$(( $x + 1 ))
+ 
+done
+ 
+# similarly, "((x--))" will decrease the value by 1.
+```
+
+**!!! Independent Exercise:** 
+- Comment out the `for` loop you wrote in `cycleNames.sh`, your code that cycles through group members and tells each person when to give lab meeting. Replace that `for` loop with a `while` loop that yields the same output - prints an echo statement that includes each member's name.
 
 
 
