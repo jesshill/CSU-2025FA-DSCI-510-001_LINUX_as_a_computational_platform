@@ -254,7 +254,7 @@ done
 - `for` loops C-style - hard
 
 <details>
-  <summary>`for` usage - C style</summary>
+  <summary>for usage - C style</summary>
 
 This will may be familiar to people who have written code in other languages that have been influenced by the C language.
 
@@ -266,7 +266,7 @@ In a `while` loop, we actually did three things:
 2. CONDITION – When we checked whether $counter -lt 2, we were testing for a conditional statement
 3. AFTERTHOUGHT – when we added 1 to $counter, this is called an afterthough.
 
-Those three steps are used in a C-style for loop in a slightly different way, like so:
+Those three steps are used in a C-style `for` loop in a slightly different way, like so:
 
 ```
 for (( <INITIALIZATION>; <CONDITION>; <AFTERTHOUGHT> ))
