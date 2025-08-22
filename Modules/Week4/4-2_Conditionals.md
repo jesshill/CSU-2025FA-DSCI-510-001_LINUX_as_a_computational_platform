@@ -282,13 +282,46 @@ wc -l $myfirstfile > $myoutputfile
 - Keep in mind - This is a challenging exercise. If you're not getting it, that's ok. If the script isn't behaving how you predict, you're not crazy. I don't know why these steps aren't more intuitive.
 - [Checking Arguments Reference](https://www.networkworld.com/article/972112/verifying-bash-script-arguments.html#:~:text=Checking%20the%20number%20of%20arguments%20provided&text=The%20%3D%3D%20(equals)%2C%20lt,the%20person%20running%20the%20script)
 
-There are many ways to do this, here is my answer
+There are many ways to do this, here is one way ...
+
+<details>
+  <summary>Answer</summary>
+
+```
+#!/usr/bin/env bash
+ 
+# Test that there is at least one argument passed - that the number of arguments is greater than 0
+if [ $# -gt 0 ]
+then
+ echo "Your input file is $1"
+else
+ echo "Please supply a valid text input file as an argument"
+ exit
+fi
+ 
+# Test that the argument passed corresponds to a real file in the working directory
+if [ -e $1 ]
+then
+ echo "Your input file is $1"
+else
+ echo "Please supply a valid text input file"
+ exit
+fi
+ 
+# capture the first argument in a variable called myfirstfile
+myfirstfile=$1
+ 
+# use a sub-string substitution line to create a new variable called myoutputfile in which .txt is substituted for _linecount.txt
+myoutputfile=${myfirstfile/%.txt/_linecount.txt}
+ 
+# operate on the input file and save the line count to the desired output file
+wc -l $myfirstfile > $myoutputfile
+```
+
+</details>
 
 
-- After much testing, I decided to first test whether the user supplied greater than one argument. Next, I tested whether the argument $1 corresponded to an existing file.
 
-My answer here but there are lots of ways to do this
-Checking Arguments Reference
 
 
 
