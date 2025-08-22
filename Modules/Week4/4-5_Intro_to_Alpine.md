@@ -185,3 +185,10 @@ Detailed information about the [File Storage on Alpine](https://curc.readthedocs
 Whereas the nodes are analogous to CPU and memory on your home laptop, the filesystem is analogous to your hard drive. This is where data will be stored. The ALPINE team has pre-organized several nice directories where each user can house their data. Each space has a designated purpose.
 
 Here are the different file storage spaces available:
+
+<p align="center">
+<img width="410" alt="storage locations" src="">
+</p>
+
+
+
