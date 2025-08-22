@@ -34,17 +34,16 @@ How do these supercomputer systems compare to our laptops?
 
 ### Resources & References
 
-[Overview of research computing including ALPINE]()
+[Overview of research computing including ALPINE](https://www.colorado.edu/rc/resources)
 
-[ALPINE quick start guide]()
+[ALPINE quick start guide](https://curc.readthedocs.io/en/latest/clusters/alpine/index.html)
 
-[Please cite CURC Resources to help them maintain funding!!!]()
+[Please cite CURC Resources to help them maintain funding!!!](https://curc.readthedocs.io/en/latest/index.html#acknowledging-rc)
 
-[List of upcoming workshops]()
+[List of upcoming workshops](https://www.colorado.edu/rc/events)
 
-[All content from past workshops]()
+[All content from past workshops](https://github.com/ResearchComputing/)
 
-[FAQs]()
 
 ### Some pictures of the HPC System
 
