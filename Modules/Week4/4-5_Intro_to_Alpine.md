@@ -47,9 +47,15 @@ How do these supercomputer systems compare to our laptops?
 
 ### Some pictures of the HPC System
 
+<p align="center">
+<img width="410" alt="HPC1" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/HPC1.png">
+</p>
 
+<p align="center">
+<img width="410" alt="HPC2" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/HPC2.png">
+</p>
 
-
-
-
+<p align="center">
+<img width="410" alt="HPC3" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/HPC3.png">
+</p>
 
