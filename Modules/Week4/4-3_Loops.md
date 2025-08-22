@@ -183,6 +183,58 @@ done
 **!!! Independent Exercise:** 
 - Comment out the `for` loop you wrote in `cycleNames.sh`, your code that cycles through group members and tells each person when to give lab meeting. Replace that `for` loop with a `while` loop that yields the same output - prints an echo statement that includes each member's name.
 
+### `while read line` loops
+
+Sometimes we want to read a file and do something to each line. For this, we can use a special `while` loop syntax. For each cycle of the loop, we will read a line of the file, starting at the top and making our way to the bottom. In the first cycle of the loop, the content of the first line will be assigned to the variable, say, $line. In the second cycle of the loop, the second line will be reassigned to $line. In this way, we can loop through each line of the file and perform the same function on each line.
+
+**while read line usage**
+
+```
+while read -r line;
+do
+    echo “$line”
+done < <inputfile>
+```
+
+In this example, the words `while`, `read`, `do`, and `done` are all required and are written literally. The user picks the variable name, and here that name is `line`. The echo statement can be replaced with any other set of commands. Within these commands, the variable `line` can be dereferenced using the syntax “$line”.
+
+At the very bottom, there is the syntax `done < inputfile`. This is a **redirect** statement that pushes a pre-made file into the loop as input.
+
+To re-write the Hogwarts house names loop that gives points to each house, we will first need to create an input file called `listOfHouses.txt` with the following content …
+
+```
+$ more listOfHouses.txt
+Gryffindor
+Slytherin
+Ravenclaw
+Hufflepuff
+```
+
+Now, we can use the `listOfHouses.txt` file as input within our code …
+
+```
+#!/usr/bin/env bash
+ 
+# Cycle over each line in the file and echo a statement
+while read -r line;
+do
+  echo "Ten points for $line"
+done < listOfHouses.txt
+```
+
+**!!! Independent Exercise:** 
+- Comment out the `while` loop you wrote in the previous exercise's script called `cycleNames.sh`. Replace that `while` loop with a `while read lines` loop that yields the same output - prints an echo statement that includes each member's name. Note - you'll need to create an input file that lists all your names, each on its own line.
+
+### Tips, Warnings, and Bonus Content
+
+
+
+
+
+
+
+
+
 
 
 
