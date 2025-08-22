@@ -140,4 +140,49 @@ ORF10 	113
 - Note: - this is super hard and you'll need to try things that we didn't cover in class as well as navigate through some weird syntax funkiness.
 - BONUS exercise answer:
 
+<details>
+  <summary>Answer</summary>
 
+```
+#!/usr/bin/env bash
+ 
+# take in the file as an argument/special variable
+mygtf="$1"
+ 
+# Select just the CDS entries
+grep 'CDS' $mygtf > temp.gtf
+ 
+# Acquire gene names, start, and stop as array variables
+genenames=($(cut -f 9 temp.gtf | cut -d ' ' -f 2 | sed 's/"//g' | sed 's/;//g'))
+starts=($(cut -f 4 temp.gtf ))
+stops=($(cut -f 5 temp.gtf ))
+ 
+# Initiate a counter
+x=0
+ 
+# Conditional While loop
+while [ $x -lt ${#genenames[@]} ]
+do
+ 
+	# print the gene name
+	echo -ne ${genenames[$x]} "\t"
+ 
+	# calculate the length of the 
+	diff=$((${starts[$x]} - ${stops[$x]}))
+ 
+	# conditional - if it's a negative, take the positive
+	if [ "$diff" -lt 0 ]
+		then
+        diff=$(($diff * -1))
+	fi
+ 
+	# print out the distance 
+	echo $diff
+ 
+	# increment the counter
+	((x++)) 
+ 
+done
+```
+
+</details>
