@@ -134,20 +134,30 @@ When we log into ALPINE through ssh or onDemand, we don't immediately have acces
 
 [Detailed descriptions of nodes](https://curc.readthedocs.io/en/latest/compute/node-types.html)
 
-Nodes are spaces on the SUMMIT system where you can do tasks and execute jobs. Each node type has a designated purpose. Part of your job will be to learn what is appropriate behavior on the different types of nodes. We will learn about the login nodes, the compile nodes, and the compute nodes.
+Nodes are spaces on Alpine where you can do tasks and execute jobs. Each node type has a designated purpose. Part of your job will be to learn what is appropriate behavior on the different types of nodes. We will learn about the **login nodes**, the **compile nodes**, and the **compute nodes**.
 
-##### login nodes
-When you first log into the SUMMIT system using ssh, you will be on a login node. Think of this as a lobby of a hotel. This is where you arrive first. You can do things like move and copy files, edit scripts, and execute small tasks. You should not run large jobs in the login node. You should not install software when you are here.
+##### Login nodes
 
-##### compile nodes
-To move to a compile node, use the command acompile.
+When you first log into Alpine using `ssh`, you will be on a **login node**. Think of this as a lobby of a hotel. This is where you arrive first. You can do things like move and copy files, edit scripts, and execute small tasks. You should not run large jobs in the login node. You should not install software when you are here.
 
-:!: TRY IT: Switch over to a compile node like so…
+##### Compile nodes
 
+To move to a compile node, use the command `acompile`.
 
+**!!! Try It:** Switch over to a compile node like so …
 
+```
+$ hostname
+$ acompile
+$ hostname
+```
 
+When on a compile node, we can load existing software, install new software, run small jobs, and send big jobs to the compute nodes.
 
+Let's see what software is available to load:
 
+**!!! Try It:** 
 
-
+```
+$ module avail
+```
