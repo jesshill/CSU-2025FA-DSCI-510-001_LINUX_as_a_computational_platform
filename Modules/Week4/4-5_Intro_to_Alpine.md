@@ -63,6 +63,8 @@ How do these supercomputer systems compare to our laptops?
 
 To log onto ALPINE, you can use the terminal command `ssh` or you can use the browser portal called **onDemand**. I'm including a description of the `ssh` here for your reference, but we'll skip down to use onDemand together.
 
+---
+
 #### ssh into ALPINE
 
 You can log into ALPINE using `ssh` in your own terminal window like so:
@@ -91,6 +93,22 @@ Password: godofmischief,push
 **!!!** If `,push` doesn't work, try `,phone` or the 6-digit code on your DUO app (refreshes every 20 seconds)
 
 **!!!** If you are on a PC, they recommend using [PuTTY](https://www.putty.org/) or [Powershell](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.5&viewFallbackFrom=powershell-7.3). If you are on a MAC, just do this on your terminal.
+
+---
+
+#### Use onDemand to access Alpine
+
+The team at CU Boulder who developed ALPINE have helped to create an alternative way to interact with the ALPINE Supercomputer, one that can happen in you internet browser like Chrome or Firefox. This method of accessing ALPINE is called OnDemand.
+
+**!!! Exercise:** Let's connect to ALPINE using OnDemand:
+
+- Navigate to [https://ondemand-rmacc.rc.colorado.edu](https://ondemand-rmacc.rc.colorado.edu) in a new tab or window
+ - For me, I right click on the above link and select Open Link in New Window
+ - You will be asked to select an identity provider using a pull-down menu. Select on the pull-down menu (it may say ORCID). Start typing Colorado State University. Click on Remember and log in. It should look like this
+
+
+
+
 
 
 
