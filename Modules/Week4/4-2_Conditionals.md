@@ -116,10 +116,9 @@ fi
 
 ### `if/else`
 
-
 Try running your `screenPatrons.sh` script again but now type in a number that is less than 21. Hmmm, it's not very satisfying. **if/else** statements can help with that. If the test is true, you can execute one block of code. If the test is false, you can execute a different block:
 
-**if/else Usage**
+**if else Usage**
 
 ```
 if [ <some test> ]
@@ -129,6 +128,8 @@ else
     <commands>
 fi
 ```
+
+Lets try it out ...
 
 ```
 #!/usr/bin/env bash
@@ -147,4 +148,62 @@ else
 fi
 ```
 
+**!!! Exercise:** Save this script. Run your script again and test it using a variety of ages.
 
+- [more about single versus double square brackets](https://www.baeldung.com/linux/bash-single-vs-double-brackets#:~:text=The%20single%20bracket%20is%20a,brackets%20is%20generally%20more%20convenient.)
+- This reference also has more details on **regular expressions**
+- This reference has details on **Boolean** searches (`AND` and `OR`).
+
+### `if/elif/else`
+
+This can get more complex, but in the interest of time, we're going to skip over this section. I'll include it here for those who wish to learn on their own.
+
+...
+
+Conditionals can get more complex by adding elif which can add more test criteria.
+
+```
+if [ <some test> ]
+then
+    <commands>
+elif [ <some different test> ]
+then
+    <different commands>
+else
+    <different commands>
+fi
+```
+
+**!!! Example:**
+
+```
+#!/usr/bin/env bash
+ 
+# prompt user for their age
+echo -e "How old are you?"
+ 
+read age
+ 
+#Conditional statement
+ 
+echo -e "How old are you?"
+ 
+read age
+ 
+# If age is greater than 21 and less than 65
+if [ $age -ge 21 ] && [ $age -lt 65 ]
+then
+    echo -e "Welcome to the club!"
+ 
+# If age is greater or equal to 65
+elif [ $age -ge 65 ] 
+then
+    echo -e "Welcome to the club! You get a senior discount!"
+ 
+# If neither of the above tests are true    
+else 
+    echo -e "Scram, kid!"
+fi
+```
+
+### Conditional Operators: Strings
