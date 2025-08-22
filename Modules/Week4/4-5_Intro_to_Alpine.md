@@ -15,9 +15,8 @@ How do these supercomputer systems compare to our laptops?
 | 0.1 - 10 teraFLOPS | 450 teraFLOPS |	1,102,000 teraFLOPS |
 | 1 - 4 cores organized onto 1 node |	11,300 cores on 485 nodes	| 8,730,112 cores |
 
-**FLOPS** is a measure of how many floating point operations a computer can do per second. So it's a measure of calculations a second
-
-**Cores** relates to how many CPUs (Central Processing Units) the computer has
+- **FLOPS** is a measure of how many floating point operations a computer can do per second. So it's a measure of calculations a second
+- **Cores** relates to how many CPUs (Central Processing Units) the computer has
 
 **!!! NOTE:** *All 500* of the top 500 Supercomputer systems run LINUX or LINUX-based operating systems!
 
