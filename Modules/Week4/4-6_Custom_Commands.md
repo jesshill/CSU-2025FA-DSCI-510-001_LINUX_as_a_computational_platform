@@ -335,8 +335,18 @@ The proper place to put short user command scripts on ALPINE is in our projects 
 <img width="410" alt="files menue" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/fileNavigation.png">
 </p>
 
+- Next, create a directory called bin if one doesn't already exist.
+Do this by clicking the **New Directory** button like so …
 
+<p align="center">
+<img width="410" alt="newdir" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/newdir.png">
+</p>
 
+- Navigate into `/projects/<yourname>/bin`
+- Start a new script called `startProject.sh` using the **New File** button
+- Edit the `startProject.sh` file by clicking on its menu of three vertical dots.
+- Select **Edit** like so …
 
-
-
+<p align="center">
+<img width="410" alt="edit file" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/editfile.png">
+</p>
