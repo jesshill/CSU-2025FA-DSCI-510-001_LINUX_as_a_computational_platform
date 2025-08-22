@@ -63,12 +63,12 @@ Don't forget the spaces just inside of the square bracket!
 
 | Symbol | Comparison |
 |--------| -----------|
-| `-eq` | Returns true if two numbers are **equal** |
-| `-ne` | Returns true if two numbers are **not equal** |
-| `-lt` | Returns true if a number is **less than** another |
-| `-le` | Returns true if a number is **less than or equal to** another number |
-| `-gt` | Returns true if a number is **greater than** another number |
-| `-ge` | Returns true if a number is **greater than or equal to** another number |
+| `-eq` | Returns true if two "numbers" are **equal** |
+| `-ne` | Returns true if two "numbers" are **not equal** |
+| `-lt` | Returns true if a "number" is **less than** another |
+| `-le` | Returns true if a "number" is **less than or equal to** another number |
+| `-gt` | Returns true if a "number" is **greater than** another number |
+| `-ge` | Returns true if a "number" is **greater than or equal to** another number |
 
 Here are some examples:
 
@@ -156,7 +156,7 @@ fi
 
 ### `if/elif/else`
 
-This can get more complex, but in the interest of time, we're going to skip over this section. I'll include it here for those who wish to learn on their own.
+This can get more complex, and in the interest of time, we're going to skip over this section. I'll include it here for those who wish to learn on their own.
 
 <p align="center">
 <img width="410" alt="ifelifelse" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/if_elif_else.jpg">
@@ -209,3 +209,93 @@ fi
 ```
 
 ### Conditional Operators: Strings
+
+We learned how to use conditional comparison statements on numbers. What about on strings (aka - words)?
+
+| Symbol | Comparison |
+|--------| -----------|
+| `==` | Returns true if two "strings" are **equivalent** |
+| `!=` | Returns true if two "strings" are **equivalent** |
+| `!` | General - Returns true if the expression is false |
+
+**Potential Pitfall** - if your variable contains spaces, use double square brackets ...
+
+```
+[[ if statement here ]] 
+```
+
+**!!! Examples:**
+
+```
+myname="Harry Potter"
+if [[ $myname == "Harry Potter" ]]
+then
+   echo -e "Griffindor"
+fi
+```
+
+**!!! Exercise:** Add onto your `screenPatrons.sh` script to ask the user what state they live in. If they match “Colorado”, print out a message that states that they get a local's discount!
+
+### Conditional Operators: Files & Directories
+
+We learned how to use conditional comparison statements on numbers and strings. What about if we want to use a conditional statement to test whether a file or directory exists and some aspects of its properties (this may not make a ton of sense because we haven't covered permissions yet).
+
+| Symbol | Comparison |
+|--------| -----------|
+| `-d` | Check the existence of a directory |
+| `-e` | Check the existence of a file |
+| `$# -gt 0` | Check that the number of arguments the user has provided is greater than 0 |
+| `$# -eq 2` | Check that the number of arguments the user has provided is equal to 2 |
+
+**!!! Example:** Test if the file called `file.txt` exists. If it does, count its lines, words, & characters
+
+```
+myfile="file.txt"
+if [ -e $myfile ]
+then
+   wc $myfile
+fi
+```
+
+**!!! Challenge Exercise:** Recall how we can pass an argument into our script as input like so …
+
+```
+$ bash countingLines.sh file1.txt
+```
+
+And then within the script, we can capture the argument like this …
+
+```
+# capture the first argument in a variable called myfirstfile
+myfirstfile=$1
+ 
+# use a sub-string substitution line to create a new variable called myoutputfile in which .txt is substituted for _linecount.txt
+myoutputfile=${myfirstfile/%.txt/_linecount.txt}
+ 
+# operate on the input file and save the line count to the desired output file
+wc -l $myfirstfile > $myoutputfile
+```
+
+**!!! Exercise:** Your mission is to expand your script called `countingLines.sh` so that the script checks that a file was given. This script should contain a conditional statement that tests whether the user properly supplied a file as an argument. If the user has supplied a file, report what was supplied. If the user did not supply the file, tell the user they must try again and next time supply an argument.
+
+- You can use the command `exit` to stop your script at any point. This is useful if you find that the argument requirement has not been satisfied.
+- Keep in mind - This is a challenging exercise. If you're not getting it, that's ok. If the script isn't behaving how you predict, you're not crazy. I don't know why these steps aren't more intuitive.
+- [Checking Arguments Reference](https://www.networkworld.com/article/972112/verifying-bash-script-arguments.html#:~:text=Checking%20the%20number%20of%20arguments%20provided&text=The%20%3D%3D%20(equals)%2C%20lt,the%20person%20running%20the%20script)
+
+There are many ways to do this, here is my answer
+
+
+- After much testing, I decided to first test whether the user supplied greater than one argument. Next, I tested whether the argument $1 corresponded to an existing file.
+
+My answer here but there are lots of ways to do this
+Checking Arguments Reference
+
+
+
+
+
+
+
+
+
+
