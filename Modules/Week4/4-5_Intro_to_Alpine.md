@@ -118,6 +118,8 @@ Next steps:
 <img width="410" alt="login window" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/alpine.png">
 </p>
 
+---
+
 ### The ALPINE System - Mapped out
 
 <p align="center">
