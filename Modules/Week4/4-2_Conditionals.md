@@ -320,15 +320,7 @@ wc -l $myfirstfile > $myoutputfile
 
 </details>
 
+**!!! Resource:** Check out [Ryan's Tutorials](https://ryanstutorials.net/) on bash scripting. There are some nice descriptions of conditionals and loops.
+- Ryan's tutorials gives some good demonstrations of **boolean conditionals** - match THIS OR THAT, or match THIS AND THAT.
 
-
-
-
-
-
-
-
-
-
-
-
+Continue on to [Loops]()
