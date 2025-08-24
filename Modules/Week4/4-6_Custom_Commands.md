@@ -441,12 +441,62 @@ drwxr--r--   4 erinnish onishlab 4.0K Mar  4 09:53 4_SEQUENCES
 
 #### Changing permissions with chmod
 
+If I want to change the permissions of a file or directory in my file structure, I can do so with chmod.
 
+**chmod Usage:** 
 
+`chmod [nnn] <file.txt/dir> …`
 
+[nnn] - where nnn is a three number code specifying the desired permission string.
 
+The three number code string is a clever way to specify the permissions for the owner, group, and world. If I want all three user groups to have read, write, and execution privileges, the code string is 777:
 
+**!!! EXAMPLES:** To change a file to this permission code …
 
+<p align="center">
+<img width="410" alt="permissions777" src="">
+</p>
+
+… we would type:
+
+```
+$ chmod 777 file.txt
+```
+
+Another example:
+
+<p align="center">
+<img width="410" alt="permissions764" src="">
+</p>
+
+```
+$ chmod 764 file.txt
+```
+
+And another:
+
+<p align="center">
+<img width="410" alt="permissions740" src="">
+</p>
+
+```
+$ chmod 740 file.txt
+```
+
+**!!! Exercise:** To explore aspects of chmod, let's use a program that is executable. Make a file called hello_user.sh. Copy and paste the following content into this file.
+
+```
+#!/bin/bash
+ 
+#Prompt for name:
+echo "What is your name?"
+ 
+# get name from stdin. Call it varname
+read varname
+ 
+#say hello
+echo "Why hello there, $varname!"
+```
 
 ---
 
