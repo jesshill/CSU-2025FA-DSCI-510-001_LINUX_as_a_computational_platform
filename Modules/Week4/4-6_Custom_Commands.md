@@ -379,4 +379,74 @@ echo $(date) >> $projectname/README_${projectname}.txt
 echo "startProject>>> successfully completed"
 ```
 
+Let's test whether our script works.
+
+- Open a cluster by selecting **Clusters** menu
+- Select **>ALPINE Shell Access**
+- Navigate to `/projects/<user>/bin`
+- test code
+
+```
+$ bash startProject.sh
+```
+
+These were our steps ...
+
+1. Add the `bin` directory to your `$PATH`
+2. Put script in a `bin` directory
+3. Make script executable
+4. Take the `.sh` off the script name
+
+OK, we've written the script. Now let's make it executable.
+
+#### 3. Make script executable
+
+<details>
+  <summary>Bonus Content: Permissions</summary>
+
+---
+
+### Permissions
+
+#### User types
+
+Unix/Linux are designed as multi-user systems and it provides mechanisms for managing that. One aspect of that is that file ownership. Every file and directory has an owner. The **owner** of a file/directory can control who has what type of access to it. The other users can belong to another **group** or the rest of the **world**. Three user types:
+
+- **owner**
+- **group**
+- **world**
+
+#### User types
+
+---
+
+</details>
+
+Today, we don't really have time to go into the details of this step. Please see the reference links above for more information.
+
+For this exercise, we will make our script executable by using the command chmod and the options <u+x>. This will make a script executable (x) to the User (that's you, u).
+
+Give it a try…
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
