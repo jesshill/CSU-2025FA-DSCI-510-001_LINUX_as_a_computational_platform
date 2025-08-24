@@ -416,7 +416,37 @@ Unix/Linux are designed as multi-user systems and it provides mechanisms for man
 - **group**
 - **world**
 
-#### User types
+#### Permission types
+
+We can specify what different users have permission to do to a file or directory. These privileges are:
+
+- **read** - read privileges mean that users can open a file and read it, but cannot make changes.
+- **write** - write privileges allow a user to make changes to it.
+- **execute** - execution privileges allow a user to execute a code, script, or program.
+
+#### Checking permissions with `ls -l`
+
+Permission codes are displayed for files and directories using `ls -l`:
+
+```
+erinnish@cray2:~/lustrefs> ls -alh
+total 56K
+drwxr-----   6 erinnish onishlab 4.0K Feb 29  2016 .
+drwxr--r-- 625 root     root      36K Jul 26 15:37 ..
+drwxr--r--   2 erinnish onishlab 4.0K Feb 22  2016 1_EXECUTABLES
+drwxr--r--   3 erinnish onishlab 4.0K Feb 28  2016 2_RAWFILES
+drwxr--r--   4 erinnish onishlab 4.0K Apr 25 11:56 3_PROJECTS
+drwxr--r--   4 erinnish onishlab 4.0K Mar  4 09:53 4_SEQUENCES
+```
+
+#### Changing permissions with chmod
+
+
+
+
+
+
+
 
 ---
 
@@ -426,7 +456,7 @@ Today, we don't really have time to go into the details of this step. Please see
 
 For this exercise, we will make our script executable by using the command chmod and the options <u+x>. This will make a script executable (x) to the User (that's you, u).
 
-Give it a try…
+Give it a try …
 
 
 
