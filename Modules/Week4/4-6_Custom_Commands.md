@@ -483,7 +483,7 @@ And another:
 $ chmod 740 file.txt
 ```
 
-**!!! Exercise:** To explore aspects of chmod, let's use a program that is executable. Make a file called hello_user.sh. Copy and paste the following content into this file.
+**!!! Exercise:** To explore aspects of chmod, let's use a program that is executable. Make a file called `hello_user.sh`. Copy and paste the following content into this file.
 
 ```
 #!/bin/bash
@@ -497,6 +497,30 @@ read varname
 #say hello
 echo "Why hello there, $varname!"
 ```
+
+Let's see if we can execute this code:
+
+```
+$ls -alh # check the current permissions for hello_user.sh
+$bash hello_user.sh # Try to execute the code explicitly
+$./hello_user.sh # Try to execute the code with executable permissions
+```
+
+Did it work? Probably not if you don't have executable permissions. Let's change the permissions.
+
+```
+$chmod 744 hello_user.sh #change permissions to owner executable
+$./hello_user.sh
+```
+
+Did it work?
+
+**!!! Quick tip:** 
+- If it didn't work, don't fret. It is possible your system does not store its bash program in /bin/bash. To check this, type which $SHELL. Replace whatever is displayed to the screen within the code in place of `/bin/bash`. Try again.
+- There are many more ways of executing chmod. Some of these are very intuitive and may be easier to learn. Please read Chapter9 of the text book to see these alternative techniques.
+
+
+
 
 ---
 
