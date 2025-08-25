@@ -439,6 +439,10 @@ drwxr--r--   4 erinnish onishlab 4.0K Apr 25 11:56 3_PROJECTS
 drwxr--r--   4 erinnish onishlab 4.0K Mar  4 09:53 4_SEQUENCES
 ```
 
+The codes `drwxrwxrwx` stand for directory, read, write, execute, read, write, execute, read, write, execute. Disregarding the **d** for directory, the first set of permissions refer to what the **user** can do, the second to what the **group** can do, and the third to what the **others** can do.
+
+If the letter `w`, `r`, or `x` is present, it meant that user has that permission. A `-` represents a permission that is **NOT** granted.
+
 #### Changing permissions with chmod
 
 If I want to change the permissions of a file or directory in my file structure, I can do so with chmod.
@@ -449,7 +453,7 @@ If I want to change the permissions of a file or directory in my file structure,
 
 [nnn] - where nnn is a three number code specifying the desired permission string.
 
-The three number code string is a clever way to specify the permissions for the owner, group, and world. If I want all three user groups to have read, write, and execution privileges, the code string is 777:
+The three number code string is a clever way to specify the permissions for the **owner, group, and world**. If I want all three user groups to have read, write, and execution privileges, the code string is 777:
 
 **!!! EXAMPLES:** To change a file to this permission code …
 
@@ -518,9 +522,6 @@ Did it work?
 **!!! Quick tip:** 
 - If it didn't work, don't fret. It is possible your system does not store its bash program in /bin/bash. To check this, type which $SHELL. Replace whatever is displayed to the screen within the code in place of `/bin/bash`. Try again.
 - There are many more ways of executing chmod. Some of these are very intuitive and may be easier to learn. Please read Chapter9 of the text book to see these alternative techniques.
-
-
-
 
 ---
 
