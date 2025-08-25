@@ -523,7 +523,7 @@ Did it work?
 - If it didn't work, don't fret. It is possible your system does not store its bash program in /bin/bash. To check this, type which $SHELL. Replace whatever is displayed to the screen within the code in place of `/bin/bash`. Try again.
 - There are many more ways of executing chmod. Some of these are very intuitive and may be easier to learn. Please read Chapter9 of the text book to see these alternative techniques.
 
-You can also use alphabetic change codes! 
+You can also use **alphabetic change codes**! There are many allowable syntaxes for changecodes.
 
 ```
 chmod u+x file.sh #allow the user/owner to execute file.sh
@@ -534,7 +534,15 @@ $ chmod o+rwx file.sh #allow others to read, write and execute file.sh
 $ chmod o-rwx file.sh # remove permission for others to read, write, and execute file.sh
 ```
 
-Give it a try, our change code will be <u+x>.
+---
+
+</details>
+
+Please see the reference links above for more information.
+
+For this exercise, we will make our script executable by using the command `chmod` and the options <u+x>. This will make a script executable (x) to the User (that's you, u).
+
+Give it a try …
 
 ```
 $ ls -alh
@@ -542,35 +550,53 @@ $ chmod u+x startProject.sh
 $ ls -alh
 ```
 
----
+**!!! Exercise:** Test whether the file is executable by running it like so …
 
-</details>
+```
+$ startProject.sh
+```
 
-Today, we don't really have time to go into the details of this step. Please see the reference links above for more information.
+Yay! Now we don't need to use the `bash` command to execute the `startProject.sh` script. We can just execute it by either 1) going to the directory where the script lives and typing `startProject.sh`.
 
-For this exercise, we will make our script executable by using the command chmod and the options <u+x>. This will make a script executable (x) to the User (that's you, u).
+Because this script is in our special `bin` directory that lives in our path, we can use it ANYWHERE in our file structure and execute this script. Try it from your home directory …
 
-Give it a try …
+```
+$ cd
+$ startProject.sh
+```
 
+Remember, our steps to calling the script anywhere in our computer were:
 
+Add the `bin` directory to our `$PATH`
+Put script in a `bin` directory
+Make script executable
+Take the `.sh` off the script name
 
+#### 4. Take the `.sh` of the script name
 
+The last step is …
 
+```
+$ mv startProject.sh startProject
+```
 
+And that's it!
 
+You made a brand new command! You can execute it anywhere in ALPINE using:
 
+```
+$ startProject
+```
 
+HOORAY!!!
 
+**!!! NEXT TIME** you want to make a custom command, you'll only need to do steps 1 - 3. Because you modified your path within .bash_profile, that is permanent. You won't need to do that step again.
 
+**!!! BEST PRACTICE:** Put all your custom commands in the same place so you can easily find their names and modify them as need be.
 
+**!!! BONUS CONTENT:** Learn how to add options and help pages to your custom commands using `getopt` or `getopts`:
+- [Make options and help using getopt(s)](https://www.geeksforgeeks.org/linux-unix/getopts-command-in-linux-with-examples/)
 
+**!!! RUNNING JOBS ON ALPINE:** startProjects is a little script. It only takes a minuscule amount of compute power and speed. ALPINE people are ok with us running a command like this on the login, compile, or compute nodes immediately. However, anything bigger will require that you ask formally for resources and get in line (get in a queue). Please learn how to do this by attending their workshops or taking DSCI512: RNA sequencing. Or, you can continue on to the next pages. Enjoy!
 
-
-
-
-
-
-
-
-
-
+Continue on to [Running jobs on Alpine](4-7_Running_jobs_on_Alpine.md)
