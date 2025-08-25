@@ -1,4 +1,6 @@
-[too big](...)
+### This file was too big to host on github, so I had to put it on Canvas!
+
+- This file is available for download on Canvas, under modules "additional data for Assignment 3 (as needed)"
 
 - Download by clicking, and saving to an appropriate directory.
 - Unzip the tarball.
