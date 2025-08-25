@@ -1,6 +1,6 @@
 # Running Jobs on Alpine
 
-Today we're going to learn how to run jobs on ALPINE.
+No we will learn how to run jobs on ALPINE.
 
 For small jobs, we can run them on the command line as we would on our own terminal. Let's try this together.
 
