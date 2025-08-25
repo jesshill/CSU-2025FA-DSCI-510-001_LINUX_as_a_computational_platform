@@ -43,7 +43,7 @@ HW 5 and 6 are due by 11:59 pm tonight!
 
 [Quiz 6](https://forms.gle/Ck9tM4q91brAZ8457)
 
-Also, take this brief course [Survey](https://colostate.az1.qualtrics.com/jfe/form/SV_01Jwotnp3Pa8fVs) 
+Also, take this brief course [Survey](https://colostate.az1.qualtrics.com/jfe/form/SV_01Jwotnp3Pa8fVs)!
 
 ### Control Flow
 
