@@ -523,6 +523,25 @@ Did it work?
 - If it didn't work, don't fret. It is possible your system does not store its bash program in /bin/bash. To check this, type which $SHELL. Replace whatever is displayed to the screen within the code in place of `/bin/bash`. Try again.
 - There are many more ways of executing chmod. Some of these are very intuitive and may be easier to learn. Please read Chapter9 of the text book to see these alternative techniques.
 
+You can also use alphabetic change codes! 
+
+```
+chmod u+x file.sh #allow the user/owner to execute file.sh
+$ chmod u-x file.sh #remove permission for user/owner to execute file.sh
+$ chmod g+wx file.sh #allow the group to write and execute file.sh
+$ chmod g-wx file.sh # remove permission for group to execute file.sh
+$ chmod o+rwx file.sh #allow others to read, write and execute file.sh
+$ chmod o-rwx file.sh # remove permission for others to read, write, and execute file.sh
+```
+
+Give it a try, our change code will be <u+x>.
+
+```
+$ ls -alh
+$ chmod u+x startProject.sh
+$ ls -alh
+```
+
 ---
 
 </details>
