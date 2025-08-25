@@ -17,6 +17,10 @@ $ cd DSCI510_demo
 
 Go back to the onDemand Dashboard and go to this same location in the **Files** window.
 
+<p align="center">
+<img width="410" alt="files menue" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/fileNavigation.png">
+</p>
+
 Return to the terminal, and start a job called `helloWorld.sh`
 
 ```
