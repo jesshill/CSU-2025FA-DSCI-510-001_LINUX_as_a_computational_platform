@@ -17,7 +17,9 @@ $ cd DSCI510_demo
 
 - Go back to the onDemand Dashboard and go to this same location in the **Files** window.
 
-...
+<p align="center">
+<img width="410" alt="DSCI510_demo" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/DSCI510_demo.png">
+</p>
 
 - Return to the terminal, and start a job called `helloWorld.sh`
 
@@ -27,7 +29,9 @@ touch helloWorld.sh
 
 - Now, switch back to the file open helloWorld.sh by pulling down the horizontal dot menu and selecting **Edit:**
 
-...
+<p align="center">
+<img width="410" alt="script_edit_demo" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/scriptEditDemo.png">
+</p>
 
 - Write the following script:
 
