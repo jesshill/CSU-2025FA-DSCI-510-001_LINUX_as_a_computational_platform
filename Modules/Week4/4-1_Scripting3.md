@@ -43,6 +43,10 @@ HW 5 and 6 are due by 11:59 pm tonight!
 
 [Quiz 6](https://forms.gle/Ck9tM4q91brAZ8457)
 
+### Also, take this breif course survey
+
+[Survey](https://colostate.az1.qualtrics.com/jfe/form/SV_01Jwotnp3Pa8fVs) 
+
 ### Control Flow
 
 All the software we use in every aspect of our lives is running some sort of code in the background. Surprisingly, the vast majority of that code can be broken down into three simple programming structures: 1) **sequences**, 2) **conditionals**, and 3) **loops**. Together, these are the big three of **control flow** which refers to the concept of how code is wired together and the order in which blocks of code run.
