@@ -1,6 +1,6 @@
 # Frequently Asked Questions (FAQ) on Final Exam Project
 
-**!!!** I don't know what to do for my project. Are you having trouble figuring out a file type or project? Click here for [examples of past projects](FAQ_on_Exam_Project.md).
+**!!!** I don't know what to do for my project. Are you having trouble figuring out a file type or project? Click here for [examples of previous projects](Examples_of_previous_projects.md).
 
 **!!!** I still don't know what to do for my project. Talk to others in the class, talk to your PI or other lab members for ideas, or come by study session (Fri 1 - 2 pm and on zoom) to consult with the instructors of this course.
 
