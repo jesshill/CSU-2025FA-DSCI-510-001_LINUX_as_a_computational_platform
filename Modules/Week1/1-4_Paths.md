@@ -6,6 +6,8 @@
 <details>
   <summary>Click to expand/collapse</summary>
 
+---
+
 - **Vocabulary**
   - Options
   - Manuals
@@ -43,6 +45,9 @@
   - `?`
   - `.`
   - `head`
+
+---
+
 </details>
 
 ### Reminder: 
