@@ -1,6 +1,6 @@
 # Final Exam
 
-- Due by Teusday September 23 rd at 11:59 pm.
+- **Due by Teusday September 23 rd at 11:59 pm.**
 - If you need more time to complete this exam, please contact me in advance!
 - This exam accounts for 20% of your final grade. 
 
