@@ -190,8 +190,8 @@ Do you have any questions?
 - **not enough ls and pwd:** Many new users have trouble navigating directories when they first start out. It is something that you'll get used to over time. One thing that can help make the process easier is to continually execute pwd and ls commands. Just imagine that anytime you want to look at something in your Finder/Explorer, you are in effect issuing an ls command. So you should be typing ls as often as you look at your files!
 
 - **spaces in names:** Linux does NOT like spaces in directory or filenames, becuase they are commonly used as delimiters to seperate arguments in a command. If one of your directories contains a space, you'll need to treat the space as part of a single argument. This is done by/called **escaping a character**. This can be acheived in one of two ways: 
-  - 1) type a backslash+space as `\ ` instead of just a single space.
-  - 2) Use single (' ') or double quotes (" ") to enclose the argument containing spaces.
+  - Type a backslash+space as `\ ` instead of just a single space.
+  - Use single (' ') or double quotes (" ") to enclose the argument containing spaces.
 
 Example: I have a directory called `OneDrive - Colostate` and I want to `cd` into it, so I need to type:
 
