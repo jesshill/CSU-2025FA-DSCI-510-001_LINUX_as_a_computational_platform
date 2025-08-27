@@ -266,3 +266,175 @@ You could now search the sequence for a motif without worrying about line breaks
 echo $seq | sed 's/gaa[tg]/ CUT /g'
 ggggatttagctcagttgggagagcgccagact CUT atctggaggtcctgtgttcgatccaca CUT tcccacca
 ```
+
+---
+
+### General tips to approach the exam
+
+- Start early!
+- If your input files are big, make a test file (small file). This will make it faster to test your code
+- Make a **simplified** test file to use if your main input files are too complex
+- google - use the internet
+- Please work on your own project. Your project should be unique to you. The words you write up for the exam should be your own words. However, if you have trouble on a bit of your code, please use the internet and all your resources to try to de-bug it. So, it's ok to consult a friend to work out these kinks. Try to isolate the problem when you do this. It often helps identify the problem more easily.
+- Remember, you don't need to turn in working code to pass
+- Please contact me if you have any questions.
+- IF YOU NEED MORE TIME - just let me know ahead of time. I can offer extensions!
+
+### Problems with return characters especially on Windows
+
+**Windows PITFALL:** Are you working on Notepad++ and seeing weird stuff at the end of each line like `\r` or `\r\n`? If so, you'll need to set your “end of line conversion. To do this, go into Notepad++ Settings –> Preferences –> Navigate to End of line conversion and select unix/mac. OR, go to Edit –> EOL Conversion and select Windows/Linux/Mac.
+
+For a detailed description of removing dos/PC carriage return characters, please consult this guide – [How to Remove Carriage Returns in Linux or Unix](https://www.cyberciti.biz/faq/how-to-remove-carriage-return-in-linux-or-unix/)
+
+### Looping over a bunch of files
+
+If you want to do the same operation (like cut) on many files, you can feed the files to the program like so …
+
+```
+$ bash myscript.sh *.txt
+```
+
+Then, within the program, you can access all the files using `$@`
+
+```
+for file in $@
+do
+	#do something here on each $file 
+done
+```
+
+### Looping over each line of a file
+
+Say you have a list of genes saved in a file that looks like so:
+
+```
+abc-1
+gtc-1
+end-1
+abd-2
+```
+
+Say you want to pull each of these genes out of a larger gene expression dataset. In a sense, you want to filter your larger dataset for just these genes. Here is a simple way to do this …
+
+```
+#!/bin/bash
+ 
+# Take in the gene expression data as the first argument
+file=$1
+ 
+# Take in the user's list of genes as the second argument
+listofgenes=$2
+ 
+echo "your expression data is $1"
+echo "your Transcription factors are in $2"
+ 
+# read the listofgenes file and for each line, do a grep call
+cat $listofgenes | while read -r line;
+do
+	#echo $line
+	# write the grep command here searching on $line within $file and output 
+	# the contents into an output file
+ 
+done
+```
+
+### Splitting a file into many smaller files
+
+Sometimes you have a long list of fasta sequences within one file like so …
+
+```
+$ more concatenated_seq.fa
+ 
+>abc-1
+AGACGATCGTACGTACGATCGATCGTAGCTACGAT
+>deb-2
+ACGTACGTACGATCGTCAGTACGTAGCTAGCTCAGTAGCT
+>ced-20
+ACGTCGATCGATGCTAGCTAGCTAGCTACGTACGTACGTACG
+>thl-3
+ACGATCGTACGTACGTACGTACGTACGACTGATCGACTGACTAGC
+```
+
+Say you wanted to split each sequence into its own separate file?
+
+You could use split
+
+```
+$ split -p '>' concatenated_seq.fa
+```
+
+### Removing random numbers
+
+Someone asked this question … I want to clean up some file names that end up with long strings of random numbers in them to contain either a set word instead OR just remove the long string of random numbers.
+
+I think there are ways this can be done with either sub-string operations, grep, or sed, but I figured out how to do it most quickly using sed …
+
+#Here is substituting a 4-digit number with a word …
+
+```
+# I want to replace a 4-digit number inside a file name with a set string
+ 
+#for a filename that has a 4-digit number in the middle...
+filename="imagefile_1234_gfp.txt"
+ 
+#... replace the 4-digit number with the word 'numbers'
+newname=$(echo $filename | sed 's/[1-9][1-9][1-9][1-9]/numbers/')
+echo $newname
+```
+
+Here is deleting the 4-digit number:
+
+```
+# I want to delete a 4-digit number inside a file name 
+ 
+#for a filename that has a 4-digit number in the middle...
+filename="imagefile_1234_gfp.txt"
+ 
+#... replace the 4-digit number with the word 'numbers'
+newname=$(echo $filename | sed 's/[1-9][1-9][1-9][1-9]_//')
+echo $newname
+```
+
+### Conditional Statements with Float Point Numbers
+
+We went over how to use conditionals (if) to do some basic integer comparisons. That was easy …
+
+```
+if [ $x -gt 0 ]
+ 
+then
+ 
+   <command>
+ 
+fi
+```
+
+But what if we want to compare two float point numbers (decimal points)? This is trickier for bash to do. David came up with this approach …
+
+```
+i=4.5
+if [ $(echo "$i > 4.4" | bc) -eq 1 ]
+then
+    echo $i is greater than 4.4
+fi
+```
+
+### Get Columns Names and Count Columns
+
+Is there a function which can tell you how many columns there are and what the label of those columns are?
+
+Not really a good command in LINUX for this task.
+
+For **Column Names**, there is this [https://www.unix.com/unix-for-dummies-questions-and-answers/240189-how-get-column-names.html](https://community.unix.com/t/how-to-get-column-names/336402) but if anyone knows a better way this is a VERY useful thing to utilize.
+
+For **Columns Numbers**, here are some LINUX-based solutions. They are not very elegant.
+
+```
+# Imagine you want to know the number of tab-delimited columns in the file SARSCov2_ncbiGenes.gtf:
+ 
+awk -F'\t' '{print NF; exit}' SARSCov2_ncbiGenes.gtf
+ 
+#OR
+ 
+head -1 SARSCov2_ncbiGenes.gtf | tr '\t' '\n' | wc -l
+```
