@@ -5,6 +5,8 @@
 <details>
   <summary>Click to expand/collapse</summary>
 
+---
+
 - **Vocabulary**
   - LINUX
   - Operating system
@@ -45,6 +47,9 @@
   - `cal`
   - `touch`
   - `cd`
+
+---
+
 </details>
 
 # Welcome to class!
