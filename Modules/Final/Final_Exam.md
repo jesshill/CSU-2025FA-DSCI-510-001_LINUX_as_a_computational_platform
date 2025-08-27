@@ -17,8 +17,8 @@ Are you having trouble figuring out a file type or project? Click here for some 
 The grade for the final will be structured like so …
 
 ```
-2  pts - Question 1
-2  pts - Question 2
+1  pts - Question 1
+1  pts - Question 2
 2  pts - Question 3
 10 pts - Question 4
    3 pts - Does the script perform the operation? What are the known bugs or issues?
@@ -26,8 +26,8 @@ The grade for the final will be structured like so …
    2 pts - Does the script contain loops and/or conditionals (3 total)?
    2 pts - Your script should report to the user what is happening in each step
    1 pts - Your script should be commented
-2  pts - Question 5
-2  pts - Question 6
+3  pts - Question 5
+3  pts - Question 6
 
 20 pts - TOTAL
 ```
