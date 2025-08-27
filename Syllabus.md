@@ -45,7 +45,7 @@ Class attendance is not mandatory, but please let me know if you will be attendi
 
 # Office Hours
 
-Because this course is so flexible, it puts a lot of responsibility on you to ensure you are keeping up with the class content. My office hours for this class will be during **code club**, so on **Mondays from 2-4 pm in AZ E210**. Please come, and don't feel like you need to have dedicated questions. You can show up to do your homework, or chip away at your final projects, or solicit any advice. This is a casual affair.
+Because this course is so flexible, it puts a lot of responsibility on you to ensure you are keeping up with the class content. My office hours for this class will be during **Code Club**, so on **Mondays from 2-4 pm in AZ E210**. Please come, and don't feel like you need to have dedicated questions. You can show up to do your homework, or chip away at your final projects, or solicit any advice. This is a casual affair. Kira Vasquez-Kapit (she/her) will be organizing Code Club this semester.
 
 # Prerequisites
 
@@ -67,7 +67,9 @@ We will be using **Canvas Discussions** for class-wide communications.
 
 # Instructor
 
-Jessica Hill, PhD	
+Jessica Hill, PhD	(she/her)
+
+Molecular and Radiological Biosciences (MRB), room 227
 
 jesshill@colostate.edu or canvas e-mail
 
