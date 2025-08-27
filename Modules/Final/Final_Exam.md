@@ -93,7 +93,7 @@ Bonus goals - Can you have your script generate a final report to the user?
 
 Bonus goals - can you think of how to write in an “option” using an if statement?
 
-## Question 5 - Automation Question
+## Question 5 - Automation
 
 *Note: This question is unrelated to the above project.*
 
