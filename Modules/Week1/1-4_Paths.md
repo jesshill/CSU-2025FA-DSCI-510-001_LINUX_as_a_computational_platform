@@ -51,6 +51,7 @@
 - This course is short and should be a springboard to more learning such as:
   - [Boulder Computing Training Series](https://www.colorado.edu/crdds/events#research_computing-89)
   - [Coding & Cookies](https://libguides.colostate.edu/coding-cookies/home) in the Morgan Library at CSU
+    - [Upcoming workshops](https://libguides.colostate.edu/coding-cookies)
 
 ### Test your understanding - take this quiz!
 
