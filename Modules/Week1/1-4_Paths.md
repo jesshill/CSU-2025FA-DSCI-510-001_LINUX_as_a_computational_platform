@@ -73,7 +73,7 @@ The types of paths we've used for navigating up to this point are called **relat
 **!!! Example**: Changing directory using an **absolute path:**
 
 ```
-$ cd /home/users/erin/documents
+$ cd /home/users/sally/documents
 ```
 **!!! Example**: Changing directory using an **relative path:**
 ```
