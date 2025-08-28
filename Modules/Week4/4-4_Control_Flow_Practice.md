@@ -5,6 +5,8 @@
 <details>
   <summary>Click to expand/collapse</summary>
 
+---
+
 - **Vocabulary**
   - High-Performance Computing (HPC)
   - Supercomputer
@@ -32,6 +34,8 @@
   - `acompile`
   - `curc-quota`
   - `module avail`
+
+---
 
 </details>
 
