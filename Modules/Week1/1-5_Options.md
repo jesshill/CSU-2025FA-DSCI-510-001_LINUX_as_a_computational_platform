@@ -25,15 +25,15 @@ Further, short options can often be lumped together.
 For example, the following commands *should* do the same thing … but! on Mac, the double dashes don't work. This is due to some differences between Linux on these operating systems.
 
 ```
-$ls -a
-$ls --all
+$ ls -a
+$ ls --all
 ```
 
 These commands should do the same thing on most distributions …
 
 ```
-$ls -a -h -l
-$ls -ahl
+$ ls -a -h -l
+$ ls -ahl
 ```
 
 **Mac Users:** Are you seeing a `.DS_store` file? What is this, I didnt create it? It is a metadata file automatcially created in the background ...
@@ -53,7 +53,7 @@ Double click on the `chromsizes2.tgz` file to decompress it.
 **!!! Quick tip**: If double-clicking on the “tarball” doesn't open it, try copying-and-pasting the file someplace you can access through your terminal. Then, navigate to the file through the terminal, then execute this command line to decompress it.
 
 ```
-$tar -zxvf chromsizes2.tgz
+$ tar -zxvf chromsizes2.tgz
 ```
 
 If you need to, move the resulting expanded directory and its contents to a location you can easily manipulate in the terminal.
