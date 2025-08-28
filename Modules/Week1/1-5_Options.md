@@ -36,7 +36,11 @@ $ ls -a -h -l
 $ ls -ahl
 ```
 
-**Mac Users:** Are you seeing a `.DS_store` file? What is this, I didnt create it? It is a metadata file automatcially created in the background ...
+**!!! Mac Users:** 
+- Are you seeing a `.DS_store` file?
+- What is this, I didnt create it?
+- It is a hidden metadata file that stores custom attributes and settings for its containing folder, such as the position of icons, the size and position of the folder window, and the chosen view mode (icon, list, etc.). The macOS Finder creates and maintains these files, and while they are normally hidden, they can become visible on Windows or Linux systems, making them a potential privacy risk if shared.
+- You can leave them or delete them, ignore them, doesnt matter. 
 
 ### Exercise: Exploring Options
 
