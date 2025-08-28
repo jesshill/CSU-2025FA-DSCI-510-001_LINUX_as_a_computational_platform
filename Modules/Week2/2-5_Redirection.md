@@ -5,6 +5,8 @@
 <details>
   <summary>Click to expand/collapse</summary>
 
+---
+
 - **Vocabulary**
   - Standard streams
   - Redirection
@@ -45,6 +47,8 @@
   - `sort`
   - `uniq`
   - `tee`
+
+---
 
 </details>
 
