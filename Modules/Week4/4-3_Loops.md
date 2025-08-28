@@ -256,6 +256,8 @@ done
 <details>
   <summary>for usage - C style</summary>
 
+---
+
 This will may be familiar to people who have written code in other languages that have been influenced by the C language.
 
 Personally, don't use C-style loops very often, but they are useful to illustrate that `while` loops and `for` loops do the same thing.
@@ -290,6 +292,8 @@ done
 ```
 
 The syntax within the double parentheses is very special because it is basically mimicking “C”. Don't worry if it seems to look weird. If this doesn't make sense, just skip it and move on to Python-style loops. You can totally live without C-style loops.
+
+---
 
 </details>
 
