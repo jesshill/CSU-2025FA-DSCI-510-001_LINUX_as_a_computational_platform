@@ -5,6 +5,8 @@
 <details>
   <summary>Click to expand/collapse</summary>
 
+---
+
 - **Vocabulary**
   - Control flow
   - Sequences
@@ -31,6 +33,8 @@
   - `elif`
   - `for`
   - `while`
+
+---
 
 </details>
 
