@@ -36,6 +36,8 @@ $ls -a -h -l
 $ls -ahl
 ```
 
+**Mac Users:** Are you seeing a `.DS_store` file? What is this, I didnt create it? It is a metadata file automatcially created in the background ...
+
 ### Exercise: Exploring Options
 
 **!!! Exercise**: Let's obtain a dataset to allow us to explore `ls` and its options:
