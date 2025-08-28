@@ -87,7 +87,7 @@ Most commands allow us to list multiple arguments and will perform the command o
 **!!! Exercise**: Try it!
 
 ```
-$ wc sacCer3_chrom_sizes.txt wuhCor1_chrom_sizes.txt
+$ wc mm39_chrom_sizes.txt  sacCer3_chrom_sizes.txt
 ```
 
 Continue on to [Wildcards](1-7_Wildcards.md)
