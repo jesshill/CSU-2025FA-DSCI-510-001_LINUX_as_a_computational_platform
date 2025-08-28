@@ -100,7 +100,9 @@ $ module load <nameofmodule>
 
 Scientific software is created by the open-source community of researchers like you and me.
 
-... picture here ...
+<p align="center">
+<img width="410" alt="open source" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/opensource_img.png">
+</p>
 
 When the software is being actively supported, there may be binaries (ready-to-run programs) available to download. If not, the **source code** of the software will need to be downloaded, compiled, and installed. For several decades, these tasks took up a large amount of a person's time and energy while wearing down their very sanity.
 
@@ -114,7 +116,9 @@ Homebrew and apt-get require administrative access on your own computer, whereas
 
 Today, we will walk you through how to install software on SUMMIT using **conda**. What is conda?
 
-... picture here ...
+<p align="center">
+<img width="410" alt="conda" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/conda_logo.png">
+</p>
 
 #### conda
 
@@ -135,7 +139,9 @@ Today, we will walk you through how to install software on SUMMIT using **conda*
 
 #### A little bit about the scope of this project
 
-... picture here ...
+<p align="center">
+<img width="410" alt="conda" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/conda_logo.png">
+</p>
 
 ### Configuring conda with `.condarc`
 
