@@ -5,6 +5,8 @@
 <details>
   <summary>Click to expand/collapse</summary>
 
+---
+
 - **Vocabulary**
   - Variables
   - Values
@@ -72,6 +74,8 @@
     - `newvar=${oldvar:3:4}`
   - `printenv`
   - `$USER`
+
+---
 
 </details>
 
