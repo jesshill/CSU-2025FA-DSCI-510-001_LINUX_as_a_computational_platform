@@ -140,7 +140,7 @@ Today, we will walk you through how to install software on SUMMIT using **conda*
 #### A little bit about the scope of this project
 
 <p align="center">
-<img width="410" alt="conda" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/conda_logo.png">
+<img width="410" alt="updates" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/update.png">
 </p>
 
 ### Configuring conda with `.condarc`
