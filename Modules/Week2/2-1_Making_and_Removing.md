@@ -7,6 +7,8 @@ In this section, we'll learn how to create or delete files and directories using
 <details>
   <summary>Click to expand/collapse</summary>
 
+---
+
 - **Vocabulary**
   - Source (as in the source file in a copy `cp` command)
   - Target (as in the target file in a copy `cp` command)
@@ -49,7 +51,10 @@ In this section, we'll learn how to create or delete files and directories using
   - `>`
   - `2>`
   - `&>`
-  - `>>`  
+  - `>>`
+
+---
+
 </details>
 
 
