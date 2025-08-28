@@ -74,3 +74,27 @@ Now, you can go ANYWHERE on SUMMIT and use `scheck` instead of `squeue -u $USER`
 ---
 
 </details>
+
+<details>
+  <summary>Summit - Installing Software</summary>
+
+---
+
+
+
+
+---
+
+</details>
+
+<details>
+  <summary>Summit - Demo</summary>
+
+---
+
+
+
+
+---
+
+</details>
