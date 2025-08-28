@@ -25,7 +25,3 @@ B. <answerHere>
 QUESTION 5
 
 <answerHere>
-
-BONUS Question
-
-<answer here>
