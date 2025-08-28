@@ -80,6 +80,65 @@ Now, you can go ANYWHERE on SUMMIT and use `scheck` instead of `squeue -u $USER`
 
 ---
 
+### Loading pre-installed software with modules
+
+The SUMMIT support staff has already installed some software on SUMMIT that you can load. To browse what is pre-installed,
+
+```
+$ module avail
+```
+
+You may have already noticed that when you login you are prompted to try this. We won't be going through the modules here, but you can learn more about them on the [Module User Guide](https://curc.readthedocs.io/en/latest/compute/modules.html)
+
+To load a listed module,
+
+```
+$ module load <nameofmodule>
+```
+
+### Loading pre-installed software with modules
+
+Scientific software is created by the open-source community of researchers like you and me.
+
+... picture here ...
+
+When the software is being actively supported, there may be binaries (ready-to-run programs) available to download. If not, the **source code** of the software will need to be downloaded, compiled, and installed. For several decades, these tasks took up a large amount of a person's time and energy while wearing down their very sanity.
+
+However, **software installers** have really changed the game. There are now several software installers available for different systems:
+
+- Homebrew - Mac OS
+- apt-get - Ubuntu, other linux
+- conda - all systems
+
+Homebrew and apt-get require administrative access on your own computer, whereas you can use conda to install on systems where you are not an administrator, such as on SUMMIT.
+
+Today, we will walk you through how to install software on SUMMIT using **conda**. What is conda?
+
+... picture here ...
+
+#### conda
+
+- conda is an open-source package management system
+- conda maintains a repository of open-source software code called Anaconda
+  - We will use the computational biology specific version called bioconda
+- conda assists in downloading, compiling, and installing software
+- when a piece of software is downloaded, all dependent packages will also be obtained
+- conda helps users create different environments where software collections can be collected and curated.
+
+**packages** - small units of software
+
+**environment** - a virtual space where a user can contain a collection of installed software. Users can have environments associated with different research projects.
+
+#### what is up with the name?
+
+- python, anaconda, sense a theme? hint - there is also a boa
+
+#### A little bit about the scope of this project
+
+... picture here ...
+
+### Configuring conda with `.condarc`
+
 
 
 
