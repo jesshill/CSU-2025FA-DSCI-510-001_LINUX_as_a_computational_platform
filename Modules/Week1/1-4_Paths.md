@@ -132,4 +132,6 @@ eight_polonaises.pdf hungarian_dance_no5.pdf six_variations.pdf
 
 **UP arrow** - print out the last command executed (even if it failed).
 
+**q** - to come out of the man page session
+
 Continue on to [Options](1-5_Options.md)
