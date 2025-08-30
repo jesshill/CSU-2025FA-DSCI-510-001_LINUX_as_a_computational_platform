@@ -506,7 +506,7 @@ It's OK to do small jobs like this on scompile.
 
 ### SUMMIT - Getting data on and off
 
-You can also use `rsync` to move files onto and off of SUMMIT from within your local terminal.
+Command-line tools that you can use to transfer files onto and off of SUMMIT include `rsync`. See an example of usage below. You can also use secure copy (scp) and secure ftp (sftp).
 
 In your local terminal, you can download files **from SUMMIT** to your local computer like so, substituting <your-eID> with your own eID …
 
@@ -514,11 +514,13 @@ In your local terminal, you can download files **from SUMMIT** to your local com
 rsync -auvz -e 'ssh -p 22' <your-eID>\@colostate.edu@login.rc.colorado.edu:/scratch/summit/erinnish@colostate.edu/<file.txt> .
 ```
 
-and you can move files **to SUMMIT** like so, substituting <your-eID> with your own eID…
+and you can move files **to SUMMIT** like so, substituting <your-eID> with your own eID …
 
 ```
 rsync -auvz -e 'ssh -p 22' ./file.txt <your-eID>\@colostate.edu@login.rc.colorado.edu:/scratch/summit/erinnish@colostate.edu/ .
 ```
+
+Additionally, you can also transfer data onto and off of SUMMIT using other methods like a web-based application called [Globus](https://www.globus.org/data-transfer), or [filezilla](https://filezilla-project.org/)! 
 
 ---
 
