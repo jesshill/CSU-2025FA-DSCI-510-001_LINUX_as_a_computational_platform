@@ -458,35 +458,67 @@ You will not need to add the special directories to `.condarc`.
 
 The software we obtained called **faFrag** lets us pull out a subset of a fasta file.
 
+**!!! Exercise:** Let's try it!
 
+Download *C. elegans* chromosome X.
 
+```
+$ rsync -aP \
+rsync://hgdownload.cse.ucsc.edu/goldenPath/ce11/chromosomes/chrX.fa.gz .
+```
 
+The output from that command is:
 
+```
+receiving incremental file list
+chrX.fa.gz
+     5666803 100%    4.65MB/s    0:00:01 (xfer#1, to-check=0/1)
 
+sent 51 bytes  received 5667599 bytes  1030481.82 bytes/sec
+total size is 5666803  speedup is 1.00
+```
 
+We just downloaded the C. elegans chromosome X.
 
+```
+$ gunzip chrX.fa.gz 
+$ wc chrX.fa 
+  354380   354380 18073327 chrX.fa
+```
 
+The chromosome has 17,718,942 basepairs. Let's extract 40 of those with a simple command.
 
+```
+[shas0533 /projects/jesshill@colostate.edu/DSCI510]$
+$ ./faFrag chrX.fa 10 50 small.fa
+Wrote 40 bases to small.fa
+```
 
+Now see what it did:
 
+```
+$ cat small.fa
+>chrX:10-50
+gcctaagcctaagcctaagcctaagcctaagcctaagcct
+```
 
+It's OK to do small jobs like this on scompile.
 
+### SUMMIT - Getting data on and off
 
+You can also use `rsync` to move files onto and off of SUMMIT from within your local terminal.
 
+In your local terminal, you can download files **from SUMMIT** to your local computer like so, substituting <your-eID> with your own eID …
 
+```
+rsync -auvz -e 'ssh -p 22' <your-eID>\@colostate.edu@login.rc.colorado.edu:/scratch/summit/erinnish@colostate.edu/<file.txt> .
+```
 
+and you can move files **to SUMMIT** like so, substituting <your-eID> with your own eID…
 
-
-
-
-
-
-
-
-
-
-
-
+```
+rsync -auvz -e 'ssh -p 22' ./file.txt <your-eID>\@colostate.edu@login.rc.colorado.edu:/scratch/summit/erinnish@colostate.edu/ .
+```
 
 ---
 
