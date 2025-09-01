@@ -19,7 +19,7 @@
 ## Question 1
 
 - Let's download the C. elegans genome. Create a directory called `celegans` and navigate into it.
-- Download the ce10 version of the C. elegans genome from UCSC Genome browser with one of the following commands:
+- Download the ce11 version of the C. elegans genome from UCSC Genome browser with one of the following commands:
 - **Hint:** This is the 11th version of the C. elegans genome, so the ce11 is ce + one + one, NOT ce+ little L + little L.
 - **Hint:** don't forget the last period in that `rsync` command. It tells rsync to use your current directory as the target directory.
 
