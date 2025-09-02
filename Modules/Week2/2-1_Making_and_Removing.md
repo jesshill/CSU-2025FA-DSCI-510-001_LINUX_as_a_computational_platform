@@ -95,6 +95,14 @@ $ rmdir mynewdir
 $ ls
 ```
 
+Can also use `rm` (ReMove) to remove directories! However, to do so you need to use the `-d` option which specifies that you want to attempt to remove directories. Alternatively, you can use the `-R` option, or `-r` (equivilant to `-R`), which implies the `-d` option.
+
+```
+$ ls
+$ rm -r mynewdir
+$ ls
+```
+
 **!!! More Exercises:** 
 
 1. Through the terminal, navigate to the place in your computer where you want to store files for this class. If you haven't already made a directory specifically for this class, use `mkdir` to make that directory.
@@ -159,7 +167,7 @@ $ nano quick_tips.txt
 
 #### Making files with `nano`
 
-We can also make new files by skipping touch and just starting up nano directly.
+We can also make new files by skipping `touch` and just starting up `nano` directly.
 
 **!!! Exercise:** Let's make the new file `common_pitfalls.txt`.
 
