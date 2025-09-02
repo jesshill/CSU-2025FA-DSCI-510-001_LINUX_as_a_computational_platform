@@ -32,7 +32,7 @@ wget <http://address/to/file/file.txt>
 -must be installed on MacOS systems using Conda or Homebrew
 ```
 
-See these links for [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) and [Homebrew](https://brew.sh/) installation! 
+See these links for [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) and [Homebrew](https://brew.sh/) installation! See [here](https://formulae.brew.sh/formula/wget) for installing wget with homebrew!
 
 ### `curl` - Command line URL
 
