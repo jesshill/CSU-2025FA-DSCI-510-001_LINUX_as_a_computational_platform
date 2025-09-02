@@ -123,13 +123,13 @@ A cool quirk of Linux is that a period, “.”, is shorthand for the **current 
 ```
 $ pwd
 $ ls
-$ cd . #this shouldn't change your location
+$ cd . #this wont change your location
 $ pwd 
 $ ls
-$ cd .. #this should change your location to the parent directory
+$ cd .. #this will change your location to the parent directory
 $ pwd
 $ ls
-$ cd ..
+$ cd ../.. #this will change your location to the grandparent directory
 $ pwd
 $ ls
 ```
