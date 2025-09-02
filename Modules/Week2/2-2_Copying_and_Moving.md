@@ -99,6 +99,28 @@ $ ls copy_of_backups
 1. Copy `hs1_chrom_sizes.txt` to a new file called `hs1_chrom_sizes_XX.txt`.
 2. Using **nano**, go into `hs1_chrom_sizes_XX.txt` and delete the entry for the Y chromosome. **Hint:** you can't add a cursor anywhere you want. You'll need to navigate with arrow keys.
 
+
+#### Copy multiple files at once into the same location
+
+If you want to copy multiple files from one loction into a different location (has to be the same location though!), you can do the following:
+
+```
+$ pwd #where are we?
+parentdir
+$ ls #what contents are in our parentdir? 
+subdir1 subdir2 file1.txt file2.txt file3.txt
+$ cp file1.txt file2.txt file3.txt ./subdir1/
+$ cd subdir1 #now lets move into our subdir and see if it worked
+$ ls
+file1.txt file2.txt file3.txt
+$ cd ..
+$ pwd
+parentdir
+$ ls
+subdir1 subdir2 file1.txt file2.txt file3.txt #the origional files are still here, now we have made a copy of them
+```
+
+
 ### Moving files and directories with `mv`
 
 Once you know `cp`, `mv` is pretty much the same thing with one exception. The source file will **disappear** once the operation is complete. This ends up **renaming** your file if you are working within the same directory. It acts like **cut-and-paste** instead of a copy-and-paste if you're moving between directories.
@@ -117,5 +139,25 @@ Again, `mv` tries to operate in slightly different ways depending on the types o
 
 
 **!!! Independent Exercise:** On your own, practice using the `mv` command to rename `danRer11_chrom_sizes.txt` to `dr11_chrom_sizes.txt`.
+
+#### Move multiple files at once into the same location
+
+If you want to move multiple files from one loction into a different location (has to be the same location though!), you can do the following:
+
+```
+$ pwd 
+parentdir
+$ ls 
+subdir1 subdir2 file1.txt file2.txt file3.txt
+$ mv file1.txt file2.txt file3.txt ./subdir1/
+$ cd subdir1 
+$ ls
+file1.txt file2.txt file3.txt
+$ cd ..
+$ pwd
+parentdir
+$ ls
+subdir1 subdir2 #now the origionals have moved into subdir1
+```
 
 Continue on to [File Transfer](2-3_File_Transfer.md)
