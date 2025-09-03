@@ -53,10 +53,6 @@
 </details>
 
 
-### Reminder: 
-
-HW 1 and 2 are due by 11:59 pm tonight!
-
 ### Test your understanding - take this quiz!
 
 [Quiz 3](https://forms.gle/rmNNG3vXTzVgFc6X8)
