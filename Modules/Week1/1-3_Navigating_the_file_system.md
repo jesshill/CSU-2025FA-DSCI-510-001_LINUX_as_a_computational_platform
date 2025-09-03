@@ -44,11 +44,15 @@ If you are on a LINUX machine or a Windows, you will probably see something more
 ```
 $ pwd 
 /home/jessicahill
+
+#or 
+
+C:\Users\jesshill
 ```
 
 This notation is called a **path** and it describes the location, or the address, of my working directory within the file structure of a computer system.
 
-When I look in this directory (on a MAC), I see …
+When I look in this directory, I see …
 
 ```
 $ ls
@@ -58,20 +62,13 @@ Documents		Music
 Downloads		OneDrive - Colostate
 ```
 
-These are the items I have inside the working directory. This directory corresponds to the same directory I can locate in my MAC Finder.
-
-PC people, you will probably see nothing …
-
-```
-$ ls
-$
-```
+These are the items I have inside the working directory. This directory corresponds to the same directory I can locate in my "Finder" or "File Explorer".
 
 The home folder on UBUNTU for Windows is in a really weird, hidden place.
 
 ### Independent exercises for Mac users
 
-**!!! Exercise**: Open your Finder or Explorer and navigate to the same directory you're in on the terminal. Double check that the contents are the same. Check that the path is similar.
+**!!! Exercise**: Open your "Finder" and navigate to the same directory you're in on the terminal. Double check that the contents are the same. Check that the path is similar.
 
 **!!! Mac tip**: If you don't see your path in the Finder window, pull down the **View** menu and select **Show Path Bar**.
 
