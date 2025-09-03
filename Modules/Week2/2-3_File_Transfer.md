@@ -131,7 +131,53 @@ Read the proper check sums included in this directory from UCSC like so:
 $ more md5sum.txt
 ```
 
-Do the numbers and letters match?
+Do the digital codes match? Let's check, here is a little script to check the contents:
+
+```
+#!/usr/bin/env bash
+
+# Usage check, if wrong will show instructions, need 2 arguments passed to the script
+if [ "$#" -ne 2 ]; then
+    echo "ERROR: you need to provide the script two files: $0 <checksums1.txt> <checksums2.txt>"
+    exit 1
+fi
+
+
+file1="$1"
+file2="$2"
+
+
+# Check that the 2 arguments passed are files that actually exist
+if [ ! -f "$file1" ] || [ ! -f "$file2" ]; then
+    echo "ERROR: One or both files do not exist."
+    exit 1
+fi
+
+
+# what is the script going to do
+echo "Comparing checksum files: $file1 vs $file2"
+echo
+
+
+# Sort both files by filename (2nd column)
+sorted1=$(mktemp)
+sorted2=$(mktemp)
+sort -k2 "$file1" > "$sorted1"
+sort -k2 "$file2" > "$sorted2"
+
+# Compare line by line: only column 1 (checksum)
+paste "$sorted1" "$sorted2" | while read -r sum1 name1 sum2 name2; do
+    if [ "$sum1" = "$sum2" ]; then
+        echo "$name1: MATCH"
+    else
+        echo "$name1: MISMATCH"
+        echo "    $file1: $sum1"
+        echo "    $file2: $sum2"
+    fi
+done
+
+rm -f "$sorted1" "$sorted2"
+```
 
 ### Unzipping files
 
