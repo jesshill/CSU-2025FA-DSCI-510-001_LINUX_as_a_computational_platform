@@ -131,7 +131,7 @@ Read the proper check sums included in this directory from UCSC like so:
 $ more md5sum.txt
 ```
 
-Do the digital codes match? Let's check, here is a little script to check the contents:
+Do the digital codes match? Let's check. Here is a little script that I called `CompareSums.sh` to check the contents ...
 
 ```
 #!/usr/bin/env bash
