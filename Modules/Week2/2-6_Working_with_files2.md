@@ -67,7 +67,7 @@ $
 
 ### Searching for patterns using `grep`
 
-**Regular expressions** in computing describes a sequence of characters for which you want to search. It is often shortened to **regex*. Regular expressions are very powerful in computing and the expressions themselves can quickly become very complex with lots of wildcards and wiggle room for complex variations on the searched pattern. For this lesson, we'll focus on simple letter and number combinations. In this case, we can think of it here as simple pattern searching and matching.
+**Regular expressions** in computing describes a sequence of characters for which you want to search. It is often shortened to *regex*. Regular expressions are very powerful in computing and the expressions themselves can quickly become very complex with lots of wildcards and wiggle room for complex variations on the searched pattern. For this lesson, we'll focus on simple letter and number combinations. In this case, we can think of it here as simple pattern searching and matching.
 
 **grep usage**
 
