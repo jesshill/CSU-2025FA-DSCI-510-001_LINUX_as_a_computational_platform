@@ -93,7 +93,7 @@ $ grep 'chr' chr_sizes.txt
 $ grep '^chr' chr_sizes.txt 
 $ grep 'chrII' chr_sizes.txt
 $ grep -w 'chrII' chr_sizes.txt
-$ grep 'V$' chr_sizes.txt
+$ grep 'V$' chr_sizes_new.txt #doesnt have the chromosome file sizes 
 ```
 
 **!!! Common pitfall:** Did you notice how searching for `chr` gave you both the chromosomes listed in columns as well as the word `chromosome` in the header? Also, `chrII` returned both `chrII` and `chrIII`. This is something to look out for with grep. We'll cover more advanced ways to restrict your regular expressions in later lessons.
