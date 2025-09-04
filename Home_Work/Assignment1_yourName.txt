@@ -19,7 +19,6 @@ QUESTION 3
 QUESTION 4
 
 A. <answerHere>
-
 B. <answerHere>
 
 QUESTION 5
