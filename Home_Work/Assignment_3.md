@@ -71,7 +71,7 @@ Let's look at the file md5sum.txt. What cut command line would you use to displa
 40ce7b39a878f3d6a77bc99f7e2175be
 26f3335c9785bf5e4a749e1902123948
 59e0901dee906259af8d1447483e3e0c
-...
+so on and so forth ...
 ```
 
 ## Question 5
