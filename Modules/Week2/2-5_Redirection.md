@@ -108,8 +108,8 @@ $ wc blerg 2> wc_err_output.txt
 Wonderful! But what if we had given `wc` two files, one good and one bad. Experiment a little.
 
 ```
-$ wc chrI.fa blerg > wc_both_1.txt
-$ wc chrI.fa blerg 2> wc_both_2.txt
+$ wc chrI.fa.gz blerg > wc_both_1.txt
+$ wc chrI.fa.gz blerg 2> wc_both_2.txt
 ```
 
 We can capture both using `&>`:
@@ -119,15 +119,15 @@ We can capture both using `&>`:
 `command line &> outputfilename.txt`
 
 ```
-$ wc chrI.fa blerg &> wc_both_3.txt
+$ wc chrI.fa.gz blerg &> wc_both_3.txt
 ```
 
 **!!! Common pitfall:** redirection will overwrite existing files. If, instead, you would prefer to append the new information to the end of an existing file, you can use `»`
 
 ```
-$ wc chrI.fa >> runningTotal.txt
-$ wc chrII.fa >> runningTotal.txt
-$ wc chrIII.fa >> runningTotal.txt
+$ wc chrI.fa.gz >> runningTotal.txt
+$ wc chrII.fa.gz >> runningTotal.txt
+$ wc chrIII.fa.gz >> runningTotal.txt
 $ more runningTotal.txt
 ```
 
