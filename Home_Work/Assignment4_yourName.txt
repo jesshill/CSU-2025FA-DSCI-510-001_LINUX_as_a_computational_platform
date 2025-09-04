@@ -5,15 +5,10 @@ Date: <dateHere>
 #####################
 
 QUESTION 1
-
-A. <answer here>
-B. <answer here>
+A. 
+B. 
 
 QUESTION 2
-
-A. <answer here>
-
-QUESTION 3
 
 ############################
 
@@ -23,9 +18,15 @@ QUESTION 3
 
 ############################
 
-QUESTION 4
+QUESTION 3
+A. 
+B. 
+C.
 
-<answer here>
+QUESTION 4
+A. 
+B. 
+C.
 
 QUESTION 5
 
