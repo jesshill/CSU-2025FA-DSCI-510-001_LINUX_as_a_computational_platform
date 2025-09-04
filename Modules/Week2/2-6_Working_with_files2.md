@@ -142,6 +142,11 @@ $ cut -d " " -f 2 file.txt #set the delimiting character to a space, then cut ou
 $ cut -d "\t" -f 2 file.txt #set the delimiting character to a tab, then cut out the second field. (default)
 ```
 
+You can even create your own delimiter ...
+```
+$ cut -d "." -f 2 file.txt #set the delimiting character to a ., then cut out the second field. 
+```
+
 **!!! Ecercises:**
 
 - `cat` practice: Go to the directory where you downloaded the individual chromosomes of the yeast genome. Use a `cat` command to concatenate ALL the chromosomes together into the file `sacCer3_genome.fasta`.
