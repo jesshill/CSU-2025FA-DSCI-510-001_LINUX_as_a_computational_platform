@@ -47,7 +47,7 @@ HW 5 and 6 are due by 11:59 pm tonight!
 
 [Quiz 6](https://forms.gle/Ck9tM4q91brAZ8457)
 
-Also, please take this  brief course [survey](...), as well as complete the course survey on Canvas! Thank you!
+Also, please take this  brief course [survey](https://forms.gle/ZVPX9VarDDZ5UWUr7), as well as complete the course survey on Canvas! Thank you!
 
 ### Control Flow
 
