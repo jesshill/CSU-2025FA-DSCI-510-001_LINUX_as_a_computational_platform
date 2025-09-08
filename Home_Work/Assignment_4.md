@@ -136,7 +136,7 @@ OR
 $ wget --timestamping 'ftp://hgdownload.cse.ucsc.edu/goldenPath/sacCer3/bigZips/genes/sacCer3.ensGene.gtf.gz' -O sacCer3.ensGene.gtf.gz
 ```
 
-A. Does your md5 sum match 6c2eea692f4bdd47655accd65fac45f0? 
+A. Does your md5 sum match `6c2eea692f4bdd47655accd65fac45f0`? 
 
 B. Unzip your annotation file. How many lines, words, and characters are in this file?
 
