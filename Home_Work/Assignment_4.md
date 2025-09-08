@@ -35,7 +35,7 @@ $ wc terriers.txt
 
 How could you use pipes to transform the same set of operations into a single line of code with no temporary files created?
 
-A. Write the single line of code (again, hint - you should not be creating any temp files with your line of code; this should be a piped series of commands)
+A. Write the single line of code (again, hint - you should not be creating any temp files with your line of code (dont write any files in the process); this should be a piped series of commands!)
 
 B. How many Terrier entries are there?
 
