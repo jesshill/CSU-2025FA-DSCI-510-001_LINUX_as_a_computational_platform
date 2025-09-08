@@ -93,7 +93,7 @@ Let's see what happens if we tried to redirect an errant command …
 $ wc blerg > wc_fake_output.txt
 ```
 
-We can capture the error message with ... `2>`. This **redirects** standard-error to our desired file:
+We can capture the error message with `2>`. This **redirects** standard-error to our desired file:
 
 **Redirect stderr Usage:**
 
