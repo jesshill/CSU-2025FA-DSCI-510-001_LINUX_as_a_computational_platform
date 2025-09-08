@@ -84,6 +84,46 @@ $ cut -f 1 mini.gff | sort | uniq -d
 
 **!!! Common pitfall:** Pipes are fun, but pipes can be problematic with large files. Depending on your computer or cluster, there may be a limit to how much information can be piped to a new command. In these cases, creating a temp file (sometimes written as file.tmp) is preferable.
 
+---
+
+Clarifying content on the `sort` and `uniq` commands:
+
+Example of removal 
+```
+$ cat file.txt
+banana
+apple
+banana
+apple
+
+$ sort file.txt
+apple
+apple
+banana
+banana
+
+$ sort -u file.txt
+apple
+banana
+```
+
+Example of not removed
+```
+$ cat file.txt
+banana
+apple
+banana
+apple
+
+$ uniq file.txt
+banana
+apple
+banana
+apple   # duplicates are not adjacent, so they stay!
+```
+
+---
+
 ### Redirect to multiple locations using `tee`
 
 In an earlier lesson, we learned how to redirect STDOUT and STERR to a file. If we want to direct STDOUT to both a file and the screen, we can use the `tee` command. `tee` is used with the pipe command.
