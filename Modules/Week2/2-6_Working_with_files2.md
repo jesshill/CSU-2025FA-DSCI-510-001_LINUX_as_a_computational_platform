@@ -147,8 +147,17 @@ You can even create your own delimiter ...
 $ cut -d "." -f 2 file.txt #set the delimiting character to a ., then cut out the second field. 
 ```
 
-**!!! Ecercises:**
+**!!! Exercises:**
 
 - `cat` practice: Go to the directory where you downloaded the individual chromosomes of the yeast genome. Use a `cat` command to concatenate ALL the chromosomes together into the file `sacCer3_genome.fasta`.
+
+---
+Additional information on `cut` 
+
+`cut` can only be used for extraction, it cannot (that I was able to find) be used to change or add a dilimiter. 
+
+You can do that with `sed` and `awk` which we talk about later in the class!
+
+---
 
 Continue on to [Practice grep and cut](2-7_Practice_grep_and_cut.md)
