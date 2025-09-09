@@ -118,6 +118,14 @@ To learn about using `AWK` on the command line, I suggest this guide: [Geeks for
 
 `AWK` can also be built into complex written scripts.
 
+Here is some example usage for 'awk' ... 
+
+```
+awk '{ gsub(/T/, "U"); print }' DNA.txt
+
+awk '{ gsub(/T/, "U"); gsub(/t/, "u"); print }' DNA.txt
+```
+
 ### A Note on Complexity and Speed
 
 If this is starting to feel AWKward, you're not alone. Once you start to imagine how you want to search, replace, and print out information, your imaginings can quickly outpace what even a sed or awk command can easily do. It's time to level up to python or javascript.
