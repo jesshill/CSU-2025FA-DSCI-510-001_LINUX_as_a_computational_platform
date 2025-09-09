@@ -88,7 +88,7 @@ $ cut -f 1 mini.gff | sort | uniq -d
 
 Clarifying content on the `sort` and `uniq` commands:
 
-Example of removal 
+Example of **removal**
 ```
 $ cat file.txt
 banana
@@ -107,7 +107,7 @@ apple
 banana
 ```
 
-Example of not removed
+Example of **not removed**
 ```
 $ cat file.txt
 banana
@@ -124,7 +124,7 @@ apple   # duplicates are not adjacent, so they stay!
 
 regarding the in-class example using the mini.gff file, the problem was the lines were not actually identical even though they did look pretty similar. I had to re-space all of the lines (so something was off with the tab spacing)
 
-origional file that `sort -u` and `uniq` dont work on ... (it is the last 2 lines that were duplicated!)
+**origional file** that `sort -u` and `uniq` DONT work on ... (it is the last 2 lines that were duplicated!)
 ```
 # A tester gff file.                                
 # For testing pipes.                                
@@ -141,7 +141,7 @@ chrV	sacCer3_ensGene	stop_codon	575680	575682	0.000000	-	.	gene_id "YER190C-B"; 
 chrV    sacCer3_ensGene stop_codon      575680  575682  0.000000        -       .       gene_id "YER190C-B"; transcript_id "YER190C-B";
 ```
 
-corrected file that `sort -u` and `uniq` work on ... (it is the last 2 lines that were duplicated!)
+**corrected file** that `sort -u` and `uniq` DO work on ... (it is the last 2 lines that were duplicated!)
 ```
 # A tester gff file.                                
 # For testing pipes.                                
