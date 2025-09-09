@@ -100,6 +100,14 @@ $ tr [Tt] [Uu] < DNA.txt
 $ tr [Tt] [Uu] < DNA.txt > RNA.txt
 ```
 
+For zsh users ... you need to update the syntax for `tr` to 
+
+```
+% tr 'Tt' 'Uu' < DNA.txt
+
+# This also works in the bash shell!
+```
+
 ### AWK
 
 `AWK` is a speedy little program developed in the 1970's at Bell labs by three programmers Alfred Aho, Peter Weinberger, and Brian Kernighan. The name is the initials of their last names but sounds like the bird, auk.
