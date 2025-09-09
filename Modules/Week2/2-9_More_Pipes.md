@@ -124,12 +124,24 @@ apple   # duplicates are not adjacent, so they stay!
 
 regarding the in-class example using the mini.gff file, the problem was the lines were not actually identical even though they did look pretty similar. I had to re-space all of the lines (so something was off with the tab spacing)
 
-origional file that `sort -u` and `uniq` dont work on
+origional file that `sort -u` and `uniq` dont work on ... (it is the last 2 lines that were duplicated!)
+```
+# A tester gff file.                                
+# For testing pipes.                                
+chrV	sacCer3_ensGene	CDS	574807	575379	0.000000	-	0	gene_id "YER190C-A"; transcript_id "YER190C-A";
+chrII	sacCer3_ensGene	CDS	805038	805256	0.000000	-	0	gene_id "YBR298C-A"; transcript_id "YBR298C-A";
+chrV	sacCer3_ensGene	start_codon	575377	575379	0.000000	-	.	gene_id "YER190C-A"; transcript_id "YER190C-A";
+chrII	sacCer3_ensGene	start_codon	805254	805256	0.000000	-	.	gene_id "YBR298C-A"; transcript_id "YBR298C-A";
+chrII	sacCer3_ensGene	exon	805035	805256	0.000000	-	.	gene_id "YBR298C-A"; transcript_id "YBR298C-A";
+chrIII	sacCer3_ensGene	exon	309070	310155	0.000000	+	.	gene_id "YCR105W"; transcript_id "YCR105W";
+CHRII	sacCer3_ensGene	start_codon	805351	805353	0.000000	+	.	gene_id "YBR299W"; transcript_id "YBR299W";
+CHRIII	sacCer3_ensGene	start_codon	310958	310960	0.000000	+	.	gene_id "YCR106W"; transcript_id "YCR106W";
+chrV	sacCer3_ensGene	exon	574804	575379	0.000000	-	.	gene_id "YER190C-A"; transcript_id "YER190C-A";
+chrV	sacCer3_ensGene	stop_codon	575680	575682	0.000000	-	.	gene_id "YER190C-B"; transcript_id "YER190C-B";
+chrV    sacCer3_ensGene stop_codon      575680  575682  0.000000        -       .       gene_id "YER190C-B"; transcript_id "YER190C-B";
 ```
 
-```
-
-corrected file that `sort -u` and `uniq` work on
+corrected file that `sort -u` and `uniq` work on ... (it is the last 2 lines that were duplicated!)
 ```
 # A tester gff file.                                
 # For testing pipes.                                
