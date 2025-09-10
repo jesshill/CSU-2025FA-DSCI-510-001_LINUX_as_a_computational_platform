@@ -98,7 +98,9 @@ B. What command line would you use to save the chromosome name, the start codon 
 
 **hint:** it takes a little while to print out
 
-Peeking into your .bed file, we should see this! **hint:** that means you still also need the comment lines!
+Peeking into your .bed file, we should see this! 
+
+**hint:** that means you still also need the comment lines!
 
 ```
 #!genome-build WBcel235
