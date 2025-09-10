@@ -76,7 +76,7 @@ so on and so forth ...
 
 ## Question 5
 
-For this next question, use this C. elegans annotation file below. Download it from google drive (click on it to take you to the google drive, then click on the down arrow key in the top right corner), move it to the same directory where you are working, and de-compress it.
+For this next question, use this C. elegans annotation file below. Download it, move it to the same directory where you are working, and de-compress it.
 
 [ce11_annotation_ensembl_to_ucsc.gtf.gz](https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Data/ce11_annotation_ensembl_to_ucsc.gtf.gz)
 
