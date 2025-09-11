@@ -263,9 +263,8 @@ see here for how it looks through an interactive session ...
 
 If you wanted to try to interactively use `python` or `R` from the **command line** or a **script**, you could do the following ...
 
+Interactive `python` session example:
 ```
-# interactive python session example:
-
 $ python
 >>>
 
@@ -273,9 +272,8 @@ $ python
 # type 'exit' to close that interactve session. 
 ```
 
+Interactive `R` session example:
 ```
-# interactive R session example:
-
 $ R
 >
 
@@ -283,16 +281,24 @@ $ R
 # type q() to close the interactive session.
 ```
 
+`python` execution from a script example:
 ```
-# python execution from a script example
+#!/bin/bash
 
-...
+# navigate to directory containing python script(s) or execute bash script in same directory as your python script ...
+cd /path/to/your/python/scripts
+
+# run python script
+python your_script.py
+
+# can also pass arguments to python script
+python your_script.py arg1 arg2
 ```
 
 ```
 # R execution from a script example
 
-...
+
 ```
 
 **!!! Helpful Resource** 
