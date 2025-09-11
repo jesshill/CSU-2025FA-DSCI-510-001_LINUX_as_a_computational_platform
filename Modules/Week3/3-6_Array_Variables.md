@@ -185,6 +185,16 @@ Finally, we can assess how many elements are in an array variable using the foll
 echo ${#ships[*]}
 ```
 
+If you wanted to remove a value from the array variable and leave it blank, you could use `" "` to act as a place holder, and this is able to be re-assigned a new value later on ...
+
+```
+#leave empty slot in the array variable
+ships=(" " discovery titan voyager)
+
+#re-assign empty slot
+ships[0]="mayflower" 
+```
+
 **!!! Independent Exercise:** What cities have you lived in and in what order?
 
 - create an array variable called `mycities`
