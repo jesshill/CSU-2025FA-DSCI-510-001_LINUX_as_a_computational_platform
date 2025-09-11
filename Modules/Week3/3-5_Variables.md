@@ -161,6 +161,41 @@ $ finalTotal=$(($total1 - $total2))
 I have 23 files in my current working directory."
 ```
 
+<details>
+  <summary>Answer here</summary>
+
+---
+
+```
+#!/usr/bin/env bash
+
+#enter your name here
+username="Jessica Hill"
+
+#enter your favorite things here. You may need to use quotes for some things.
+favoriteOrganism="C. elegans"
+
+favoriteShow="Rick and Morty"
+
+favoriteFood="mac n cheese"
+
+echo "Hi, my name is $username. My favorite organism is $favoriteOrganism. My favorite show is $favor$
+
+########
+
+#list all the files in our pwd
+# -1 forces output to be one entry per line. This is the default when output is not to a terminal.
+
+filesindir=$(ls -1 | wc -l)
+
+#we dont need this but is a nice sanity check
+echo "the number of files in my current working directory is:" $filesindir
+```
+
+---
+
+</details>
+
 ### A few details about math in bash
 
 We can do arithmetic operations in bash scripts using double parentheses provided we are working with integers …
