@@ -197,7 +197,7 @@ echo "the number of files in my current working directory is:" $filesindir
 
 ### A few details about math in bash
 
-We can do arithmetic operations in bash scripts using double parentheses provided we are working with integers …
+We can do arithmetic operations in bash scripts using **double parentheses** provided we are working with integers …
 
 | Symbol | Meaning | Example |
 |--------|---------|---------|
@@ -214,12 +214,24 @@ We can do arithmetic operations in bash scripts using double parentheses provide
 
 `echo “<math expression>” | bc -l`
 
-that's a `-l`, as in little L
+that's a `-l`, as in little L. This sets scale to **20** and loads an extended math library before running any code.
 
 **!!! Example:**
 
 ```
 $ echo "11/3" | bc -l
+3.66666666666666666666  #this is 20 zeros, see the "scale"
+
+$ echo "9/3" | bc -l
+3.00000000000000000000
+
+#vs
+
+$ echo "11/3" | bc
+3
+
+$ echo "9/3" | bc
+3
 ```
 
 OR
@@ -229,7 +241,31 @@ myresult=$(echo "11/3" | bc -l)
 echo $myresult
 ```
 
+You could also use `awk`, `python`, or `R` to work with floating point integers! See below for some examples ...
+
+```
+$ echo | awk '{print 10.0 / 3.0}'
+3.33333
+
+$ awk 'BEGIN {print 10.0 / 3.0}'
+
+$ python -c 'print(10.0 / 3.0)'
+3.3333333333333335
+```
+
+see here for how it looks through an interactive session ...
+
+<p align="center">
+<img width="410" alt="interactive python session" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/interactivePython.png">
+</p>
+
 **!!! Pitfall** The difficulty of doing mathematics using LINUX is a major drawback of LINUX. Other languages that are much more conducive to mathematics are **R** which is built around a statistics framework and Python when used with its many lovely math modules like **NumPy**, **Pandas**, and **MatplotLib**.
+
+If you wanted to try to interactively use python or R from the command line or a script, you could do the following ...
+
+```
+
+```
 
 **!!! Helpful Resource** 
 
