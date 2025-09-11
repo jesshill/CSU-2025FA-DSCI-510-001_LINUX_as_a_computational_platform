@@ -188,7 +188,6 @@ echo "Hi, my name is $username. My favorite organism is $favoriteOrganism. My fa
 
 filesindir=$(ls -1 | wc -l)
 
-#we dont need this but is a nice sanity check
 echo "the number of files in my current working directory is:" $filesindir
 ```
 
