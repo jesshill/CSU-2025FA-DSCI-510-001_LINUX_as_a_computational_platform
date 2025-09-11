@@ -261,7 +261,7 @@ see here for how it looks through an interactive session ...
 
 **!!! Pitfall** The difficulty of doing mathematics using LINUX is a major drawback of LINUX. Other languages that are much more conducive to mathematics are **R** which is built around a statistics framework and Python when used with its many lovely math modules like **NumPy**, **Pandas**, and **MatplotLib**.
 
-If you wanted to try to interactively use `python` or `R` from the command line or a script, you could do the following ...
+If you wanted to try to interactively use `python` or `R` from the **command line** or a **script**, you could do the following ...
 
 ```
 # interactive python session example:
@@ -281,6 +281,18 @@ $ R
 
 # now you can speak in R!
 # type q() to close the interactive session.
+```
+
+```
+# python execution from a script example
+
+...
+```
+
+```
+# R execution from a script example
+
+...
 ```
 
 **!!! Helpful Resource** 
