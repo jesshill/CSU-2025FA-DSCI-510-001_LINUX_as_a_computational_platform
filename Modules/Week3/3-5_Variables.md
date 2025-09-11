@@ -280,7 +280,7 @@ $ R
 >
 
 # now you can speak in R!
-# type 'q()' to close the interactive session.
+# type q() to close the interactive session.
 ```
 
 **!!! Helpful Resource** 
