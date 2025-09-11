@@ -1,0 +1,36 @@
+DSCI 510 
+Assignment 6
+Name: <yourNameHere>
+Date: <dateHere>
+#####################
+
+QUESTION 1
+
+A.
+B.
+C.
+D.
+
+
+QUESTION 2
+
+####### Your code here #######
+
+<answer>
+
+##############################
+
+
+QUESTION 3
+
+####### Your code here #######
+
+<answer>
+
+##############################
+
+
+QUESTION 4
+A. 
+B. 
+C.
