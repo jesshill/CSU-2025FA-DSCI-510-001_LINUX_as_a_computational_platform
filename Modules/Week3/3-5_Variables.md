@@ -142,6 +142,16 @@ $ mytotal=$((49 + 50))
 $ echo $mytotal
 ```
 
+or like so ...
+
+```
+$ total1=6
+$ total2=5
+
+$ finalTotal=$(($total1 - $total2))
+1
+```
+
 **!!! Exercise:** modify your `favoriteThings.sh` script to capture the output of a command or numerical operation. Write an echo statement to dereference the variable.
 
 **!!! Advanced skills exercise** modify your `favoriteThings.sh` script to report how many files you have in the current working directory. Print out this information to the user with the following statement:
