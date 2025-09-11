@@ -16,7 +16,7 @@ wc -w file1.txt
 
 ### Reading
 
-We can have the user supply the input interactively using the command **read**
+We can have the user supply the input interactively using the command `read`
 
 **!!! Exercise:** 
 - Create a new directory called `moreScripting`
