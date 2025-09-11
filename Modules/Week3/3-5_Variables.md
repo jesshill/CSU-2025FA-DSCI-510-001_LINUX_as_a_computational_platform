@@ -256,7 +256,7 @@ $ python -c 'print(10.0 / 3.0)'
 see here for how it looks through an interactive session ...
 
 <p align="center">
-<img width="410" alt="interactive python session" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/interactivePython.png">
+<img width="700" alt="interactive python session" src="https://github.com/jesshill/CSU-2025FA-DSCI-510-001_LINUX_as_a_computational_platform/blob/main/Images/interactivePython.png">
 </p>
 
 **!!! Pitfall** The difficulty of doing mathematics using LINUX is a major drawback of LINUX. Other languages that are much more conducive to mathematics are **R** which is built around a statistics framework and Python when used with its many lovely math modules like **NumPy**, **Pandas**, and **MatplotLib**.
