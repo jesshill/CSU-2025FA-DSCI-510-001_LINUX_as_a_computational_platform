@@ -108,9 +108,6 @@ myoutputfile=${myfirstfile/%.txt/_linecount.txt}
  
 # operate on the input file and save the line count to the desired output file
 wc -l $myfirstfile > $myoutputfile
- 
-#allfiles=$*
-#wc -l ${allfiles[*]}
 ```
 
 </details>
