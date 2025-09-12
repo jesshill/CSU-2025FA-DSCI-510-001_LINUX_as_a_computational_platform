@@ -1,4 +1,4 @@
-# IO ad Special Variables
+# IO and Special Variables
 
 How can we send information into a script? How do we get information out of script? This section will start to explore those concepts. Remember from before that this is called **Input/Output** or simply **IO**.
 
