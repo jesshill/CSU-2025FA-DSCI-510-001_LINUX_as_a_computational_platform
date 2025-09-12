@@ -313,7 +313,25 @@ END_PYTHON_SCRIPT
 
 `R` execution from a script example:
 ```
+# test R script ... simple_math.R
 
+result <- 2 + 2
+cat("The result is:", result, "\n")
+```
+```
+#!/bin/bash
+
+echo "Running R script..."
+Rscript my_script.R
+echo "R script finished."
+
+
+echo "Running R commands directly..."
+Rscript -e 'print("This is a direct R command."); x <- 5; y <- 10; print(x * y)'
+echo "Direct R commands finished."
+
+# you could also pass arguments to your R script like so in your bash script ...
+Rscript my_script_with_args.R "arg1" "123"
 ```
 
 **!!! Helpful Resource** 
