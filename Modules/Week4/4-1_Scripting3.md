@@ -53,6 +53,8 @@ Also, please take this  brief course [survey](https://forms.gle/ZVPX9VarDDZ5UWUr
 
 Please see this [IDT bioinformatics internship](https://jobs.danaher.com/global/en/job/R1294521/R-D-Bioinformatics-Masters-Intern-Summer-2026) 
 
+Also, dont forget to check out the short courses offered through CU Boulders Research Computing, such as this one on [AlphaFold3 on Alpine](https://calendar.colorado.edu/event/alphafold3-on-alpine-rc-short-course?utm_campaign=widget&utm_medium=widget&utm_source=University+of+Colorado+Boulder)
+
 ### Control Flow
 
 All the software we use in every aspect of our lives is running some sort of code in the background. Surprisingly, the vast majority of that code can be broken down into three simple programming structures: 1) **sequences**, 2) **conditionals**, and 3) **loops**. Together, these are the big three of **control flow** which refers to the concept of how code is wired together and the order in which blocks of code run.
