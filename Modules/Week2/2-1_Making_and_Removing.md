@@ -236,7 +236,7 @@ alias srm='rm -i'
 - Now you can remove files using `$ srm file.txt` and you will automatically be prompted whether you are sure.
 - This behavior will reset when you close the terminal. We will show you later in the course how to permanently customize your user experience so this behavior is permanent.
 
-check out additional information on `alias` [here](https://www.hostinger.com/tutorials/linux-alias-command?utm_campaign=Generic-Tutorials-DSA|NT:SE|LO:USA&utm_medium=ppc&gad_source=1&gad_campaignid=19813849832&gbraid=0AAAAADMy-hauudctNBk0RakTZ7z9WO3bA&gclid=Cj0KCQjw8p7GBhCjARIsAEhghZ1v0bToifjH78n9J1NGcvd2M_Iatsw_uL2SnDgKCMqZdAysMzSeT3YaAr7yEALw_wcB#What_is_a_Linux_alias)
+!!! Check out additional information on `alias` [here](https://www.hostinger.com/tutorials/linux-alias-command?utm_campaign=Generic-Tutorials-DSA|NT:SE|LO:USA&utm_medium=ppc&gad_source=1&gad_campaignid=19813849832&gbraid=0AAAAADMy-hauudctNBk0RakTZ7z9WO3bA&gclid=Cj0KCQjw8p7GBhCjARIsAEhghZ1v0bToifjH78n9J1NGcvd2M_Iatsw_uL2SnDgKCMqZdAysMzSeT3YaAr7yEALw_wcB#What_is_a_Linux_alias)
 
 **!!! Exercise:** 
 
