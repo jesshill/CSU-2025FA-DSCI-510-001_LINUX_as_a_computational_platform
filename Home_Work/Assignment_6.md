@@ -12,9 +12,9 @@
 
 ## Question 1
 
-- A. What echo statement would you use to print out your default language settings?
+- A. What echo/print statement would you use to print out your default language settings?
 - B. What are they? (ie: copy and paste the output of A)
-- C. What echo statement would you use to print out your terminal's environmental shell settings?
+- C. What echo/print statement would you use to print out your terminal's environmental shell settings?
 - D. What are they? (ie: copy and paste the output of C)
 
 ## Question 2
