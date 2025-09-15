@@ -49,6 +49,10 @@ HW 5 and 6 are due by 11:59 pm tonight!
 
 Also, please take this  brief course [survey](https://forms.gle/ZVPX9VarDDZ5UWUr7), as well as complete the course survey on Canvas! Thank you!
 
+### Other interesting things to share
+
+Please see this [IDT bioinformatics internship](https://jobs.danaher.com/global/en/job/R1294521/R-D-Bioinformatics-Masters-Intern-Summer-2026) 
+
 ### Control Flow
 
 All the software we use in every aspect of our lives is running some sort of code in the background. Surprisingly, the vast majority of that code can be broken down into three simple programming structures: 1) **sequences**, 2) **conditionals**, and 3) **loops**. Together, these are the big three of **control flow** which refers to the concept of how code is wired together and the order in which blocks of code run.
