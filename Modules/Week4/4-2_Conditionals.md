@@ -144,7 +144,7 @@ if [ $age -ge 21 ]
 then
     echo -e "Welcome to the club!"
 else
-    echo - "Scram, kid!"
+    echo -e "Scram, kid!"
 fi
 ```
 
