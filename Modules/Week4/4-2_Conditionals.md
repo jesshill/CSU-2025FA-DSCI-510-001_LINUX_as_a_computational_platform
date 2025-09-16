@@ -215,7 +215,7 @@ We learned how to use conditional comparison statements on numbers. What about o
 | Symbol | Comparison |
 |--------| -----------|
 | `==` | Returns true if two "strings" are **equivalent** |
-| `!=` | Returns true if two "strings" are **equivalent** |
+| `!=` | Returns true if two "strings" are **not equivalent** |
 | `!` | General - Returns true if the expression is false |
 
 **Potential Pitfall** - if your variable contains spaces, use double square brackets ...
