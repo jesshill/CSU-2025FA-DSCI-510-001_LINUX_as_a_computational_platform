@@ -78,7 +78,7 @@ $ ls -alh
 - Next, let's make a backup of your `.bash_profile`
 
 ```
-$ cp .bash_profile 240912_bash_profile_backup.txt
+$ cp .bash_profile 250918_bash_profile_backup.txt
 ```
 
 - Now, edit your original `.bash_profile` by opening it in the FILES navigator window.
