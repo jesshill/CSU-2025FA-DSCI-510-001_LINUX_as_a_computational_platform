@@ -96,10 +96,11 @@ Next, let's open this script in the text editor (edit in the file navigator wind
 ```
 #!/usr/bin/env bash
  
+#SBATCH --partition=atesting
+#SBATCH --qos=testing
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --time=0:1:30
-#SBATCH --partition=atesting
+#SBATCH --time=00:01:30
 #SBATCH --output=sample-%j.out
  
 # This will be a really slow way of printing out Hello World. The script will pause for 30 seconds after hello and after world.
