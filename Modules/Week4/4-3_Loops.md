@@ -297,6 +297,52 @@ The syntax within the double parentheses is very special because it is basically
 
 </details>
 
+
+<details>
+  <summary>Example usage of break and continue</summary>
+
+---
+
+`break` statement forces the loop to end/stop under a given circumstance/for a certain situation.
+
+```
+#!/usr/bin/env bash
+
+# Make a backup set of files
+
+for value in $1/*
+do
+    used=$( df $1 | tail -1 | awk '{ print $5 }' | sed 's/%//' )
+    if [ $used -gt 90 ]
+    then
+        echo Low disk space 1>&2
+        break
+    fi
+    cp $value $1/backup/
+done
+```
+
+`continue` statement forces the loop to end/stop the current iteration of the loop and begin the next iteration. 
+
+```
+#!/usr/bin/env bash
+
+# Make a backup set of files
+
+for value in $1/*
+do
+    if [ ! -r $value ]
+    then
+        echo $value not readable 1>&2
+        continue
+    fi
+    cp $value $1/backup/
+done
+```
+---
+
+</details>
+
 ### Looping over arguments
 
 A typical task is to supply your script with a list of arguments using a wildcard character like so …
