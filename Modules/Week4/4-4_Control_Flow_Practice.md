@@ -66,6 +66,30 @@ Final exam due on teusday September 23rd!
 blast off!
 ```
 
+<details>
+  <summary>Answers</summary>
+
+---
+
+```
+#!/usr/bin/env bash
+ 
+
+numbers=(10 9 8 7 6 5 4 3 2 1 "Blast-Off!")
+ 
+# each element in the array variable houses will be sequentially accessed as the variable $housename
+for number in ${numbers[@]}
+do
+    echo -e "$number"
+ 
+done
+```
+
+
+---
+
+</details>
+
 **!!! Exercise 2** - Use a `while` loop structure to produce the same output above.
 
 **!!! BONUS - Exercise 3** - `measureDiskSpace.sh` - Add to the `measureDiskSpace.sh` script so that instead of printing content to the screen, it now redirects all its output to a file called `diskUsage_output.txt`
