@@ -123,6 +123,7 @@ $ more sample*      #Check the progress of the outputfile
 Explanation: What do the SBATCH Directives do?
 
 ```
+#SBATCH --qos=testing <-- used for all testing partitions 
 #SBATCH --nodes=1   <-- Requests 1 node
 #SBATCH --ntasks=1  <-- Requests 1 core (can be up to 64 per single node)
 #SBATCH --time=0:1:30   <-- Requests 1 minute & 30 seconds of time. Job will stop then
