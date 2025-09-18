@@ -321,6 +321,21 @@ do
     cp $value $1/backup/
 done
 ```
+```
+i=0
+
+while [[ $i -lt 5 ]]
+do
+  echo "Number: $i"
+  ((i++))
+  if [[ $i -eq 2 ]]; then
+    break
+  fi
+done
+
+echo 'All Done!'
+```
+
 
 `continue` statement forces the loop to end/stop the current iteration of the loop and begin the next iteration. 
 
