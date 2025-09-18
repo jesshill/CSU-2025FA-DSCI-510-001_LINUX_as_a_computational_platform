@@ -71,6 +71,7 @@ blast off!
 
 ---
 
+Examples for using a `for` loop
 ```
 #!/usr/bin/env bash
  
@@ -84,7 +85,45 @@ do
  
 done
 ```
+```
+#!/usr/bin/env bash
+ 
+array=(10 9 8 7 6 5 4 3 2 1)
+ 
+for num in ${array[@]}; do
+    echo -e "$num"
+done
+ 
+echo -e "Blast off!"
+```
 
+Examples for using a `while` loop
+```
+#!/usr/bin/env bash
+
+x=10
+
+while [ $x -ge 1 ]
+do
+    echo $x
+    (( x-- ))
+done
+
+echo "Blast off!"
+```
+```
+#!/usr/bin/env bash
+
+i=10
+
+while [ $i -gt 0 ]
+do
+    echo "$i"
+    i=$((i - 1))
+done
+
+echo "blast off!"
+```
 
 ---
 
