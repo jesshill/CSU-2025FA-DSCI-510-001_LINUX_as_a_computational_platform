@@ -86,7 +86,7 @@ $ cp .bash_profile 250918_bash_profile_backup.txt
 
 ```
 #Append paths
-export PATH="/projects/<erinnish@colostate.edu>/bin:$PATH"
+export PATH="/projects/<jesshill@colostate.edu>/bin:$PATH"
 export PATH
 ```
 
