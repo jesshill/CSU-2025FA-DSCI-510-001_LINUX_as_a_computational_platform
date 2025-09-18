@@ -95,6 +95,13 @@ done
  
 echo -e "Blast off!"
 ```
+```
+#!/bin/bash
+for ((i=10; i>=1; i--)); do
+        echo $i
+done
+echo "blast off!"
+```
 
 ---
 
