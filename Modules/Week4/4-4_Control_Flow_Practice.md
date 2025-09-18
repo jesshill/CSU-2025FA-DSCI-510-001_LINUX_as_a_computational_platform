@@ -71,7 +71,6 @@ blast off!
 
 ---
 
-Examples for using a `for` loop
 ```
 #!/usr/bin/env bash
  
@@ -97,7 +96,18 @@ done
 echo -e "Blast off!"
 ```
 
-Examples for using a `while` loop
+---
+
+</details>
+
+
+**!!! Exercise 2** - Use a `while` loop structure to produce the same output above.
+
+<details>
+  <summary>Answers</summary>
+
+---
+
 ```
 #!/usr/bin/env bash
 
@@ -128,8 +138,6 @@ echo "blast off!"
 ---
 
 </details>
-
-**!!! Exercise 2** - Use a `while` loop structure to produce the same output above.
 
 **!!! BONUS - Exercise 3** - `measureDiskSpace.sh` - Add to the `measureDiskSpace.sh` script so that instead of printing content to the screen, it now redirects all its output to a file called `diskUsage_output.txt`
 
